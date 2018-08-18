@@ -1,8 +1,8 @@
 ---
-description: descript
+description:
 ---
 
-# Initial page
+# A de-mpiere
 
 [Ade-mpiere](https://github.com/klst-de/adempiere) is a [fork](https://en.wikipedia.org/wiki/Fork_%28software_development%29) of [adempiere](https://github.com/adempiere/adempiere)-repo, one of the children of [Compiere ERP system](https://en.wikipedia.org/wiki/Compiere) which was developed in the late 90th
 
@@ -13,6 +13,3 @@ description: descript
 * [IDempiere](https://en.wikipedia.org/wiki/IDempiere) : [iDempiere](http://www.idempiere.org/) is a grandchild of [Compiere](http://www.compiere.com/svn/)
 
 ![](../images/ADLogos.PNG)
-
-![](../../.gitbook/assets/image_appserver_admin.png)
-
