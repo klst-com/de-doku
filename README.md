@@ -4,7 +4,7 @@ description: descript
 
 # Initial page
 
-[Ade-mpiere](https://github.com/klst-de/adempiere) is a [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) of  [adempiere](https://github.com/adempiere/adempiere)-repo, one of the children of [Compiere ERP system](https://en.wikipedia.org/wiki/Compiere) which was developed in the late 90th
+[Ade-mpiere](https://github.com/klst-de/adempiere) is a [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) of [adempiere](https://github.com/adempiere/adempiere)-repo, one of the children of [Compiere ERP system](https://en.wikipedia.org/wiki/Compiere) which was developed in the late 90th
 
 # [History](https://en.wikipedia.org/wiki/IDempiere#History)
 
