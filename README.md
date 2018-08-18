@@ -12,5 +12,7 @@ description: descript
 * [ADempiere.org (en)](http://adempiere.org/site/) : or is this the official(!) page of the successor of [Compiere](http://www.compiere.com/company/history.php)?
 * [IDempiere](https://en.wikipedia.org/wiki/IDempiere) : [iDempiere](http://www.idempiere.org/) is a grandchild of [Compiere](http://www.compiere.com/svn/)
 
-![](images/ADLogos.PNG)
+![](../images/ADLogos.PNG)
+
+![](../../.gitbook/assets/image_appserver_admin.png)
 
