@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Einleitung](README-de.md)
 * [de-mpiere](de-mpiere.md)
 * [Benutzerhandbuch](usr/README.md)
   * [Vertriebsprozess](usr/2.3-sales.md)
