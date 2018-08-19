@@ -2,7 +2,7 @@
 
 de-mpiere steht für eine deutschsprechige Anpassung von ADempiere.
 
-warum ADempiere und nicht iDempiere?
+warum ADempiere und nicht [iDempiere](README-de.md)?
 
 Diese Frage ist berechtigt, zumal iDempiere technologisch weiterentwickelt ist und eine größere Entwicklercommunity hinter sich hat. Die [Streitigkeiten 2011](https://en.wikipedia.org/wiki/IDempiere#History) zersplitterten die Comumnity in mehrere Lager. Es ging auch um die [Namens- und Logorechte](http://wiki.adempiere.net/Use_of_Adempiere_name) und die [Root Domains](http://wiki.adempiere.net/Use_of_Adempiere_name#Root_Domains). So landet man unter adempiere.com, \*.org, usw bei den verschiedenen Protagonisten des Streits, der schliesslich zum neuen Namen iDempiere führte.
 
