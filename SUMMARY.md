@@ -9,5 +9,6 @@
   * [Koexistenz mit DATEV](usr/3.datev.md)
   * [Nutzung von openTRANS](usr/4.opentrans.md)
 * [Administratorhandbuch](adm/README.md)
+  * [Installation](adm/1.installation.md)
 * [Entwicklerhandbuch](dev/README.md)
 * [GLOSSAR](GLOSSAR.md)
