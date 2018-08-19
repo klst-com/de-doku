@@ -42,7 +42,7 @@ Menü Icons
 ## O
 
 openTRANS
-: [s.Kap.4 Nutzung von openTRANS](4.opentrans.md)
+: [s.Kap Nutzung von openTRANS](usr/4.opentrans.md)
 
 ## P
 ## Q
