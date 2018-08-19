@@ -8,3 +8,4 @@
   * [Koexistenz mit DATEV](usr/3.datev.md)
 * [Administratorhandbuch](adm/README.md)
 * [Entwicklerhandbuch](dev/README.md)
+* [GLOSSAR](GLOSSAR.md)
