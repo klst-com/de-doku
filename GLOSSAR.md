@@ -9,7 +9,7 @@ Datenmodell
 : [siehe SchemaSpy Analysis of idempiere51.adempiere](https://globalqss.com/idempiere/5.1_20171111/schemaspy/)
 
 DATEV
-: [s.Kap.3 Koexistenz mit DATEV](3.datev.md)
+: [s.Kap Koexistenz mit DATEV](usr/3.datev.md)
 
 ## E
 ## F
@@ -22,15 +22,20 @@ DATEV
 ## M
 
 Menü Icons
-: [am Beispiel Beschaffung](2.4-purchase.md)
+: [am Beispiel Beschaffung](usr/2.4-purchase.md)
 
 ![](../.gitbook/assets/menu-purchase-de.PNG)
 
 | **_swing_**                               | **_web_**                               | **_Name_** | **_Beschreibung_** |
+
 | ![](../.gitbook/assets/icons/menuSwing/mWindow.png)   | ![](../.gitbook/assets/icons/menuWeb/mWindow.png)   | Transaktionsfenster | ... |
+
 | ![](../.gitbook/assets/icons/menuSwing/mProcess.png)  | ![](../.gitbook/assets/icons/menuWeb/mProcess.png)  | Prozess | ... |
+
 | ![](../.gitbook/assets/icons/menuSwing/mReport.png)   | ![](../.gitbook/assets/icons/menuWeb/mReport.png)   | Report/Bericht | ... |
+
 | ![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow | ... |
+
 | ![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif)  | Browser | ... icon fehlt |
 
 ## N
@@ -47,9 +52,11 @@ openTRANS
 
 Toolbar
 : [siehe idempiere/Toolbar (swing-Client)](http://wiki.idempiere.org/de/Toolbar)
+
 ![](http://wiki.idempiere.org/w-de/images/4/4f/Toolbar_-_Window_%28iDempiere_1.0.0%29.png)
 
 : die Icons im web-Client sehen anders aus:
+
 ![](../.gitbook/assets/Toolbar-web.PNG)
 
 ## U
