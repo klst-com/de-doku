@@ -7,6 +7,7 @@
   * [Vertriebsprozess](usr/2.3-sales.md)
   * [Beschaffungsprozess/Einkauf](usr/2.4-purchase.md)
   * [Warenwirtschaft/Logistik](usr/2.5-mm.md)
+  * [Produktion](usr/2.6-prod.md)
   * [Koexistenz mit DATEV](usr/3.datev.md)
   * [Nutzung von openTRANS](usr/4.opentrans.md)
 * [Administratorhandbuch](adm/README.md)
