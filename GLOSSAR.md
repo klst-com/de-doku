@@ -50,6 +50,9 @@ openTRANS
 ## S
 ## T
 
+Tabellenarten
+: [s.ADM Übersetzung](adm/2.trl.md#Tabellenarten) 
+
 Toolbar
 : [siehe idempiere/Toolbar (swing-Client)](http://wiki.idempiere.org/de/Toolbar)
 
@@ -65,15 +68,3 @@ Toolbar
 ## X
 ## Y
 ## Z
-
-
-<dl>
-  <dt>Tabellenarten</dt>
-  <dd>Meta-, Referenztabellen, Stammdaten, Bewegungsdaten</dd>
-
-  <dt>Übersetzungssprache</dt>
-  <dd>...</dd>
-
-  <dt>Menü</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
