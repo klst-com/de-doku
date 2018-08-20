@@ -9,6 +9,3 @@ Diese Frage ist berechtigt, zumal iDempiere technologisch weiterentwickelt ist u
 Lange Zeit war adempiere.de "verwaist". Erst im August 2017 mit Erscheinen der Version 3.9 präsentiert sich die Seite mit neuem Logo und als Ableger von [adempiere.net](http://www.adempiere.net/). Die domain [adempiere.de](http://metasfresh.com/2009/08/24/metas-stiftet-domain-und-website-an-adempiere-e-v-3/) gehört der [Stiftung \(ADempiere e.V\)](http://www.adempiere.de/web/guest/kontakt). Der [sourcecode](http://www.adempiere.net/web/guest/sourcecode) ist auf [GitHub](https://github.com/adempiere/adempiere/graphs/contributors) abgelegt. Die Hauptentwickler kommen aus Mittelamerika.
 
 Der Grund für die Wahl von AD390 ist ein Migrationsprojekt . Die Unterschiede zwischen Quelle und AD sind geringer als zwischen Quelle und iD.
-
-* nach der [Installation \(en\)](http://wiki.adempiere.net/Installation_Steps) von ADempiere V.3.9.0 stellt man fest, dass die Basissprache  `en` ist und die einzige Übersetzungssprache `es_MX` ist - kein Wunder, dort sitzt [der Hauptentwickler](https://github.com/e-Evolution)
-
