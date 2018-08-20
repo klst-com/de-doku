@@ -22,6 +22,7 @@ W       | Warehouse       | ``M_Warehouse_Acct``
 
 Die meisten Bezeichnungen lehnen sich an die Kontobezeichnung im US-Kontenrahmen AccountingUS.xls an. Dieser Kontenrahmen wird als Referenz in ADempiere gepflegt.
 
+```sql
 select * from ad_table where name like '%_Acct'
 order by tablename
 :
@@ -166,3 +167,4 @@ CREATE TABLE c_acctschema_default
   p_overhead_acct 
   p_scrap_acct 
   p_averagecostvariance_acct 
+```
