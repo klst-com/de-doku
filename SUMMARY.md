@@ -14,6 +14,7 @@
   * [Nutzung von openTRANS](usr/4.opentrans.md)
 * [Administratorhandbuch](adm/README.md)
   * [Installation](adm/1.installation.md)
+  * [Kontenplan](1-83accts.md)
   * [Übersetzungen](adm/2.trl.md)
   * [UI Anpassung](adm/3.UIanpassen.md)
 * [Entwicklerhandbuch](dev/README.md)
