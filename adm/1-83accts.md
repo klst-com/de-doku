@@ -24,7 +24,7 @@ Die meisten Bezeichnungen lehnen sich an die Kontobezeichnung im US-Kontenrahmen
 
 ```sql
 select * from ad_table where name like '%_Acct'
-order by tablename
+order by tablename;
 :
 "C_BankAccount_Acct"
 "C_BP_Customer_Acct"
@@ -41,21 +41,25 @@ order by tablename
 "M_Product_Acct"
 "M_Product_Category_Acct"
 "M_Warehouse_Acct"
-
+;
 -- zugeordnete SKR 03 Konten
 select e.value,e.name,e.description 
-, v.c_validcombination_id,v.combination,v.description,v.account_id from c_validcombination v
-join c_elementvalue e on c_elementvalue_id=v.account_id
+ , v.c_validcombination_id,v.combination,v.description,v.account_id 
+ from c_validcombination v
+ join c_elementvalue e on c_elementvalue_id=v.account_id
 where v.ad_client_id=1000000
 order by e.value --v.c_validcombination_id
-
+;
 -- suchen nach commitmentoffset_acct (bzw alle aus c_acctschema_gl)
 select e.value,e.name,e.description 
-, v.c_validcombination_id,v.combination,v.description,v.account_id from c_validcombination v
-join c_elementvalue e on c_elementvalue_id=v.account_id
+ , v.c_validcombination_id,v.combination,v.description,v.account_id 
+ from c_validcombination v
+ join c_elementvalue e on c_elementvalue_id=v.account_id
 where v.ad_client_id=1000000 
-and v.c_validcombination_id in( select commitmentoffset_acct from c_acctschema_gl where ad_client_id=1000000 )
-
+  and v.c_validcombination_id in( 
+    select commitmentoffset_acct from c_acctschema_gl where ad_client_id=1000000 )
+;
+--
 select ad_client_id
 ,commitmentoffset_acct
 ,commitmentoffsetsales_acct
@@ -67,16 +71,18 @@ select ad_client_id
 ,retainedearning_acct
 ,suspensebalancing_acct
 ,suspenseerror_acct
-                                 from c_acctschema_gl gl
+ from c_acctschema_gl gl
  where gl.ad_client_id=1000000
  
 -- suchen nach w_inventory_acct (bzw alle aus c_acctschema_gl)
 select e.value,e.name,e.description 
-, v.c_validcombination_id,v.combination,v.description,v.account_id from c_validcombination v
-join c_elementvalue e on c_elementvalue_id=v.account_id
+ , v.c_validcombination_id,v.combination,v.description,v.account_id 
+ from c_validcombination v
+ join c_elementvalue e on c_elementvalue_id=v.account_id
 where v.ad_client_id=1000000 
-and v.c_validcombination_id in( select w_inventory_acct from c_acctschema_default where ad_client_id=1000000 )
-
+  and v.c_validcombination_id in( 
+    select w_inventory_acct from c_acctschema_default where ad_client_id=1000000 )
+;
 
 CREATE TABLE c_acctschema_default
 (
