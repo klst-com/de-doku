@@ -18,5 +18,5 @@
   * [Übersetzungen](adm/2.trl.md)
   * [UI Anpassung](adm/3.UIanpassen.md)
 * [Entwicklerhandbuch](dev/README.md)
-  * [openTRANS Anbindung]dev/4.opentrans.md)
+  * [openTRANS Anbindung](dev/4.opentrans.md)
 * [GLOSSAR](GLOSSAR.md)
