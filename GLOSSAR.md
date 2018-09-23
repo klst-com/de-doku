@@ -1,7 +1,15 @@
 # Glossar
 
 ## A
+
+ACH
+: [Automated Clearing House](https://en.wikipedia.org/wiki/Automated_Clearing_House) Das ACH ist eine Art elektronisches Überweisungsnetz, das in den Vereinigten Staaten verwendet wird. Ähnlich wie der SWIFT in Europa bietet der ACH das Interbank-Clearing von Kredit- und Debittransaktionen an. Das elektronische Netzwerk ACH unterstützt Banken und Finanzinstitute beim Informationsaustausch. 
+
 ## B
+
+BIC
+: [Business Identifier Code, auch SWIFT-BIC, BIC-Code, SWIFT-Code oder SWIFT-Adresse](https://de.wikipedia.org/wiki/ISO_9362)
+
 ## C
 ## D
 
@@ -47,7 +55,16 @@ openTRANS
 ## P
 ## Q
 ## R
-## S
+## S 
+
+SWIFT
+: [Society for Worldwide Interbank Financial Telecommunication](https://de.wikipedia.org/wiki/SWIFT) 
+
+SWIFT-Code
+: siehe [#B]IC-Code
+
+[Buchführung](2.8-acc.md)
+
 ## T
 
 Tabellenarten
