@@ -61,7 +61,7 @@ SWIFT
 : [Society for Worldwide Interbank Financial Telecommunication](https://de.wikipedia.org/wiki/SWIFT) 
 
 SWIFT-Code
-: siehe [BIC](GLOSSAR.md##B)-Code
+: siehe [BIC](#b)-Code
 
 ## T
 
