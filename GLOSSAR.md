@@ -8,7 +8,7 @@ ACH
 ## B
 
 BIC
-: [Business Identifier Code, auch SWIFT-BIC, BIC-Code, SWIFT-Code oder SWIFT-Adresse](https://de.wikipedia.org/wiki/ISO_9362)
+: [Business Identifier Code](https://de.wikipedia.org/wiki/ISO_9362), auch SWIFT-BIC, BIC-Code, SWIFT-Code oder SWIFT-Adresse
 
 ## C
 ## D
@@ -61,9 +61,7 @@ SWIFT
 : [Society for Worldwide Interbank Financial Telecommunication](https://de.wikipedia.org/wiki/SWIFT) 
 
 SWIFT-Code
-: siehe [#B]IC-Code
-
-[Buchführung](2.8-acc.md)
+: siehe [[#B]]IC-Code
 
 ## T
 
