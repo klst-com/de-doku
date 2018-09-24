@@ -38,17 +38,13 @@ Menü Icons
 
 ![](../.gitbook/assets/menu-purchase-de.PNG)
 
-| **_swing_**                               | **_web_**                               | **_Name_** | **_Beschreibung_** |
-
-| ![](../.gitbook/assets/icons/menuSwing/mWindow.png)   | ![](../.gitbook/assets/icons/menuWeb/mWindow.png)   | Transaktionsfenster | ... |
-
-| ![](../.gitbook/assets/icons/menuSwing/mProcess.png)  | ![](../.gitbook/assets/icons/menuWeb/mProcess.png)  | Prozess | ... |
-
-| ![](../.gitbook/assets/icons/menuSwing/mReport.png)   | ![](../.gitbook/assets/icons/menuWeb/mReport.png)   | Report/Bericht | ... |
-
-| ![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow | ... |
-
-| ![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif)  | Browser | ... icon fehlt |
+**_swing_**                               | **_web_**                               | **_Name_** | **_Beschreibung_**
+------- | ------- | ------- | ------- 
+![](../.gitbook/assets/icons/menuSwing/mWindow.png)   | ![](../.gitbook/assets/icons/menuWeb/mWindow.png)   | Transaktionsfenster | ... 
+![](../.gitbook/assets/icons/menuSwing/mProcess.png)  | ![](../.gitbook/assets/icons/menuWeb/mProcess.png)  | Prozess | ... 
+![](../.gitbook/assets/icons/menuSwing/mReport.png)   | ![](../.gitbook/assets/icons/menuWeb/mReport.png)   | Report/Bericht | ... 
+![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow | ... 
+![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif)  | Browser | ... icon fehlt 
 
 ## N
 ## O
