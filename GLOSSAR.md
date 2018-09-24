@@ -3,12 +3,12 @@
 ## A
 
 ACH
-: [Automated Clearing House](https://en.wikipedia.org/wiki/Automated_Clearing_House) Das ACH ist eine Art elektronisches Überweisungsnetz, das in den Vereinigten Staaten verwendet wird. Ähnlich wie der SWIFT in Europa bietet der ACH das Interbank-Clearing von Kredit- und Debittransaktionen an. Das elektronische Netzwerk ACH unterstützt Banken und Finanzinstitute beim Informationsaustausch. 
+: das [Automated Clearing House](https://en.wikipedia.org/wiki/Automated_Clearing_House) ist ein elektronisches Überweisungsnetz, das in den Vereinigten Staaten verwendet wird, ähnlich dem [SWIFT](#s) in Europa
 
 ## B
 
 BIC
-: [Business Identifier Code](https://de.wikipedia.org/wiki/ISO_9362), auch SWIFT-BIC, BIC-Code, SWIFT-Code oder SWIFT-Adresse
+: [Business Identifier Code](https://de.wikipedia.org/wiki/ISO_9362), auch SWIFT-BIC, SWIFT-Code oder SWIFT-Adresse
 
 ## C
 ## D
@@ -24,6 +24,10 @@ DATEV
 ## G
 ## H
 ## I
+
+IBAN
+: die [International Bank Account Number](https://de.wikipedia.org/wiki/Internationale_Bankkontonummer) ist eine standardisierte Notation für Bankkontonummern, die automatisches Abwickeln von Zahlungen emöglicht (siehe auch [Abkürzungsverzeichnis](https://de.iban.com/abkurzungen) im Zahlungsverkehr) 
+
 ## J
 ## K
 ## L
@@ -58,7 +62,7 @@ openTRANS
 ## S 
 
 SWIFT
-: [Society for Worldwide Interbank Financial Telecommunication](https://de.wikipedia.org/wiki/SWIFT) 
+: die [Society for Worldwide Interbank Financial Telecommunication](https://de.wikipedia.org/wiki/SWIFT) leitet Transaktionen zwischen Banken und Institutionen aus über 200 Ländern weiter und wickelt damit den Zahlungsverkehr der angeschlossenen Institute ab
 
 SWIFT-Code
 : siehe [BIC](#b)-Code
