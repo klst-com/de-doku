@@ -33,6 +33,9 @@ IBAN
 ## L
 ## M
 
+MBP (de) / MRP (en)
+: [Materialbedarfsplanung](https://de.wikipedia.org/wiki/Bedarfsermittlung) / [Material Requirements Planning](https://de.wikipedia.org/wiki/Material_Requirements_Planning) siehe [Produktionsmanagement](usr/2.6-prod.md)
+
 Menü Icons
 : [am Beispiel Beschaffung](usr/2.4-purchase.md)
 
@@ -73,7 +76,7 @@ Toolbar
 
 ![](http://wiki.idempiere.org/w-de/images/4/4f/Toolbar_-_Window_%28iDempiere_1.0.0%29.png)
 
-: die Icons im web-Client sehen anders aus:
+die Icons der Toolbar im web-Client sehen anders aus:
 
 ![](../.gitbook/assets/Toolbar-web.PNG)
 
