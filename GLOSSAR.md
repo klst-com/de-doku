@@ -5,6 +5,9 @@
 ACH
 : das [Automated Clearing House](https://en.wikipedia.org/wiki/Automated_Clearing_House) ist ein elektronisches Überweisungsnetz, das in den Vereinigten Staaten verwendet wird, ähnlich dem [SWIFT](#s) in Europa
 
+ASI Attribute Set Instance
+: TODO (... You need to define a Attribute Set if you want to enable Serial and Lot Number tracking. )
+
 ## B
 
 BIC
@@ -81,6 +84,10 @@ die Icons der Toolbar im web-Client sehen anders aus:
 ![](../.gitbook/assets/Toolbar-web.PNG)
 
 ## U
+
+UOM Unit of Measure 
+: [Maßeinheiten](http://wiki.idempiere.org/de/Ma%C3%9Feinheit_%28Fenster_ID-120%29) können für die [Warenwirtschaft](usr/2.5-mm.md) frei definiert werden
+
 ## V
 ## W
 ## X
