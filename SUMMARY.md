@@ -11,7 +11,7 @@
   * [Produktion](usr/2.6-prod.md)
   * [Rechnungswesen/Buchführung](usr/2.8-acc.md)
   * [Koexistenz mit DATEV](usr/3.datev.md)
-  * [Nutzung von openTRANS](usr/4.opentrans.md)
+  * [Datenaustausch mittels openTRANS](usr/4.opentrans.md)
 * [Administratorhandbuch](adm/README.md)
   * [Installation](adm/1.installation.md)
   * [Kontenplan](adm/1-83accts.md)
