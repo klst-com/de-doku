@@ -4,8 +4,6 @@
 ### [Vertrieb](2.3-sales.md)
 ### [Beschaffung](2.4-purchase.md)
 ### [Rechnungswesen](2.8-acc.md)
-
 ## [Systemadministration Voreinstellungen](2.0-admin.md)
-
 ## [Koexistenz mit DATEV](3.datev.md)
 ## [Datenaustausch (EDI) mittels openTRANS](4.opentrans.md)
