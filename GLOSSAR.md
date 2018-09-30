@@ -152,15 +152,15 @@ Erneut abfragen              | `<F5>`
 Eintrag suchen               | `<F6>`
 ------- | ------- 
 
-![](icons/feather/paperclip.svg) 
+![](icons/feather/paperclip.svg)
 
 Anhang                       | `<F7>`
 ------- | -------
 
-![](icons/feather/message-square.svg) 
+![](icons/feather/message-square.svg)
 
-Chat                         | `.`
-------- | -------
+Chat                         |
+------- |
 
 ## U
 
