@@ -52,6 +52,34 @@ Menü Icons
 ![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow            
 ![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif) ohne  | Browser
 
+* Alternative icons 
+
+![](icons/feather/layers.svg)
+
+Transaktionsfenster |
+------- |
+
+![](icons/feather/loader.svg)
+
+Prozess |
+------- |
+
+![](icons/feather/list.svg)
+
+Report/Bericht |
+------- |
+
+![](icons/feather/git-pull-request.svg)
+
+Workflow |
+------- |
+
+![](icons/feather/monitor.svg)
+
+Browser |
+------- |
+
+
 ## N
 ## O
 
@@ -120,12 +148,12 @@ Ausgewählte Einträge löschen | `<Ctrl><D>`
 Änderungen speichern         | `<F4>`  
 ------- | ------- 
 
-![](icons/feather/refresh-ccw.svg)
+![](icons/feather/refresh-cw.svg)
 
 Erneut abfragen              | `<F5>` 
 ------- | ------- 
 
-![](icons/feather/chrome.svg) 
+![](icons/feather/search.svg) 
 
 Eintrag suchen               | `<F6>`
 ------- | ------- 
@@ -133,8 +161,12 @@ Eintrag suchen               | `<F6>`
 ![](icons/feather/paperclip.svg) 
 
 Anhang                       | `<F7>`
-------- | ------- 
+------- | -------
 
+![](icons/feather/users.svg) 
+
+Chat                       | ` `
+------- | -------
 
 ## U
 
