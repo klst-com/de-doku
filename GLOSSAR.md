@@ -44,13 +44,13 @@ Menü Icons
 
 ![](../.gitbook/assets/menu-purchase-de.PNG)
 
-**_swing_** | **_web_** | **_Name_** | **_Alternative_**
-------- | ------- | ------- | ------- 
-![](../.gitbook/assets/icons/menuSwing/mWindow.png)   | ![](../.gitbook/assets/icons/menuWeb/mWindow.png)   | Transaktionsfenster | ![](icons/feather/layers.svg)
-![](../.gitbook/assets/icons/menuSwing/mProcess.png)  | ![](../.gitbook/assets/icons/menuWeb/mProcess.png)  | Prozess             | ![](icons/feather/loader.svg)
-![](../.gitbook/assets/icons/menuSwing/mReport.png)   | ![](../.gitbook/assets/icons/menuWeb/mReport.png)   | Report/Bericht      | ![](icons/feather/list.svg)
-![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow            | ![](icons/feather/git-pull-request.svg)
-![](icons/feather/monitor.svg)                        | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif) | Browser
+**_swing_** | **_web_** | **_Name_**
+------- | ------- | ------- 
+![](../.gitbook/assets/icons/menuSwing/mWindow.png)   | ![](../.gitbook/assets/icons/menuWeb/mWindow.png)   | Transaktionsfenster 
+![](../.gitbook/assets/icons/menuSwing/mProcess.png)  | ![](../.gitbook/assets/icons/menuWeb/mProcess.png)  | Prozess             
+![](../.gitbook/assets/icons/menuSwing/mReport.png)   | ![](../.gitbook/assets/icons/menuWeb/mReport.png)   | Report/Bericht      
+![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow            
+![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif) ohne  | Browser
 
 ## N
 ## O
@@ -86,38 +86,47 @@ die Icons der Toolbar im web-Client sehen anders aus:
 * Alternative icons 
 
 Änderung rückgängig machen   | `<Escape>`  
+------- | ------- 
 
 ![](icons/feather/rotate-ccw.svg)
 
 Hilfe                        | `<F1>` 
+------- | ------- 
 
 ![](icons/feather/help-circle.svg)
 
 Neuer Eintrag                | `<F2>` 
+------- | ------- 
 
 ![](icons/feather/square.svg)
 
 Eintrag kopieren             | `<Shift><F2>` 
+------- | ------- 
 
 ![](icons/feather/copy.svg)
 
 Eintrag löschen              | `<F3>` 
+------- | ------- 
 
 ![](icons/feather/trash.svg)
 
 Ausgewählte Einträge löschen | `<Ctrl><D>` 
-    
+------- | ------- 
+ 
 ![](icons/feather/trash-2.svg)
 
 Änderungen speichern         | `<F4>`  
+------- | ------- 
 
 ![](icons/feather/save.svg) 
 
 Erneut abfragen              | `<F5>` 
+------- | ------- 
 
 ![](icons/feather/refresh-ccw.svg) 
 
 Eintrag suchen               | `<F6>`
+------- | ------- 
 
 ![](icons/feather/crome.svg) 
 
