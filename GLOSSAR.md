@@ -46,10 +46,12 @@ Menü Icons
 
 **_swing_** | **_web_** | **_Name_** | **_Alternative_**
 ------- | ------- | ------- | ------- 
-![](../.gitbook/assets/icons/menuSwing/mWindow.png)   | ![](../.gitbook/assets/icons/menuWeb/mWindow.png)   | Transaktionsfenster | ![](icons/feather/layers.svg)
+![](../.gitbook/assets/icons/menuSwing/mWindow.png)   | ![](../.gitbook/assets/icons/menuWeb/mWindow.png)   | Transaktionsfenster | 
+![](icons/feather/layers.svg)
 ![](../.gitbook/assets/icons/menuSwing/mProcess.png)  | ![](../.gitbook/assets/icons/menuWeb/mProcess.png)  | Prozess             | ![](icons/feather/loader.svg)
 ![](../.gitbook/assets/icons/menuSwing/mReport.png)   | ![](../.gitbook/assets/icons/menuWeb/mReport.png)   | Report/Bericht      | ![](icons/feather/list.svg)
 ![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow            | ![](icons/feather/git-pull-request.svg)
+
 ![](icons/feather/monitor.svg)
 | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif) | Browser
 
@@ -99,6 +101,7 @@ die Icons der Toolbar im web-Client sehen anders aus:
 : Neuer Eintrag              `<F2>` 
 
 ![](icons/feather/copy.svg)
+
 : Eintrag kopieren            `<Shift><F2>` 
    
 
