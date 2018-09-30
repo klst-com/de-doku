@@ -52,7 +52,8 @@ Menü Icons
 ![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow            | ![](../.gitbook/assets/icons/feather/git-pull-request.svg)
 ![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif)  | Browser             | ![](../.gitbook/assets/icons/feather/monitor.svg)
 
-[![](../.gitbook/assets/icons/feather/activity.svg)
+[![Docs](../.gitbook/assets/icons/feather/activity.svg)]
+
 
 ```xml
 <svg
