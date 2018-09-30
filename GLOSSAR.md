@@ -50,7 +50,7 @@ Menü Icons
 ![](../.gitbook/assets/icons/menuSwing/mProcess.png)  | ![](../.gitbook/assets/icons/menuWeb/mProcess.png)  | Prozess             | {../.gitbook/assets/icons/feather/loader.svg}
 ![](../.gitbook/assets/icons/menuSwing/mReport.png)   | ![](../.gitbook/assets/icons/menuWeb/mReport.png)   | Report/Bericht      | (../.gitbook/assets/icons/feather/list.svg)
 ![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow            | ![](icons/feather/git-pull-request.md)
-![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif)  | Browser             | ![](./icons/feather/monitor.svg)
+![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif)  | Browser             | ![](icons/feather/monitor.svg)
 
 monitor:
 
