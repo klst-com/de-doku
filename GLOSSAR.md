@@ -93,10 +93,12 @@ die Icons der Toolbar im web-Client sehen anders aus:
 : Hilfe                      `<F1>` 
 
 ![](icons/feather/square.svg)
+
 : Neuer Eintrag              `<F2>` 
 
 ![](icons/feather/copy.svg)
-
+: Eintrag kopieren            `<Shift><F2>` 
+   
 
 ## U
 
