@@ -52,33 +52,27 @@ Menü Icons
 ![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow            
 ![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif) ohne  | Browser
 
-* Alternative icons 
+Alternative icons 
+
+* Transaktionsfenster:
 
 ![](icons/feather/layers.svg)
 
-Transaktionsfenster |
-------- |
+* Prozess:
 
 ![](icons/feather/loader.svg)
 
-Prozess |
-------- |
+* Report/Bericht:
 
 ![](icons/feather/list.svg)
 
-Report/Bericht |
-------- |
+* Workflow:
 
 ![](icons/feather/git-pull-request.svg)
 
-Workflow |
-------- |
+* Browser:
 
 ![](icons/feather/monitor.svg)
-
-Browser |
-------- |
-
 
 ## N
 ## O
@@ -163,9 +157,9 @@ Eintrag suchen               | `<F6>`
 Anhang                       | `<F7>`
 ------- | -------
 
-![](icons/feather/users.svg) 
+![](icons/feather/message-square.svg) 
 
-Chat                       | ` `
+Chat                         | `.`
 ------- | -------
 
 ## U
