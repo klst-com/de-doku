@@ -52,7 +52,9 @@ Menü Icons
 ![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow            | ![](icons/feather/git-pull-request.md)
 ![](../.gitbook/assets/icons/menuSwing/TreeLeaf.gif)  | ![](../.gitbook/assets/icons/menuWeb/TreeLeaf.gif)  | Browser             | ![](icons/feather/monitor.svg)
 
-[![](activity.svg)]
+monitor:
+
+![](icons/feather/monitor.svg)
 
 activity:
 
