@@ -156,6 +156,7 @@ Eintrag suchen               | `<F6>`
 
 Anhang                       | `<F7>`
 ------- | -------
+ 
 
 ![](icons/feather/message-square.svg)
 
