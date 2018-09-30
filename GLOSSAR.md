@@ -86,13 +86,16 @@ die Icons der Toolbar im web-Client sehen anders aus:
 
 * Alternative icons 
 
-![](icons/feather/rotate-ccw.svg) : Änderung rückgängig machen `<Escape>`  
+![](icons/feather/rotate-ccw.svg)
+: Änderung rückgängig machen `<Escape>`  
 
-![](icons/feather/help-circle.svg) : Hilfe  `<F1>` 
+![](icons/feather/help-circle.svg)
+: Hilfe                      `<F1>` 
 
-![](icons/feather/square.svg) : Neuer Eintrag  `<F2>` 
+![](icons/feather/square.svg)
+: Neuer Eintrag              `<F2>` 
 
-![](icons/feather/copy.svg) : Eintrag kopieren     `<Shift><F2>` 
+![](icons/feather/copy.svg)
 
 
 ## U
