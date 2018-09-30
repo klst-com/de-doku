@@ -46,7 +46,7 @@ Menü Icons
 
 **_swing_** | **_web_** | **_Name_** | **_Alternative_**
 ------- | ------- | ------- | ------- 
-![](../.gitbook/assets/icons/menuSwing/mWindow.png)   | ![](../.gitbook/assets/icons/menuWeb/mWindow.png)   | Transaktionsfenster | ![](../.gitbook/assets/icons/feather/layers.svg) 
+![](../.gitbook/assets/icons/menuSwing/mWindow.png)   | ![](../.gitbook/assets/icons/menuWeb/mWindow.png)   | Transaktionsfenster | {% include "../.gitbook/assets/icons/feather/layers.svg" %}
 ![](../.gitbook/assets/icons/menuSwing/mProcess.png)  | ![](../.gitbook/assets/icons/menuWeb/mProcess.png)  | Prozess             | ![](../.gitbook/assets/icons/feather/loader.svg)
 ![](../.gitbook/assets/icons/menuSwing/mReport.png)   | ![](../.gitbook/assets/icons/menuWeb/mReport.png)   | Report/Bericht      | ![](../.gitbook/assets/icons/feather/list.svg)
 ![](../.gitbook/assets/icons/menuSwing/mWorkFlow.png) | ![](../.gitbook/assets/icons/menuWeb/mWorkFlow.png) | Workflow            | ![](../.gitbook/assets/icons/feather/git-pull-request.svg)
