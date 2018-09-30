@@ -92,23 +92,23 @@ die Icons der Toolbar im web-Client sehen anders aus:
 
 ![](icons/feather/help-circle.svg)
 
-Hilfe                        | `<F1>` 
-------- | ------- 
+Hilfe                        | `<F1>`
+------- | -------
 
 ![](icons/feather/square.svg)
 
-Neuer Eintrag                | `<F2>` 
-------- | ------- 
+Neuer Eintrag                | `<F2>`
+------- | -------
 
 ![](icons/feather/copy.svg)
 
-Eintrag kopieren             | `<Shift><F2>` 
-------- | ------- 
+Eintrag kopieren             | `<Shift><F2>`
+------- | -------
 
 ![](icons/feather/trash.svg)
 
-Eintrag löschen              | `<F3>` 
-------- | ------- 
+Eintrag löschen              | `<F3>`
+------- | -------
 
 ![](icons/feather/trash-2.svg)
 
