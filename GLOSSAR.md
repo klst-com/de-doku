@@ -85,13 +85,9 @@ die Icons der Toolbar im web-Client sehen anders aus:
 
 * Alternative icons 
 
-Änderung rückgängig machen   | `<Escape>`  
-------- | ------- 
-
-![](icons/feather/rotate-ccw.svg)
+Änderung rückgängig machen   | `<Escape>` |![](icons/feather/rotate-ccw.svg)
 
 Hilfe                        | `<F1>` 
-------- | ------- 
 
 ![](icons/feather/help-circle.svg)
 
