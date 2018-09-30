@@ -125,7 +125,7 @@ Ausgewählte Einträge löschen | `<Ctrl><D>`
 Erneut abfragen              | `<F5>` 
 ------- | ------- 
 
-![](icons/feather/crome.svg) 
+![](icons/feather/chrome.svg) 
 
 Eintrag suchen               | `<F6>`
 ------- | ------- 
