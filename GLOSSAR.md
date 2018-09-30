@@ -85,48 +85,56 @@ die Icons der Toolbar im web-Client sehen anders aus:
 
 * Alternative icons 
 
-Änderung rückgängig machen   | `<Escape>` |![](icons/feather/rotate-ccw.svg)
-------- | ------- | -------
+![](icons/feather/rotate-ccw.svg)
+
+Änderung rückgängig machen   | `<Escape>`
+------- | -------
+
+![](icons/feather/help-circle.svg)
 
 Hilfe                        | `<F1>` 
 ------- | ------- 
 
-![](icons/feather/help-circle.svg)
+![](icons/feather/square.svg)
 
 Neuer Eintrag                | `<F2>` 
 ------- | ------- 
 
-![](icons/feather/square.svg)
+![](icons/feather/copy.svg)
 
 Eintrag kopieren             | `<Shift><F2>` 
 ------- | ------- 
 
-![](icons/feather/copy.svg)
+![](icons/feather/trash.svg)
 
 Eintrag löschen              | `<F3>` 
 ------- | ------- 
 
-![](icons/feather/trash.svg)
+![](icons/feather/trash-2.svg)
 
 Ausgewählte Einträge löschen | `<Ctrl><D>` 
 ------- | ------- 
  
-![](icons/feather/trash-2.svg)
+![](icons/feather/save.svg) 
 
 Änderungen speichern         | `<F4>`  
 ------- | ------- 
 
-![](icons/feather/save.svg) 
+![](icons/feather/refresh-ccw.svg)
 
 Erneut abfragen              | `<F5>` 
 ------- | ------- 
 
-![](icons/feather/refresh-ccw.svg) 
+![](icons/feather/crome.svg) 
 
 Eintrag suchen               | `<F6>`
 ------- | ------- 
 
-![](icons/feather/crome.svg) 
+![](icons/feather/paperclip.svg) 
+
+Anhang                       | `<F7>`
+------- | ------- 
+ 
 
 ## U
 
