@@ -10,4 +10,6 @@
 ------- | ------- | ------- 
 nix  | `<Escape>`  | Änderung rückgängig machen
 <div> <img src="icons/feather/help-circle.svg" alt="help-circle.svg" width="24" height="24" > </div> | `<F1>`  | Hilfe
-![square](icons/feather/square.svg)      | `<F2>`  | Neuer Eintrag
+<div> <iframe height="24" width="24" src="icons/feather/square.svg"> <img src="square.png" width="24" height="24" alt="square" /> </iframe> </div>  | `<F2>`  | Neuer Eintrag
+
+
