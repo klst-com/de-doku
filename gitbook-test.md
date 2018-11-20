@@ -9,5 +9,5 @@
 **_icon_** | **_key_** | **_Beschreibung_**
 ------- | ------- | ------- 
 nix  | `<Escape>`  | Änderung rückgängig machen
-![](icons/feather/help-circle.svg) | `<F1>`  | Hilfe
+<div> <img src="icons/feather/help-circle.svg" alt="help-circle.svg" width="24" height="24" > </div> | `<F1>`  | Hilfe
 ![square](icons/feather/square.svg)      | `<F2>`  | Neuer Eintrag
