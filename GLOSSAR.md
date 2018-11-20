@@ -107,61 +107,22 @@ die Icons der Toolbar im web-Client sehen anders aus:
 
 * Alternative icons 
 
-![](icons/feather/rotate-ccw.svg)
-
-Änderung rückgängig machen   | `<Escape>`
-------- | -------
-
-![](icons/feather/help-circle.svg)
-
-Hilfe                        | `<F1>`
-------- | -------
-
-![](icons/feather/square.svg)
-
-Neuer Eintrag                | `<F2>`
-------- | -------
-
-![](icons/feather/copy.svg)
-
-Eintrag kopieren             | `<Shift><F2>`
-------- | -------
-
-![](icons/feather/trash.svg)
-
-Eintrag löschen              | `<F3>`
-------- | -------
-
-![](icons/feather/trash-2.svg)
-
-Ausgewählte Einträge löschen | `<Ctrl><D>` 
-------- | ------- 
+![](../.gitbook/assets/icons/menuKlst/Toolbar.PNG)
  
-![](icons/feather/save.svg) 
+**_icon_** | **_key_** | **_Beschreibung_**
+------- | ------- | ------- 
+![](icons/feather/rotate-ccw.svg)  | `<Escape>`  | Änderung rückgängig machen
+![](icons/feather/help-circle.svg) | `<F1>`  | Hilfe
+![](icons/feather/square.svg)      | `<F2>`  | Neuer Eintrag
+![](icons/feather/copy.svg)        | `<Shift><F2>` | Eintrag kopieren
+![](icons/feather/trash.svg)       | `<F3>`          | Eintrag löschen
+![](icons/feather/trash-2.svg)     | `<Ctrl><D>`    | Ausgewählte Einträge löschen
+![](icons/feather/save.svg)        | `<F4>`          | Änderungen speichern
+![](icons/feather/refresh-cw.svg)  | `<F5>`          | Erneut abfragen
+![](icons/feather/search.svg)      | `<F6>`          | Eintrag suchen
+![](icons/feather/paperclip.svg)   | `<F7>`          | Anhang
+![](icons/feather/message-square.svg) |       | Chat
 
-Änderungen speichern         | `<F4>`  
-------- | ------- 
-
-![](icons/feather/refresh-cw.svg)
-
-Erneut abfragen              | `<F5>` 
-------- | ------- 
-
-![](icons/feather/search.svg) 
-
-Eintrag suchen               | `<F6>`
-------- | ------- 
-
-![](icons/feather/paperclip.svg)
-
-Anhang                       | `<F7>`
-------- | -------
- 
-
-![](icons/feather/message-square.svg)
-
-Chat                         |
-------- |
 
 ## U
 
