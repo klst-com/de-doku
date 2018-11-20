@@ -10,5 +10,4 @@
 ------- | ------- | ------- 
 nix  | `<Escape>`  | Änderung rückgängig machen
 ![](icons/feather/help-circle.svg) | `<F1>`  | Hilfe
-nix  | `<Escape>`  | Änderung rückgängig machen
-
+![square](icons/feather/square.svg)      | `<F2>`  | Neuer Eintrag
