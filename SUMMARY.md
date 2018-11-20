@@ -20,4 +20,5 @@
   * [UI Anpassung](adm/3.UIanpassen.md)
 * [Entwicklerhandbuch](dev/README.md)
   * [openTRANS Anbindung](dev/4.opentrans.md)
+  * [gitbook-test](gitbook-test.md)
 * [GLOSSAR](GLOSSAR.md)
