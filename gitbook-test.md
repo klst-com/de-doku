@@ -3,8 +3,8 @@
 * two svg icons in two lines:
 
 ![](icons/feather/feather.svg) 
-
-![](icons/feather/layers.svg)
+ 
+![](icons/feather/layers.svg) 
 
 * two svg icons in one line:
 
