@@ -151,3 +151,6 @@ web UI
 ## X
 ## Y
 ## Z
+
+ZK
+: mittels [ZK CE](https://de.wikipedia.org/wiki/ZK_OSS) wurde die Adempiere [web UI](w#) entwickelt
