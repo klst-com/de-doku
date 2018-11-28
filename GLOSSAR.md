@@ -98,6 +98,9 @@ SWIFT
 SWIFT-Code
 : siehe [BIC](#b)-Code
 
+swing
+: Bestandteil von [Java](https://de.wikipedia.org/wiki/Swing_(Java)) zur Programmierung von grafischen [UI](#u)s
+
 ## T
 
 Tabellenarten
@@ -134,7 +137,7 @@ die Icons der Toolbar im web-Client sehen anders aus:
 ## U
 
 UI
-: User Interface - Präsentationsschicht, in Adempiere gibt es zwei Implementierungen. Eine JAVA swing-UI und eine web-UI.
+: User Interface - Benutzerschnittstellen, die Präsentationsschicht in Adempiere gibt es zwei Implementierungen. Eine JAVA [swing](#s)-UI und die [web-UI](#w).
 
 UOM Unit of Measure 
 : [Maßeinheiten](http://wiki.idempiere.org/de/Ma%C3%9Feinheit_%28Fenster_ID-120%29) können für die [Warenwirtschaft](usr/2.5-mm.md) frei definiert werden
@@ -143,7 +146,7 @@ UOM Unit of Measure
 ## W
 
 web UI
-: Benutzeroberfläche, die im Browser präsentiert wird
+: Benutzeroberfläche [UI](#u), die im Browser präsentiert wird
 
 ## X
 ## Y
