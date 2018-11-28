@@ -14,6 +14,10 @@ BIC
 : [Business Identifier Code](https://de.wikipedia.org/wiki/ISO_9362), auch SWIFT-BIC, SWIFT-Code oder SWIFT-Adresse
 
 ## C
+
+CSR
+: Client Side Rendering, [web UI](#w)s deren Seiten erst im Browser berechnet werden, siehe [CSR vs server-side-rendering](https://medium.freecodecamp.org/what-exactly-is-client-side-rendering-and-hows-it-different-from-server-side-rendering-bd5c786b340d)
+
 ## D
 
 Datenmodell
@@ -85,6 +89,9 @@ openTRANS
 ## R
 ## S 
 
+SSR
+: Server Side Rendering, ältere [web UI](#w)s nutzen diese Methode während bei Neueren [CSR](#c) eingesetzt wird
+
 SWIFT
 : die [Society for Worldwide Interbank Financial Telecommunication](https://de.wikipedia.org/wiki/SWIFT) leitet Transaktionen zwischen Banken und Institutionen aus über 200 Ländern weiter und wickelt damit den Zahlungsverkehr der angeschlossenen Institute ab
 
@@ -126,11 +133,18 @@ die Icons der Toolbar im web-Client sehen anders aus:
 
 ## U
 
+UI
+: User Interface - Präsentationsschicht, in Adempiere gibt es zwei Implementierungen. Eine JAVA swing-UI und eine web-UI.
+
 UOM Unit of Measure 
 : [Maßeinheiten](http://wiki.idempiere.org/de/Ma%C3%9Feinheit_%28Fenster_ID-120%29) können für die [Warenwirtschaft](usr/2.5-mm.md) frei definiert werden
 
 ## V
 ## W
+
+web UI
+: Benutzeroberfläche, die im Browser präsentiert wird
+
 ## X
 ## Y
 ## Z
