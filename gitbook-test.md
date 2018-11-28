@@ -2,7 +2,7 @@
 
 * svg icon allein:
 
-![](icons/feather/layers.svg)
+![](icons/feather/feather.svg) ![](icons/feather/layers.svg)
 
 * svg icon in tabelle:
  
