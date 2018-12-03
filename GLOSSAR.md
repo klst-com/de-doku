@@ -15,6 +15,9 @@ BIC
 
 ## C
 
+CRP
+: Capacity Requirement Planning, siehe Materialbedarfsplanung [MRP](#m)
+
 CSR
 : Client Side Rendering, [web UI](#w)s deren Seiten erst im Browser berechnet werden, siehe [CSR vs server-side-rendering](https://medium.freecodecamp.org/what-exactly-is-client-side-rendering-and-hows-it-different-from-server-side-rendering-bd5c786b340d)
 
@@ -37,6 +40,10 @@ IBAN
 
 ## J
 ## K
+
+KP
+: Kapazitätenplanung, Capacity Requirement Planning(en), siehe Materialbedarfsplanung [MRP](#m)
+
 ## L
 ## M
 
@@ -85,6 +92,10 @@ openTRANS
 : [s.Kap Nutzung von openTRANS](usr/4.opentrans.md)
 
 ## P
+
+Produktion und Production light
+: [s.Kap Warenwirtschaft/Logistik](usr/2.5-mm.md)
+
 ## Q
 ## R
 ## S 
