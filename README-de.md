@@ -13,7 +13,7 @@ description: null
 
 * [ADempiere.net \(en\)](https://klst-de.github.io/adempiere/) : ist \*.net der rechtmäßige\(!\) Nachfolger von Compiere?
 * [ADempiere.org \(en\)](http://adempiere.org/site/) : auch diese Seite \(\*.org\) beansprucht die Abstammung von [Compiere](http://www.compiere.com/company/history.php)!
-* [IDempiere](https://en.wikipedia.org/wiki/IDempiere) : [iDempiere](http://www.idempiere.org/) ist eine Weiterentwicklung, also ein Enkel von [Compiere](http://www.compiere.com/svn/)
+* [IDempiere](https://en.wikipedia.org/wiki/IDempiere) : [iDempiere](http://www.idempiere.org/) ist eine Weiterentwicklung, also ein Enkel von [Compiere](http://www.compiere.com/svn/) mit vielen [plugins](http://wiki.idempiere.org/en/Category:Available_Plugins)
 
 ![](.gitbook/assets/adlogos.PNG)
 
