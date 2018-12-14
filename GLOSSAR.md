@@ -91,6 +91,9 @@ Alternative icons
 openTRANS
 : [s.Kap Nutzung von openTRANS](usr/4.opentrans.md)
 
+order
+: je nach [Transaktionsart](usr/2.4-purchase.md) wird unterschieden zwischen Bestellung (ausgehende Order) [purchase order](https://en.wikipedia.org/wiki/Purchase_order) und Auftrag (eingehende Order) [sales order](https://en.wikipedia.org/wiki/Sales_order)
+
 ## P
 
 Produktion und Production light
