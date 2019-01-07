@@ -45,6 +45,10 @@ KP
 : Kapazitätenplanung, Capacity Requirement Planning(en), siehe Materialbedarfsplanung [MRP](#m)
 
 ## L
+
+L&F
+: als [Look&Feel](https://de.wikipedia.org/wiki/Look_and_Feel) wird das Aussehen und Verhalten der Benutzeroberfäche bezeichnet. Das ["Look" des clients](dev/laf.md) ist umschaltbar.
+
 ## M
 
 MBP (de) / MRP (en)
