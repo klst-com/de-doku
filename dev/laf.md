@@ -2,14 +2,14 @@
 
 Das Erscheinungsbild (Programm Look&Feel/PLAF) des swing-clients wird von zwei Komponenten bestimmt, aus denen der Adempiere client besteht
 
-* [Java swing](https://de.wikipedia.org/wiki/Swing_(Java))
+* Java swing
 * jgoodies, das auf Java Metal basiert
 
 Zu einem "look" kann es verschiedene Themen geben. Farben und Schriften bestimmen ein Thema. Für das ursprüngliche Compiere gibt es die Klassen ```CompiereThemeBlueMetal``` und ```CompiereThemeIce```.
 
 ## Java swing look
 
-In Java gibt es nur zwei "looks". Das bekannteste wird "Metal" genannt mit dem "Ocean"-Thema (links im Bild). Und das neuere, aber wenig bekannte "Nimbus".
+In Java gibt es nur zwei "looks". Das bekannteste wird "Metal" genannt mit dem "Ocean"-Thema (links im Bild). Und das neuere, aber weniger bekannte "Nimbus".
 
 ![](../.gitbook/assets/LaF-Metal+Nimbus.PNG)
 
