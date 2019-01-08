@@ -19,6 +19,7 @@
   * [Übersetzungen](adm/2.trl.md)
   * [UI Anpassung](adm/3.UIanpassen.md)
 * [Entwicklerhandbuch](dev/README.md)
+  * [Look and Feel](dev/laf.md)
   * [openTRANS Anbindung](dev/4.opentrans.md)
   * [gitbook-test](gitbook-test.md)
 * [GLOSSAR](GLOSSAR.md)
