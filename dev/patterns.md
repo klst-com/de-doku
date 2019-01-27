@@ -10,4 +10,21 @@ Listener ist ein Klassiker in GUI-Programmen. Die GoF verwendete noch den Begrif
 
 ### ActionListener in Java
 
-In awt ist der [abstrakte Beobachter](https://de.wikipedia.org/wiki/Beobachter_(Entwurfsmuster\)#UML-Diagramm) als Interface bereits definiert ```java.awt.event.ActionListener```. Nur der konkreten Beobachter muß die Methode ```actionPerformed(ActionEvent e)``` implementieren.
+In awt ist der [abstrakte Beobachter/Observer](https://de.wikipedia.org/wiki/Datei:Beobachterentwurfsmuster.png) als Interface bereits definiert ```java.awt.event.ActionListener```. Nur der konkreten Beobachter muß die Methode ```actionPerformed(ActionEvent e)``` implementieren.
+
+Die klassisch "altbackene" Implementierung für einen ```ActionListener``` sieht so aus: 
+
+* das Interface wird angegeben
+* der Observer ```this``` registriert sich beim Subjekt (ein Push-Button) als Listener
+* und impementiert die geforderte Methode ```actionPerformed```, bei der das Subjekt erst ermittelt werden muß
+
+```java
+public class Beispiel3501 extends JFrame implements ActionListener {
+...
+ 		button1.addActionListener(this);
+...
+   public void actionPerformed(ActionEvent e) {
+   ... 
+      if (e.getActionCommand().equals("button1")) { // Aktion für button1
+
+```
