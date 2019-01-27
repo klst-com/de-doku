@@ -49,7 +49,8 @@ public class Beispiel3501_inJava8 extends JFrame { ...
 Der ```PropertyChangeListener```  ist ein weiterer Observer, der weit verbreitet ist. Zusammen mit [SwingWorker](https://en.wikipedia.org/wiki/SwingWorker) zum Beispiel. SwingWorker werden für zeitaufwändige Aufgaben benutzt, damit die GUI bedienbar bleibt, und die Zwischenergebnisse im GUI angezeigt werden. Die SwingWorker-Task/Loader läuft dabei in separaten Threads. Die dabei notwendige Synchronisation mit dem GUI-Thread geschieht über _property change events_. Der SwingWorker schreibt Informationen über seinen Zustand in zwei Properties ab "progress" und "state". Und benachrichtigt den EDT(Event Dispatch Thread), wie der GUI-Thread auch genannt wird.  
 Das [SwingWorker Beispiel aus Java 8](https://docs.oracle.com/javase/8/docs/api/javax/swing/SwingWorker.html#publish-V...-) verwendet noch die klassische  Implementierungart, wobei der ```ActionListener``` direkt bei der Registrierung konstruiert wird:: 
 ```java
- .... JTextArea textArea = new JTextArea();
+...
+ JTextArea textArea = new JTextArea();
  final JProgressBar progressBar = new JProgressBar(0, 100);
  PrimeNumbersTask task = new PrimeNumbersTask(textArea, N);
  task.addPropertyChangeListener(
@@ -77,11 +78,10 @@ Diese Dokumentation stammt noch aus Java 6. Aktuell sollte sie sie aussehen:
 ### beansbinding statt PropertyChangeListener mit SwingSet3
 
 Im SwingSet3 ```beansbinding-1.2.1.jar``` von [SwingLabs](https://en.wikipedia.org/wiki/SwingLabs) gibt es eine Weterentwicklung als Alternative für einen PropertyChange Observer. Diese ist dann nützlich, wenn mehrere Properties durch GUI-Objekte repräsentiert werden. Beispielsweise
-
+ 
 * "state" durch ```Label status``` für ```PENDING, STARTED, DONE```
 * "progress" durch ```JProgressBar progressBar```
-* die Registrierung beim Subject wird durch das __binding__ zwischen property und ui-Objekt rsetzte
-
+* die Registrierung beim Subject wird durch das __binding__ zwischen property und ui-Objekt rsetzte 
 ```java
  ...
  BindingGroup group = new BindingGroup();
@@ -93,4 +93,4 @@ Im SwingSet3 ```beansbinding-1.2.1.jar``` von [SwingLabs](https://en.wikipedia.o
    status, BeanProperty.create("loadState")));
  group.bind();
 ````
-
+ 
