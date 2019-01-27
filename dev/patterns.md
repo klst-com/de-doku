@@ -34,6 +34,7 @@ Eine "moderne" Implementierung (ab Java 8) verwendet Lambdaausdrücke:
 
 * das Interface muss man nicht angegeben und ```actionPerformed``` muß nicht explizit implementiert werden
 * denn die Registrierung beim Subjekt enthält bereits den Code für die gewünschte Aktion
+* der Code ist kompakter und besser lesbar
 
 ```java
 public class Beispiel3501_inJava8 extends JFrame { ...
@@ -42,3 +43,9 @@ public class Beispiel3501_inJava8 extends JFrame { ...
 			// TODO Aktion für button1
 		});
 ```
+
+### PropertyChangeListener mit SwingWorker
+
+Der ```actionPerformed```  ist ein weiterer Observer, der weit verbreitet ist. Zusammen mit [SwingWorker](https://en.wikipedia.org/wiki/SwingWorker) zum Beispiel. SwingWorker werden für zeitaufwändige Aufgaben benutzt, damit die GUI bedienbar bleibt, und die Zwischenergebnisse im GUI angezeigt werden. Die SwingWorker-Task/Loader läuft dabei in separaten Threads. Die dabei notwendige Synchronisation geschieht über _property change events_. 
+
+
