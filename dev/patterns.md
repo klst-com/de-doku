@@ -1,6 +1,6 @@
-# Entwurfsmuster (design patterns)
+# Entwurfsmuster
 
-Entwurfsuster sind [Vorlagen zur Problemlösung](https://de.wikipedia.org/wiki/Entwurfsmuster). Für die Softwareentwicklung ist der Begriff Viererbande (Gang of Four, kurz GoF) ein Synonym für objektorientierte Entwurfsuster. Die GoF Autoren verwendeten in ihrem [Buch](https://en.wikipedia.org/wiki/Design_Patterns) nicht Java, sondern C++ and Smalltalk. Java Beispiele findet man unter [java-design-patterns](https://java-design-patterns.com/).
+Entwurfsmuster (design patterns) sind [Vorlagen zur Problemlösung](https://de.wikipedia.org/wiki/Entwurfsmuster). Für die Softwareentwicklung ist der Begriff Viererbande (Gang of Four, kurz GoF) ein Synonym für objektorientierte Entwurfsuster. Die GoF Autoren verwendeten in ihrem [Buch](https://en.wikipedia.org/wiki/Design_Patterns) nicht Java, sondern C++ and Smalltalk. Java Beispiele findet man unter [java-design-patterns](https://java-design-patterns.com/).
 
 ## Observer (Listener)
 
