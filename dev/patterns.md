@@ -75,20 +75,20 @@ Diese Dokumentation stammt noch aus Java 6. Aktuell sollte sie sie aussehen:
  });
 ```
 
-### PropertyChangeListener mit SwingSet3
+### beansbinding statt PropertyChangeListener mit SwingSet3
 
-Im SwingSet3 ```beansbinding-1.2.1.jar``` von [SwingLabs](https://en.wikipedia.org/wiki/SwingLabs) gibt es eine Weterentwicklung für einen PropertyChangeListener. Die ist dann nützlich, wenn mehrere Properties durch GUI-Objekte repräsentiert werden. Beispielsweise
+Im SwingSet3 ```beansbinding-1.2.1.jar``` von [SwingLabs](https://en.wikipedia.org/wiki/SwingLabs) gibt es eine Weterentwicklung als Alternative für einen PropertyChange Observer. Diese ist dann nützlich, wenn mehrere Properties durch GUI-Objekte repräsentiert werden. Beispielsweise
 
 * "state" durch ```Label status``` für ```PENDING, STARTED, DONE```
 * "progress" durch ```JProgressBar progressBar```
-* die Registrierung beim Subject wird durch das __binding__ rsetzte
+* die Registrierung beim Subject wird durch das __binding__ zwischen property und ui-Objekt rsetzte
 
 ```java
 ...
         BindingGroup group = new BindingGroup();
-        group.addBinding(Bindings.createAutoBinding(READ, task, 
-        		BeanProperty.create("progress"),
-        		progressBar, BeanProperty.create("value")));
+        group.addBinding(Bindings.createAutoBinding(READ, task, // lese aus der SwingWorker task
+        		BeanProperty.create("progress"),                   // die Property "progress"
+        		progressBar, BeanProperty.create("value")));       // und belege damit progressBar Property "value"
         group.addBinding(Bindings.createAutoBinding(READ, task, 
         		BeanProperty.create("state"),
         		status, BeanProperty.create("loadState")));
