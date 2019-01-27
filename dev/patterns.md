@@ -10,13 +10,14 @@ Listener ist ein Klassiker in GUI-Programmen. Die GoF verwendete noch den Begrif
 
 ### ActionListener in Java
 
-In awt ist der [abstrakte Beobachter/Observer](https://de.wikipedia.org/wiki/Datei:Beobachterentwurfsmuster.png) als Interface bereits definiert ```java.awt.event.ActionListener```. Nur der konkreten Beobachter muß die Methode ```actionPerformed(ActionEvent e)``` implementieren.
+In awt ist der [abstrakte Beobachter/Observer](https://de.wikipedia.org/wiki/Datei:Beobachterentwurfsmuster.png) als Interface bereits definiert ```java.awt.event.ActionListener```. Nur der konkrete Beobachter/Observer muß die Methode ```actionPerformed(ActionEvent e)``` implementieren.
 
-Die klassisch "altbackene" Implementierung für einen ```ActionListener``` sieht so aus: 
+Die klassisch "altbackene" Implementierung für einen Observer sieht typischerweise so aus: 
 
 * das Interface wird angegeben
 * der Observer ```this``` registriert sich beim Subjekt (ein Push-Button) als Listener
 * und impementiert die geforderte Methode ```actionPerformed```, bei der das Subjekt erst ermittelt werden muß
+* [Quelle](https://dbs.cs.uni-duesseldorf.de/lehre/docs/java/javabuch/html/k100227.html#sectlevel3id035002002)
 
 ```java
 public class Beispiel3501 extends JFrame implements ActionListener {
@@ -25,6 +26,19 @@ public class Beispiel3501 extends JFrame implements ActionListener {
 ...
    public void actionPerformed(ActionEvent e) {
    ... 
-      if (e.getActionCommand().equals("button1")) { // Aktion für button1
+      if (e.getActionCommand().equals("button1")) { // TODO Aktion für button1
 
+```
+
+Eine "moderne" Implementierung (ab Java 8) verwendet Lambdaausdrücke:
+
+* das Interface muss man nicht angegeben und ```actionPerformed``` muß nicht explizit implementiert werden
+* denn die Registrierung beim Subjekt enthält bereits den Code für die gewünschte Aktion
+
+```java
+public class Beispiel3501_inJava8 extends JFrame { ...
+
+		button1.addActionListener(event -> {
+			// TODO Aktion für button1
+		});
 ```
