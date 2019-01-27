@@ -46,6 +46,33 @@ public class Beispiel3501_inJava8 extends JFrame { ...
 
 ### PropertyChangeListener mit SwingWorker
 
-Der ```actionPerformed```  ist ein weiterer Observer, der weit verbreitet ist. Zusammen mit [SwingWorker](https://en.wikipedia.org/wiki/SwingWorker) zum Beispiel. SwingWorker werden für zeitaufwändige Aufgaben benutzt, damit die GUI bedienbar bleibt, und die Zwischenergebnisse im GUI angezeigt werden. Die SwingWorker-Task/Loader läuft dabei in separaten Threads. Die dabei notwendige Synchronisation geschieht über _property change events_. 
+Der ```actionPerformed```  ist ein weiterer Observer, der weit verbreitet ist. Zusammen mit [SwingWorker](https://en.wikipedia.org/wiki/SwingWorker) zum Beispiel. SwingWorker werden für zeitaufwändige Aufgaben benutzt, damit die GUI bedienbar bleibt, und die Zwischenergebnisse im GUI angezeigt werden. Die SwingWorker-Task/Loader läuft dabei in separaten Threads. Die dabei notwendige Synchronisation geschieht über _property change events_. Der SwingWorker schreibt Informationen über seinen Zustand in zwei Properties ab ... und benachrichtigt seine Partnerthreads. 
+
+Das [SwingWorker Beispiel aus Java 8](https://docs.oracle.com/javase/8/docs/api/javax/swing/SwingWorker.html#publish-V...-) verwendet noch die klassische  Implementierungart, wobei der ```ActionListener``` direkt bei der Registrierung konstruiert wird::
+
+```java
+.... JTextArea textArea = new JTextArea();
+ final JProgressBar progressBar = new JProgressBar(0, 100);
+ PrimeNumbersTask task = new PrimeNumbersTask(textArea, N);
+ task.addPropertyChangeListener(
+     new PropertyChangeListener() {
+         public  void propertyChange(PropertyChangeEvent evt) {
+             if ("progress".equals(evt.getPropertyName())) {
+                 progressBar.setValue((Integer)evt.getNewValue());
+             }
+         }
+     });
+````
+Diese Dokumentation stammt noch aus Java 6. Aktuell sollte sie sie aussehen:
+
+```java
+...
+ JTextArea textArea = new JTextArea();
+ final JProgressBar progressBar = new JProgressBar(0, 100);
+ PrimeNumbersTask task = new PrimeNumbersTask(textArea, N);
+ task.addPropertyChangeListener(event -> {
+     progressBar.setValue((Integer)event.getNewValue());
+ });
+```
 
 
