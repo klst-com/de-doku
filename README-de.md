@@ -5,7 +5,7 @@ description: null
 
 # Einleitung
 
-## ADempiere 3.9
+## ADempiere 3.9.x
 
 [ADempiere](https://github.com/adempiere/adempiere) ist einer der Nachfolger von [Compiere ERP system](https://en.wikipedia.org/wiki/Compiere) welches Ende der 90-er entwickelt wurde.
 
