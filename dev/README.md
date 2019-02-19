@@ -1,6 +1,6 @@
 # Entwicklerhandbuch
 
-[developer-guide](https://mckayerp.gitbook.io/adempiere/v/v3.9.1/developer-guide)
+[developer-guide](https://adempiere.gitbook.io/docs/v/develop/)
 
 ## Allgemeines zur Architektur und Problemlösungen
 ### [Entwurfsmuster](../dev/patterns.md)
