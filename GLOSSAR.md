@@ -30,7 +30,7 @@ DATEV
 : [s.Kap Koexistenz mit DATEV](usr/3.datev.md)
 
 Direktlieferung
-: ist ein Synoonym für [Streckengeschäft](https://de.wikipedia.org/wiki/Streckengesch%C3%A4ft), siehe [Bestellung](usr/2.4-purchase.md)
+: ist ein Synoonym für [Streckengeschäft](https://de.wikipedia.org/wiki/Streckengesch%C3%A4ft), siehe [Bestellung](usr/2.4-purchase#direktlieferung-streckengeschaeft)
 
 Drop Shipment (en)
 : siehe Direktlieferung
