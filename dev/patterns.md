@@ -89,7 +89,7 @@ Das Dokumentationsbeispiel im aktuellen Java stammt noch aus Java 6 und wurde se
 
 Im SwingSet3 ```beansbinding-1.2.1.jar``` von [SwingLabs](https://en.wikipedia.org/wiki/SwingLabs) gibt es eine Weterentwicklung als Alternative für einen PropertyChange Observer. Diese ist dann nützlich, wenn mehrere Properties durch GUI-Objekte repräsentiert werden. Beispielsweise
  
-* "state" durch ```Label status``` für ```PENDING, STARTED, DONE```
+* "state" durch ``Label status`` für ``PENDING, STARTED, DONE``
 * "progress" durch ```JProgressBar progressBar```
 * die Registrierung beim Subject wird durch das __binding__ zwischen property und ui-Objekt ersetzt
  
@@ -103,5 +103,14 @@ Im SwingSet3 ```beansbinding-1.2.1.jar``` von [SwingLabs](https://en.wikipedia.o
    BeanProperty.create("state"),
    status, BeanProperty.create("loadState")));
  group.bind();
-````
- 
+```
+
+## Interface/Implementation-Pair
+
+In Java kommt es sehr häufig vor, dass eine Schnittstelle/interface so weit wie möglich von einer (abstrakten) Klasse vorimplementiert wird. Dieses Vorgehen ist unter dem Namen Interface/Implementation-Pair bekannt. 
+
+Beispiele: 
+
+* ``interface java.util.List<E>`` und  ``abstract class java.util.AbstractList<E>``
+* ``interface javax.swing.Action`` und ``abstract class javax.swing.AbstractAction``
+
