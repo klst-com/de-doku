@@ -44,6 +44,9 @@ Drop Shipment (en)
 IBAN
 : die [International Bank Account Number](https://de.wikipedia.org/wiki/Internationale_Bankkontonummer) ist eine standardisierte Notation für Bankkontonummern, die automatisches Abwickeln von Zahlungen emöglicht (siehe auch [Abkürzungsverzeichnis](https://de.iban.com/abkurzungen) im Zahlungsverkehr) 
 
+Interface/Implementation-Pair
+: siehe [Entwurfsmuster](dev/patterns#interface-implementation-pair)
+
 ## J
 ## K
 
