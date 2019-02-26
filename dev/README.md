@@ -4,6 +4,9 @@
 
 ## Allgemeines zur Architektur und Problemlösungen
 ### [Entwurfsmuster](../dev/patterns.md)
+## [Entwicklungsumgebung](../dev/ide.md)
+### Softwarekonfigurationsmanagement
+### Eclipse
 ## Server
 ## Client
 ### [Look and Feel](../dev/laf.md)
