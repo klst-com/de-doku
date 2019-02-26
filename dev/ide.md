@@ -22,7 +22,7 @@ TODO, Themen PR, ...
 
 Beispiel: Issue https://github.com/adempiere/adempiere/issues/2231
 
-Der erste [PR 2232](https://github.com/adempiere/adempiere/pull/2232) wurde nicht integriert, -> Closed with unmerged commits
+Der erste [PR 2232](https://github.com/adempiere/adempiere/pull/2232) wurde nicht integriert, -> Closed with unmerged commits.
 Denn die commits fielen zeitlich mit der Relrasefreigabe von 3.9.1 zusammen. Im zweiten Anlauf mußten die commits aus dem pull 2232 rausgepickt werden und in einem neuen PR bereitgestellt werden. Die dabei entstehenden Konflikte müssen aufgelöst werden. Diesen Vorgang nennt man cherry-picking.
 
 PR 2232 besteht aus mehreren commits. Hier das cherry-picking im cmd-line modus:
