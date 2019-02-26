@@ -75,7 +75,7 @@ ad391>git commit -a
  rename {org.adempiere.request/src/main/java => base/src}/org/compiere/model/MContactInterest.java (100%)
 ```
 
-Die restlichen commits (ohne Konflike):
+* die restlichen commits (ohne Konflike):
 
 ```cmd
 ad391>git cherry-pick --strategy=recursive --strategy-option=theirs 4beca5aca3fc8d3266e3f86a56f9bd69cef19bf7
@@ -91,7 +91,7 @@ ad391>git cherry-pick --strategy=recursive --strategy-option=theirs 61c7429a0877
 
 ```
 
-## https://de.wikipedia.org/wiki/Eclipse_(IDE)
+## https://de.wikipedia.org/wiki/Eclipse_(IDE%29
 
 ## https://de.wikipedia.org/wiki/IntelliJ_IDEA
 
