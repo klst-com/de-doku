@@ -2,6 +2,7 @@
 
 ## [Geschäftsprozesse und Menü](2.bprocess+menu.md)
 ### [Vertrieb](2.3-sales.md)
+### [Frachtkostenberechnung](2.4-freight.md)
 ### [Beschaffung](2.4-purchase.md)
 ### [Rechnungswesen](2.8-acc.md)
 ## [Systemadministration Voreinstellungen](2.0-admin.md)
