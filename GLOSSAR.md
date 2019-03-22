@@ -126,7 +126,7 @@ SWIFT-Code
 : siehe [BIC](#b)-Code
 
 swing
-: Bestandteil von [Java](https://de.wikipedia.org/wiki/Swing_(Java)) zur Programmierung von grafischen [UI](#u)s
+: Bestandteil von [Java](https://de.wikipedia.org/wiki/Swing_%28Java%29) zur Programmierung von grafischen [UI](#u)s
 
 ## T
 
