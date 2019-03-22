@@ -11,7 +11,7 @@ ASI Attribute Set Instance
 ## B
 
 BIC
-: [Business Identifier Code](https://de.wikipedia.org/wiki/ISO_9362), auch SWIFT-BIC, SWIFT-Code oder SWIFT-Adresse
+: [Business Identifier Code](https://de.wikipedia.org/wiki/ISO_9362), auch SWIFT-BIC, SWIFT-Code oder SWIFT-Adresse, [siehe (adm)Installation/Banken](adm/1.installation.md#banken)
 
 ## C
 
