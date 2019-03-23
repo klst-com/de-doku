@@ -12,9 +12,11 @@ Die zentrale Versionsverwaltung und das Change-Management befinden sich auf GitH
 
 Es gibt unzählige [Version Control Systeme/VCS](https://de.wikipedia.org/wiki/Versionsverwaltung#Beispiele). Neben lokalen Systemen [Unix-SCCS](http://de.wikipedia.org/wiki/SCCS) und den klassischen zentralen Systemen [CVS](http://www.cvshome.org/) oder [Apache Subversion](http://subversion.apache.org/) gibt es die verteilten DVCSe (Distributed Version Control System). Einen guten Einblick bietet der folgende [Artikel](http://www.heise.de/developer/artikel/Die-neue-Freiheit-bei-der-Versionskontrolle-1224755.html).
 
-Neuere Systeme zur Versionsverwaltung sind verteilt. Es gibt keinen eindeutigen Server mit dem Sourcecode-Repository. Bekannte DVCS-Vertreiter sind Mercurial hg, Git und Bazaar.  
+Neuere Systeme zur Versionsverwaltung sind verteilt. Es gibt keinen eindeutigen Server mit dem Sourcecode-Repository. Bekannte DVCS-Vertreiter sind Mercurial hg, [Git](https://git-scm.com/docs) und Bazaar.  
 
 ### Github
+
+[Github](https://de.wikipedia.org/wiki/GitHub) ist ein webbasierte Dienst für Git-Projekte wie [ADempiere](https://github.com/adempiere/adempiere).
 
 TODO, Themen PR, ...
 
