@@ -18,6 +18,13 @@ Neuere Systeme zur Versionsverwaltung sind verteilt. Es gibt keinen eindeutigen 
 
 [Github](https://de.wikipedia.org/wiki/GitHub) ist ein webbasierte Dienst für Git-Projekte wie [ADempiere](https://github.com/adempiere/adempiere).
 
+* die [adempiere repo Administratoren](https://github.com/adempiere/adempiere/graphs/contributors) mit Schreibrechten sind [Victor Perez](https://github.com/e-Evolution) und [Yamel Senih](https://github.com/yamelsenih)
+* weitere Ansprechpartner: 
+** [Michael McKay](https://github.com/mckayERP), 
+** [Michael Judd majjudd@gmail.com](https://github.com/majjudd), 
+** [mario.calderon@westfalia-it.com](https://github.com/marcalwestf), 
+** [susanne.de.calderon@westfalia-it.com](https://github.com/SusanneCalderon)
+
 #### Forking
 
 TODO 
