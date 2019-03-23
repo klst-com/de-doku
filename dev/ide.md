@@ -18,9 +18,15 @@ Neuere Systeme zur Versionsverwaltung sind verteilt. Es gibt keinen eindeutigen 
 
 [Github](https://de.wikipedia.org/wiki/GitHub) ist ein webbasierte Dienst für Git-Projekte wie [ADempiere](https://github.com/adempiere/adempiere).
 
-TODO, Themen PR, ...
+#### Forking
 
-### Cherry-picking
+TODO 
+
+#### pull-requests
+
+siehe https://help.github.com/en/articles/about-pull-requests 
+
+#### Cherry-picking
 
 Beispiel: Issue https://github.com/adempiere/adempiere/issues/2231
 
