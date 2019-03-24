@@ -10,6 +10,9 @@ ASI Attribute Set Instance
 
 ## B
 
+BBAN
+: als BBAN (Basic Bank Account Number) wird der Teil der [IBAN](i) ab Position 5 bezeichnet (ohne Länderkennzeichen und ohne die zweistellige Prüfsumme)
+
 BIC
 : [Business Identifier Code](https://de.wikipedia.org/wiki/ISO_9362), auch SWIFT-BIC, SWIFT-Code oder SWIFT-Adresse, [siehe (adm)Installation/Banken](adm/1.installation.md#banken)
 
