@@ -42,7 +42,7 @@ Neuere Systeme zur Versionsverwaltung sind verteilt. Es gibt keinen eindeutigen 
 * link:[fork-and-clone-an-open-source-repository](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Save-your-Code-Revisions-Forever-with-Git#fork-and-clone-an-open-source-repository)
 
 
-#### pull-requestts
+#### pull-requeststs
 
 siehe https://help.github.com/en/articles/about-pull-requests 
 
