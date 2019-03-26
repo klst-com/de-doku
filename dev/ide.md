@@ -27,9 +27,22 @@ Neuere Systeme zur Versionsverwaltung sind verteilt. Es gibt keinen eindeutigen 
 
 #### Forking
 
-TODO 
+* wir haben nur lesenden Zugriff auf [adempiere github repo](https://github.com/adempiere/adempiere)
+* wenn ich also lokal eine Kopie/clone des adempiere repo mache, dann darf ich zwar ein checkout/pull machen, aber *keinen push*
 
-#### pull-requests
+![](../.gitbook/assets/git-local-fork.png)
+
+* ergo kann ich keine von mir erstelltn Änderungen einspielen
+
+* mit einem REMOTE-fork [repo klst-com/adempiere](https://github.com/klst-com/adempiere), das ich ebenfalls lokal clonen kann, lässt sich das commit-Problem umgehen
+* denn ich habe als owner *schreibenden Zugriff* auf den REMOTE fork 
+
+![](../.gitbook/assets/git-remote-fork.png)
+
+* link:[fork-and-clone-an-open-source-repository](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Save-your-Code-Revisions-Forever-with-Git#fork-and-clone-an-open-source-repository)
+
+
+#### pull-requestts
 
 siehe https://help.github.com/en/articles/about-pull-requests 
 
