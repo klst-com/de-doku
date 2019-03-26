@@ -39,7 +39,9 @@ Neuere Systeme zur Versionsverwaltung sind verteilt. Es gibt keinen eindeutigen 
 
 ![](../.gitbook/assets/git-remote-fork.png)
 
-* link:[fork-and-clone-an-open-source-repository](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Save-your-Code-Revisions-Forever-with-Git#fork-and-clone-an-open-source-repository)
+* link:[fork-and-clone-an-open-source-repository]
+(https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Save-your-Code-Revisions-Forever-with-Git#fork-and-clone-an-open-source-repository)
+* abschliessend kann ich mit einem *pull-request* meine Änderungen an das adempiere repo weitergeben, wo einer der Administratoren es in das Projekt integriert (merge), siehe https://github.com/adempiere/adempiere/pulls - oder auch nicht [closed pulls](https://github.com/adempiere/adempiere/pulls?q=is%3Apr+is%3Aclosed+author%3Ahomebeaver)
 
 
 #### pull-requeststs
