@@ -10,6 +10,7 @@
   * [Warenwirtschaft/Logistik](usr/2.5-mm.md)
   * [Produktion](usr/2.6-prod.md)
   * [Rechnungswesen/Buchführung](usr/2.8-acc.md)
+  * [Personal und Gehaltsabrechnung](usr/2.9-hr.md)
   * [Systemadministration Voreinstellungen](usr/2.0-admin.md)
   * [Koexistenz mit DATEV](usr/3.datev.md)
   * [Datenaustausch mittels openTRANS](usr/4.opentrans.md)
