@@ -44,7 +44,7 @@ Drop Shipment (en)
 ## H
 
 HR
-: [Human Resources](usr/2.9-hr.md) umfasst das Thema "Personal und Gehaltsabrechnung"
+: [Human Resources](https://de.wikipedia.org/wiki/Personalwesen) umfasst das Thema [Personal und Gehaltsabrechnung](usr/2.9-hr.md)
 
 ## I
 
