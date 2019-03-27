@@ -42,6 +42,10 @@ Drop Shipment (en)
 ## F
 ## G
 ## H
+
+HR
+: [Human Resources](usr/2.9-hr.md) umfasst das Thema "Personal und Gehaltsabrechnung"
+
 ## I
 
 IBAN
