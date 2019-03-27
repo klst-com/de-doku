@@ -112,6 +112,9 @@ order
 
 ## P
 
+PAN
+: die [Primary Account Number](https://de.wikipedia.org/wiki/Primary_Account_Number) ist Bestandteil einer Zahlungskartennummer. Sie identifiziert eine Bank und wird mit dem [`bank importer`-Programm](adm/1.installation.md#banken) eingelesen
+
 Produktion und Production light
 : [s.Kap Warenwirtschaft/Logistik](usr/2.5-mm.md)
 
