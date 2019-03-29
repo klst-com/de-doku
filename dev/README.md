@@ -3,6 +3,7 @@
 [developer-guide](https://adempiere.gitbook.io/docs/v/develop/)
 
 ## Allgemeines zur Architektur und Problemlösungen
+### [Architektur vs. Anatomie](../dev/arch.md)
 ### [Entwurfsmuster](../dev/patterns.md)
 ## [Entwicklungsumgebung](../dev/ide.md)
 ### Softwarekonfigurationsmanagement
