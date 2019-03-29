@@ -1,6 +1,6 @@
 # Architektur vs. Anatomie
 
-In der Informatik gibt es den Bergiff der [Softwarearchitektur](https://de.wikipedia.org/wiki/Softwarearchitektur). Der Begriff Anatomie ist im Softwarekontext nicht gebräuchlich. Dabei ist die heute verfügbare Software oft schlecht dokumentiert und die ursprünglichen Architekturentscheidungen nicht mehr im Detail nachvollzielbar. Das gilt insbesondere für [Open Source](https://de.wikipedia.org/wiki/Open_Source) wie ADempiere. Reifere Systeme sind in einem evolutionären Prozess gewachsen.
+In der Informatik gibt es den Bergiff der [Softwarearchitektur](https://de.wikipedia.org/wiki/Softwarearchitektur). Der Begriff Anatomie ist im Softwarekontext nicht gebräuchlich. Dabei ist die heute verfügbare Software oft schlecht dokumentiert und die ursprünglichen Architekturentscheidungen nicht mehr im Detail nachvollzielbar. Das gilt insbesondere für reifere [Open Source](https://de.wikipedia.org/wiki/Open_Source)-Systeme wie ADempiere. Reifere Systeme sind in einem evolutionären Prozess über mehrere Generationen gewachsen.
 
 Wenn hier die Architektur dokumentiert wird, dann sind es meist nicht Ergebnisse von Entwurfsentscheidungen, sondern die anatomischen Entdeckungen, die bei der Pflege und Weiterentwicklung des Systems angefallen sind.
 
