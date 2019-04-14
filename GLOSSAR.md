@@ -126,6 +126,9 @@ Produktion und Production light
 ## R
 ## S 
 
+SKR
+: [StandardKontenRahmen](https://de.wikipedia.org/wiki/Kontenrahmen#Standardkontenrahmen) in Deutschland sind die [DATEV](#d)-Kontenrahmen [SKR03 und SKR04](usr/3.datev.md) verbreitet
+
 SSR
 : Server Side Rendering, ältere [web UI](#w)s nutzen diese Methode während bei Neueren [CSR](#c) eingesetzt wird
 
