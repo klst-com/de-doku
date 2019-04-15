@@ -43,9 +43,63 @@ Neuere Systeme zur Versionsverwaltung sind verteilt. Es gibt keinen eindeutigen 
 * abschliessend kann ich mit einem *pull-request* meine Änderungen an das adempiere repo weitergeben, wo einer der Administratoren es in das Projekt integriert (merge), siehe https://github.com/adempiere/adempiere/pulls - oder auch nicht: [closed pulls](https://github.com/adempiere/adempiere/pulls?q=is%3Apr+is%3Aclosed+author%3Ahomebeaver)
 
 
-#### pull-requeststs
+#### pull-requests
 
 siehe https://help.github.com/en/articles/about-pull-requests 
+
+Beispiel: PR zu [Ticket 1340](https://github.com/adempiere/adempiere/issues/1340) "Enlarge length for address ..."
+
+* neuen branch erstellen, dieser sollte vom branch "develop" abgeleitet sein (das Folgende erstellt den branch und checkt ihn gleich aus):
+
+```cmd
+ad391> git checkout -b dev+1340 remotes/klst-de/develop
+```
+
+* files hinzufügen oder ändern ...
+* mit status Änderungen prüfen, da gibt es tipps:
+
+```cmd
+ad391>git status
+On branch dev+1340
+Your branch is up-to-date with 'klst-de/develop'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        migration/391lts-392lts/04540_1340_Enlarge_length_for_address.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+* neue files mit add registrieren und committen mit -m/--message=<msg> :
+
+```cmd
+ad391>git add migration/391lts-392lts/04540_1340_Enlarge_length_for_address.xml
+ad391>git commit -m "Enlarge length for address, email, description"
+[dev+1340_length 8f63f6d] Enlarge length for address, email, description
+ 1 file changed, 54 insertions(+)
+ create mode 100644 migration/391lts-392lts/04540_1340_Enlarge_length_for_address.xml
+```
+
+* push diesen branch zu meinem remote github repo :
+
+```cmd
+ad391>git push klst-de dev+1340 
+...
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 942 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'dev+1340' on GitHub by visiting:
+remote:      https://github.com/klst-de/adempiere/pull/new/dev+1340
+remote:
+To https://github.com/klst-de/adempiere.git
+ * [new branch]      dev+1340 -> dev+1340
+```
+
+* Abschliessend auf github mit diesen branch den ["pull request"/PR](https://github.com/adempiere/adempiere/pull/2480) erstellen für https://github.com/adempiere/adempiere
 
 #### Cherry-picking
 
