@@ -20,10 +20,12 @@ Neuere Systeme zur Versionsverwaltung sind verteilt. Es gibt keinen eindeutigen 
 
 * die [adempiere repo Administratoren](https://github.com/adempiere/adempiere/graphs/contributors) mit Schreibrechten sind [Victor Perez](https://github.com/e-Evolution) und [Yamel Senih](https://github.com/yamelsenih)
 * weitere Ansprechpartner: 
-** [Michael McKay](https://github.com/mckayERP), 
-** [Michael Judd majjudd@gmail.com](https://github.com/majjudd), 
-** [mario.calderon@westfalia-it.com](https://github.com/marcalwestf), 
-** [susanne.de.calderon@westfalia-it.com](https://github.com/SusanneCalderon)
+ * [Michael McKay](https://github.com/mckayERP), 
+ * [Michael Judd majjudd@gmail.com](https://github.com/majjudd), 
+ * [mario.calderon@westfalia-it.com](https://github.com/marcalwestf), 
+ * [susanne.de.calderon@westfalia-it.com](https://github.com/SusanneCalderon)
+ 
+* [Github features](https://github.com/tiimgreen/github-cheat-sheet#github-cheat-sheet-)
 
 #### Forking
 
