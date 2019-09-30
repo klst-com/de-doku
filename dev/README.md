@@ -5,6 +5,7 @@
 ## Allgemeines zur Architektur und Problemlösungen
 ### [Architektur vs Anatomie](../dev/arch.md)
 ### [Entwurfsmuster](../dev/patterns.md)
+### [Google Best Practices for Java Libraries](https://jlbp.dev/)
 ## [Entwicklungsumgebung](../dev/ide.md)
 ### Softwarekonfigurationsmanagement
 ### Eclipse
