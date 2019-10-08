@@ -8,6 +8,12 @@ ACH
 ASI Attribute Set Instance
 : TODO (... You need to define a Attribute Set if you want to enable Serial and Lot Number tracking. )
 
+AP Account Payable
+: bezeichnet das Kreditorenkonto bzw. (im plural) die Verbindlichkeiten, AP invoice = Eingangsrechnung vom Lieferanten
+
+AR Account Receivable
+: bezeichnet das Debitorenkonto bzw. (im plural) die Forderungen, AR invoice = Ausgangsrechnung an Kunden
+
 ## B
 
 BBAN
