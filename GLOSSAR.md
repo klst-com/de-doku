@@ -9,13 +9,13 @@ ASI Attribute Set Instance
 : TODO (... You need to define a Attribute Set if you want to enable Serial and Lot Number tracking. )
 
 AP Account Payable
-: bezeichnet das Kreditorenkonto bzw. (im plural) die Verbindlichkeiten, [s.Kap Buchhaltung](usr/2.8-acc#finanzbuchhaltung)
+: bezeichnet das Kreditorenkonto bzw. (im plural) die Verbindlichkeiten, [s.Kap Buchhaltung](usr/2.8-acc.md#finanzbuchhaltung)
 
 API Account Payable Invoice 
 : Eingangsrechnung vom Lieferanten
 
 AR Account Receivable
-: bezeichnet das Debitorenkonto bzw. (im plural) die Forderungen, [s.Kap Buchhaltung](usr/2.8-acc#finanzbuchhaltung)
+: bezeichnet das Debitorenkonto bzw. (im plural) die Forderungen, [s.Kap Buchhaltung](usr/2.8-acc.md#finanzbuchhaltung)
 
 ARI Account Receivable Invoice 
 : Ausgangsrechnung an Kunden
