@@ -18,12 +18,12 @@ AR Account Receivable
 : bezeichnet das Debitorenkonto bzw. (im plural) die Forderungen, [s.Kap Buchhaltung](usr/2.8-acc.md#finanzbuchhaltung)
 
 ARI Account Receivable Invoice 
-: Ausgangsrechnung an Kunden
+: Ausgangsrechnung an Kunden, siehe [Basisbelegart](#b)
 
 ## B
 
 Basisbelegart
-: alle Belege werden von wenigen Basisbelegarten (DocBaseType, 3-stellig, z.B. ARI) abgeleitet
+: alle Belege werden von wenigen [Basisbelegarten](adm/1.installation.md#basisbelegart) (DocBaseType, 3-stellig, z.B. ARI) abgeleitet
 
 BBAN
 : als [Basic Bank Account Number](https://en.wikipedia.org/wiki/International_Bank_Account_Number#Basic_Bank_Account_Number) wird der Teil der [IBAN](#i) ab Position 5 bezeichnet (ohne Länderkennzeichen und ohne die zweistellige Prüfsumme)
