@@ -11,14 +11,23 @@ ASI Attribute Set Instance
 AP Account Payable
 : bezeichnet das Kreditorenkonto bzw. (im plural) die Verbindlichkeiten, [s.Kap Buchhaltung](usr/2.8-acc.md#finanzbuchhaltung)
 
+APC Account Payable Creditmemo 
+: Gutschrift vom Kreditor/Lieferant, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
+
 API Account Payable Invoice 
-: Eingangsrechnung vom Lieferanten
+: Eingangsrechnung vom Lieferanten, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
+
+APP Account Payable Payment 
+: Zahlung an Kreditor/Lieferant, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
 
 AR Account Receivable
 : bezeichnet das Debitorenkonto bzw. (im plural) die Forderungen, [s.Kap Buchhaltung](usr/2.8-acc.md#finanzbuchhaltung)
 
 ARI Account Receivable Invoice 
-: Ausgangsrechnung an Kunden, siehe [Basisbelegart](#b)
+: Ausgangsrechnung an Debitor/Kunden, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
+
+ARR Account Receivable Receipt 
+: Beleg über Eingangszahlung, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
 
 ## B
 
