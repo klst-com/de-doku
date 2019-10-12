@@ -129,6 +129,12 @@ Alternative icons
 
 ![](icons/feather/monitor.svg)
 
+MMR Material Movement Receipt
+: Wareneingangsbeleg, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
+
+MMS Material Movement Shipment
+: Lieferschein an Kunden, Warenausgangsbeleg, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
+
 ## N
 ## O
 
