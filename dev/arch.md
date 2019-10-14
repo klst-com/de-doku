@@ -39,7 +39,7 @@ zwei Clients
 
 Im Zuge der Evolution entstehen Fehlentwicklungen. Auch Softwaresysteme sind davon nicht ausgenommen. Hier eine Liste, die meiner Ansicht nach Fehlentwincklungen sind:
 
-* Locale zur [Internationalisierung](https://de.wikipedia.org/wiki/Internationalisierung_(Softwareentwicklung)) führt zur Redundanzen in Übersetzungen
+* Locale zur [Internationalisierung](https://de.wikipedia.org/wiki/Internationalisierung_%28Softwareentwicklung%29) führt zur Redundanzen in Übersetzungen
 * Postleitzahlen
 * Umsatzsteuer
 * zyklische Abhängigkeiten in Unterprojekten [siehe Circular Dependencies](https://github.com/adempiere/adempiere/issues/2231)
