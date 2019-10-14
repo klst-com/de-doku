@@ -23,7 +23,7 @@ Zu einer 3-Tier-Architektur bei ADempiere gab es die [Überlegungen](http://www.
 
 ## Datenbank-Schicht
 
-http://www.adempiere.com/Table_Prefix
+http://www.adempiere.com/Table_Prefix, bzw. https://wiki.idempiere.org/en/Table_Prefix
 
 ## Applikationsschicht
 
