@@ -12,7 +12,7 @@ Anatomie | Software Architetktur
 
 ADempiere is als [Client-Server-System](http://de.wikipedia.org/wiki/Client-Server-Modell) aufgebaut, bestehend aus zwei oder drei Schichten. Siehe auch [Schichtenarchitekturen nach Anzahl der Schichten](http://de.wikipedia.org/wiki/3-Tier-Architektur#Schichtenarchitekturen_nach_Anzahl_Schichten).
 
-Wie viele [ERP](https://de.wikipedia.org/wiki/Enterprise-Resource-Planning)-Systeme ist ADempiere als [verteiltes 3-tier System](https://de.wikipedia.org/wiki/Schichtenarchitektur#Drei-Schichten-Architekturen_bei_verteilten_Systemen) aufgebaut. Die klassische 3-Tier-Architektur am Beispiel [SAR ERP](https://de.wikipedia.org/wiki/SAP_ERP), Bild siehe oben.
+Wie viele [ERP](https://de.wikipedia.org/wiki/Enterprise-Resource-Planning)-Systeme ist ADempiere als [verteiltes 3-tier System](https://de.wikipedia.org/wiki/Schichtenarchitektur#Drei-Schichten-Architekturen_bei_verteilten_Systemen) aufgebaut. Die klassische 3-Tier-Architektur am Beispiel [SAP ERP](https://de.wikipedia.org/wiki/SAP_ERP), Bild siehe oben.
 
 es gibt diese drei Schichten:
 * Präsentation: auf Client-Seite gibt es mehrere UI Varianten
@@ -24,3 +24,22 @@ Zu einer 3-Tier-Architektur bei ADempiere gab es die [Überlegungen](http://www.
 ## Datenbank-Schicht
 
 http://www.adempiere.com/Table_Prefix
+
+## Applikationsschicht
+
+Serverschicht/Base
+
+## Präsentationsschicht
+
+zwei Clients
+* Swing
+* WEB
+
+## Fehlentwicklungen
+
+Im Zuge der Evolution entstehen Fehlentwicklungen. Auch Softwaresysteme sind davon nicht ausgenommen. Hier eine Liste, die meiner Ansicht nach Fehlentwincklungen sind:
+
+* Locale zur [Internationalisierung](https://de.wikipedia.org/wiki/Internationalisierung_(Softwareentwicklung)) führt zur Redundanzen in Übersetzungen
+* Postleitzahlen
+* Umsatzsteuer
+* zyklische Abhängigkeiten in Unterprojekten [siehe Circular Dependencies](https://github.com/adempiere/adempiere/issues/2231)
