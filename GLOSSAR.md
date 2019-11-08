@@ -69,7 +69,7 @@ Drop Shipment (en)
 ## F
 
 Fakturierung
-: siehe [Rechnungsstellung](usr/2.3-sales#rechnungsstellung)
+: siehe [Rechnungsstellung](usr/2.3-sales.md#rechnungsstellung)
 
 ## G
 ## H
