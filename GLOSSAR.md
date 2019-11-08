@@ -1,5 +1,8 @@
 # Glossar
 
+* [ADempiere Glossary engl.](https://adempiere.gitbook.io/docs/v/develop/glossary)
+* [iDempiere Gloasar](https://wiki.idempiere.org/de/Glossar)
+
 ## A
 
 ACH
@@ -64,6 +67,10 @@ Drop Shipment (en)
 
 ## E
 ## F
+
+Fakturierung
+: siehe [Rechnungsstellung](usr/2.3-sales#rechnungsstellung)
+
 ## G
 ## H
 
