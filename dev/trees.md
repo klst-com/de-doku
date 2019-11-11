@@ -27,21 +27,18 @@ select treetype,count(*),min(name),max(name)
 ```
 
 * im Gegensatz zu vielen Entitäten werden die Knoteninformationen ```parent_ID``` und ```seqno``` von bestimmten Bäumen im saparaten Tabellen abgelegt. Spalte  ```ad_tree.treetype``` bestimmt den Suffix dieser Tabelle. Demnach werden Menuknoten nicht in ```ad_treenode```, sondern in ```ad_treenodeMM``` gehalten. Die Abbildung findet statt in Methode ```static int Mtree.getTableIdFromTreeType(String treeType)```
-** Für Geschäftspartner/BP werden die Bauminformationen in ```ad_treenodeBP```, die restlichen Informationen, in ```c_bpartner``` gehalten
-** Für Web-Container werden die Bauminformationen in ```ad_treenodeCMC```, die restlichen Informationen, in ```cm_container``` gehalten
-** Symetrisch für Web Media Items ```ad_treenodeCMM```
-** Symetrisch für Web Container Stage ```ad_treenodeCMS```
-** Symetrisch für CM Template ```ad_treenodeCMT```
-** Für Menus werden die Bauminformationen in ```ad_treenodeMM```, die restlichen Informationen, in ```ad_menu``` gehalten
-** Für Artikel/Produkte werden die Bauminformationen in ```ad_treenodePR```, die restlichen Informationen, in ```m_product``` gehalten
+ * Für Geschäftspartner/BP werden die Bauminformationen in ```ad_treenodeBP```, die restlichen Informationen, in ```c_bpartner``` gehalten
+ * Für Web-Container werden die Bauminformationen in ```ad_treenodeCMC```, die restlichen Informationen, in ```cm_container``` gehalten
+ * Symetrisch für Web Media Items ```ad_treenodeCMM```
+ * Symetrisch für Web Container Stage ```ad_treenodeCMS```
+ * Symetrisch für CM Template ```ad_treenodeCMT```
+ * Für Menus werden die Bauminformationen in ```ad_treenodeMM```, die restlichen Informationen, in ```ad_menu``` gehalten
+ * Für Artikel/Produkte werden die Bauminformationen in ```ad_treenodePR```, die restlichen Informationen, in ```m_product``` gehalten
 * Aber 
-** Knoteninfo für Buchungskonti ```C_ElementValue```/```ad_tree.treetype='EV'``` stehen in ```ad_treenode``` 
-** ```ad_treenodeU1```
-** ```ad_treenodeU2```
-** ```ad_treenodeU3```
-** ```ad_treenodeU4```
-** Knoteninfo für Activity ```C_Activity```/```ad_tree.treetype='AY'``` stehen in ```ad_treenode``` 
-** Knoteninfo für Organization ```ad_org```/```ad_tree.treetype='OO'``` stehen in ```ad_treenode```
+ * Knoteninfo für Buchungskonti ```C_ElementValue```/```ad_tree.treetype='EV'``` stehen in ```ad_treenode``` 
+ * dti für ```ad_treenodeU1``` , ```ad_treenodeU2```, ```ad_treenodeU3```, ```ad_treenodeU4```
+ * Knoteninfo für Activity ```C_Activity```/```ad_tree.treetype='AY'``` stehen in ```ad_treenode``` 
+ * Knoteninfo für Organization ```ad_org```/```ad_tree.treetype='OO'``` stehen in ```ad_treenode```
 
 Beispiel:
 
