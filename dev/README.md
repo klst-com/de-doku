@@ -12,6 +12,6 @@
 ## Server
 ## Client
 ### [Look and Feel](../dev/laf.md)
-### [Grid Modell](../dev/gridModell.md)
+### [Grid Modell](../dev/grid-model.md)
 ### [Trees](../dev/trees.md)
 ### [openTRANS Anbindung](../dev/4.opentrans.md)
