@@ -24,7 +24,7 @@
   * [Entwurfsmuster](dev/patterns.md)
   * [Entwicklungsumgebung](dev/ide.md)
   * [Look and Feel](dev/laf.md)
-  * [Grid Modell](../dev/grid-model.md)
+  * [Grid Modell](dev/grid-model.md)
   * [Bäume](dev/trees.md)
   * [openTRANS Anbindung](dev/4.opentrans.md)
   * [gitbook-test](gitbook-test.md)
