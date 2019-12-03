@@ -1,10 +1,10 @@
 # Entwicklungsumgebung
 
-Allgemeines zu [Eclipse als IDE in wikipedia](https://de.wikipedia.org/wiki/Eclipse_(IDE%29). Man sollte sich für eine neuere Version entscheiden. Älter als [V.4.7/Oxygen](https://de.wikipedia.org/wiki/Eclipse_(IDE%29#Versionen) sollte die IDE nicht sein.
+Allgemeines zu [Eclipse als IDE in wikipedia](https://de.wikipedia.org/wiki/Eclipse_%28IDE%29). Man sollte sich für eine neuere Version entscheiden. Älter als [V.4.7/Oxygen](https://de.wikipedia.org/wiki/Eclipse_%28IDE%29#Versionen) sollte die IDE nicht sein.
 
 ## Anbindung an Git
 
-Mit [EGit](http://eclipse.org/egit) ist die Anbindung an beliebige git-Versionsverwalungssysteme gegeben.
+Mit [EGit](http://eclipse.org/egit) ist die Anbindung der IDE an beliebige git-Versionsverwalungssysteme gegeben.
 
 ## Adempiere in eclipse
 
