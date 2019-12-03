@@ -1,6 +1,6 @@
 # Entwicklungsumgebung
 
-Es gibt [viele](https://de.wikipedia.org/wiki/Liste_von_Integrierten_Entwicklungsumgebungen) [integrierte Entwicklungsumgebungen/IDEs](  https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung). Zwei werden sich für das Development von Adempiere favorisiert. Unabhängig davon für welche IDE man sich entscheidet, die Wahl des Versionsverwaltung ist nicht frei, denn die zentrale Ablage für das Adempiere Projekt ist git.
+Es gibt [viele](https://de.wikipedia.org/wiki/Liste_von_Integrierten_Entwicklungsumgebungen) [integrierte Entwicklungsumgebungen/IDEs](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung). Zwei werden sich für das Development von Adempiere favorisiert. Unabhängig davon für welche IDE man sich entscheidet, die Wahl des Versionsverwaltung ist nicht frei, denn die zentrale Ablage für das Adempiere Projekt ist git, genauer [GitHub](https://de.wikipedia.org/wiki/GitHub).
 
 ## Konfigurationsmanagement
 
@@ -176,7 +176,7 @@ ad391>git cherry-pick --strategy=recursive --strategy-option=theirs 61c7429a0877
 
 ```
 
-## https://de.wikipedia.org/wiki/Eclipse_(IDE%29
+## [Eclipse IDE](eclipse.md)
 
 ## https://de.wikipedia.org/wiki/IntelliJ_IDEA
 

@@ -8,7 +8,7 @@
 ### [Google Best Practices for Java Libraries](https://jlbp.dev/)
 ## [Entwicklungsumgebung](../dev/ide.md)
 ### Softwarekonfigurationsmanagement
-### Eclipse
+### [Eclipse IDE](../dev/eclipse.md)
 ## Server
 ## Client
 ### [Look and Feel](../dev/laf.md)

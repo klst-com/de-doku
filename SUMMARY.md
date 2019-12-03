@@ -23,6 +23,7 @@
   * [Architektur vs Anatomie](dev/arch.md)
   * [Entwurfsmuster](dev/patterns.md)
   * [Entwicklungsumgebung](dev/ide.md)
+  * [Eclipse IDE](dev/eclipse.md)
   * [Look and Feel](dev/laf.md)
   * [Grid Modell](dev/grid-model.md)
   * [Bäume](dev/trees.md)

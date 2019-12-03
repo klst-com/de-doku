@@ -37,10 +37,11 @@ zwei Clients
 
 ## Fehlentwicklungen
 
-Im Zuge der Evolution entstehen Fehlentwicklungen. Auch Softwaresysteme sind davon nicht ausgenommen. Hier eine Liste, die meiner Ansicht nach Fehlentwincklungen sind:
+Im Zuge der Evolution entstehen Fehlentwicklungen. Auch Softwaresysteme sind davon nicht ausgenommen. Hier eine Liste, die meiner Ansicht nach Fehlentwincklungen in Adempiere sind:
 
 * [Internationalisierung](https://de.wikipedia.org/wiki/Internationalisierung_%28Softwareentwicklung%29) mit Locale führt zur Redundanzen in Übersetzungen
 * Postleitzahlen und tel.Vorwahl, postal und areacode als Attribute von City
-* Umsatzsteuer, Abhängigkeit vom Land des Käufers nicht vorgesehen 
+* Umsatzsteuer, Abhängigkeit vom Land des Käufers nicht vorgesehen
+* adempiere als Ganzes ist ein project, die git-subdirs ebenfalls
 * keine klare Trennung zwischen base und client project
 * zyklische Abhängigkeiten in Unterprojekten [siehe Circular Dependencies](https://github.com/adempiere/adempiere/issues/2231)
