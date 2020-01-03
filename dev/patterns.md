@@ -114,3 +114,6 @@ Beispiele:
 * ``interface java.util.List<E>`` und  ``abstract class java.util.AbstractList<E>``
 * ``interface javax.swing.Action`` und ``abstract class javax.swing.AbstractAction``
 
+## AD Muster
+
+* Java Code [Calling a process](http://wiki.adempiere.net/Calling_a_process_from_code)
