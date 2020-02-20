@@ -37,6 +37,9 @@ ARR Account Receivable Receipt
 Basisbelegart
 : alle Belege werden von wenigen [Basisbelegarten](adm/1.installation.md#basisbelegart) (DocBaseType, 3-stellig, z.B. ARI) abgeleitet
 
+Basiskonten
+: 83 feste Konten/default accounts, siehe [Kontenplan](adm/1-83accts.md)
+
 BBAN
 : als [Basic Bank Account Number](https://en.wikipedia.org/wiki/International_Bank_Account_Number#Basic_Bank_Account_Number) wird der Teil der [IBAN](#i) ab Position 5 bezeichnet (ohne Länderkennzeichen und ohne die zweistellige Prüfsumme)
 
