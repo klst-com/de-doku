@@ -89,7 +89,7 @@ Interface/Implementation-Pair
 ## K
 
 Kontenplan
-: [mit Basis- oder Standardkonten/default accounts](adm/1-83accts.md) oder [DATEV SKR Standard Kontenrahmen](usr/3.datev#einrichtung-eines-mandanten-mit-standard-kontenrahmen)
+: [mit Basis- oder Standardkonten/default accounts](adm/1-83accts.md) oder [DATEV SKR Standard Kontenrahmen](usr/3.datev.md#einrichtung-eines-mandanten-mit-standard-kontenrahmen)
 
 KP
 : Kapazitätenplanung, Capacity Requirement Planning(en), siehe Materialbedarfsplanung [MRP](#m)
