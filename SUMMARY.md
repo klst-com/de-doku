@@ -17,6 +17,7 @@
 * [Administratorhandbuch](adm/README.md)
   * [Installation](adm/1.installation.md)
   * [Kontenplan](adm/1-83accts.md)
+  * [Buchführungsschema](adm/1-acctrules.md)
   * [Übersetzungen](adm/2.trl.md)
   * [UI Anpassung](adm/3.UIanpassen.md)
 * [Entwicklerhandbuch](dev/README.md)
