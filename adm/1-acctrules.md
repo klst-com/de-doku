@@ -16,8 +16,8 @@ Es gibt verschiedene Bewertungsmethoden. Grundsätzlich gilt für der Bwertung v
 
 * in der Durchnittswertmethode (Averaging) werden die durchschnittlichen Anschaffungskosten der Ware zugrundegelegt 
 * die Verbrauchfolgeverfahren
-  ** FiFo : Ware, die zuerst eingekauft wird, wird zuerst verbraucht
-  ** LiFo : Ware, die zuletzt eingekauft wird, wird zuerst verbraucht
-  ** Hifo : Ware mit dem höhsten Wert wir zuerst verbraucht (diese Methode ist in der Praxis der Finanzverwaltungen oft nicht zulässig)
+  * FiFo : Ware, die zuerst eingekauft wird, wird zuerst verbraucht
+  * LiFo : Ware, die zuletzt eingekauft wird, wird zuerst verbraucht
+  * Hifo : Ware mit dem höhsten Wert wir zuerst verbraucht (diese Methode ist in der Praxis der Finanzverwaltungen oft nicht zulässig)
 
 Einen Vergleich der Mothoden Averaging, FiFo und LiFo befindet sich [hier (en)comparing-inventory-valuation-methods](https://www.dummies.com/business/operations-management/comparing-inventory-valuation-methods-for-a-business/)
