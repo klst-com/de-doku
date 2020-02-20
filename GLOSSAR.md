@@ -83,10 +83,13 @@ IBAN
 : die [International Bank Account Number](https://de.wikipedia.org/wiki/Internationale_Bankkontonummer) ist eine standardisierte Notation für Bankkontonummern, die automatisches Abwickeln von Zahlungen emöglicht (siehe auch [Abkürzungsverzeichnis](https://de.iban.com/abkurzungen) im Zahlungsverkehr) 
 
 Interface/Implementation-Pair
-: siehe [Entwurfsmuster](dev/patterns.md#interface-implementation-pair)
+: siehe [Entwurfsmuster](adm/patterns.md#interface-implementation-pair)
 
 ## J
 ## K
+
+Kontenplan
+: [mit Basis- oder Standardkonten/default accounts](adm/1-83accts.md) oder [DATEV SKR Standard Kontenrahmen](usr/3.datev#einrichtung-eines-mandanten-mit-standard-kontenrahmen)
 
 KP
 : Kapazitätenplanung, Capacity Requirement Planning(en), siehe Materialbedarfsplanung [MRP](#m)
