@@ -12,7 +12,7 @@ Beim Einstellen der Buchführung werden diverse Regeln festgelegt
 
 ### Bwertung vom Vorratsvermögen
 
-Es gibt verschiedene Bewertungsmethoden. Grundsätzlich gilt für der Bwertung vom Vorratsvermögen das Prinzip der Einzelbewertung. Ein Warenlager kann also nicht als Ganzes bewertet werden. Natürlich kann nicht jedes einzelne Güterstück im Lager separat bewertet werden. Gruppen-. Sammel oder Festwerbewrtung sind zulässig. Dazu gibt es mehrere Verfahren.
+Es gibt verschiedene Bewertungsmethoden. Grundsätzlich gilt für der Bwertung vom Vorratsvermögen das Prinzip der Einzelbewertung. Ein Warenlager kann also nicht als Ganzes bewertet werden. Natürlich kann nicht jedes einzelne Güterstück im Lager separat bewertet werden. Gruppen-. Sammel oder Festwerbewrtung sind daher zulässig. Dazu gibt es mehrere Verfahren.
 
 * in der Durchnittswertmethode (Averaging) werden die durchschnittlichen Anschaffungskosten der Ware zugrundegelegt 
 * die Verbrauchfolgeverfahren
@@ -20,4 +20,4 @@ Es gibt verschiedene Bewertungsmethoden. Grundsätzlich gilt für der Bwertung v
   * LiFo : Ware, die zuletzt eingekauft wird, wird zuerst verbraucht
   * Hifo : Ware mit dem höhsten Wert wir zuerst verbraucht (diese Methode ist in der Praxis der Finanzverwaltungen oft nicht zulässig)
 
-Einen Vergleich der Mothoden Averaging, FiFo und LiFo befindet sich [hier (en)comparing-inventory-valuation-methods](https://www.dummies.com/business/operations-management/comparing-inventory-valuation-methods-for-a-business/)
+Einen Vergleich der Methoden Averaging, FiFo und LiFo befindet sich [hier (en)comparing-inventory-valuation-methods](https://www.dummies.com/business/operations-management/comparing-inventory-valuation-methods-for-a-business/)
