@@ -228,6 +228,9 @@ UOM Unit of Measure
 ## V
 ## W
 
+Wirtschaftsenglisch / Business English
+: Grundlegende Fachbegriffe im Rechnungswesen / Basic Accounting Terminology ![](../.gitbook/assets/Wirtschaftsenglich.pdf)
+
 web UI
 : Benutzeroberfläche [UI](#u), die im Browser präsentiert wird
 
