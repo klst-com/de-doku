@@ -47,7 +47,7 @@ BIC
 : [Business Identifier Code](https://de.wikipedia.org/wiki/ISO_9362), auch SWIFT-BIC, SWIFT-Code oder SWIFT-Adresse, [siehe (adm)Installation/Banken](adm/1.installation.md#banken)
 
 Business English / Wirtschaftsenglisch
-: Basic Accounting Terminology / Grundlegende [Fachbegriffe im Rechnungswesen](https://github.com/klst-com/de-doku/blob/038c84f82d830eaef2214b16aca0b2b2b4e55c8e/.gitbook/assets/Wirtschaftsenglich.pdf)
+: Basic Accounting Terminology / Grundlegende [Fachbegriffe im Rechnungswesen](https://www.controllerakademie.de/wp-content/uploads/2016/08/Vokabeln-Wirtschaftsenglisch-Zingel.pdf)
 
 ## C
 
@@ -235,7 +235,7 @@ web UI
 : Benutzeroberfläche [UI](#u), die im Browser präsentiert wird
 
 Wirtschaftsenglisch / Business English
-: Grundlegende [Fachbegriffe im Rechnungswesen](https://github.com/klst-com/de-doku/blob/038c84f82d830eaef2214b16aca0b2b2b4e55c8e/.gitbook/assets/Wirtschaftsenglich.pdf) / Basic Accounting Terminology
+: Grundlegende [Fachbegriffe im Rechnungswesen](https://www.controllerakademie.de/wp-content/uploads/2016/08/Vokabeln-Wirtschaftsenglisch-Zingel.pdf) / Basic Accounting Terminology
 
 ## X
 ## Y
