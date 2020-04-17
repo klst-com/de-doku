@@ -32,6 +32,9 @@ ARI Account Receivable Invoice
 ARR Account Receivable Receipt 
 : Beleg über Eingangszahlung, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
 
+Assets
+: Vermögensgegenstände, [s.Kap Buchhaltung](usr/2.8-acc.md#anlagenbuchhaltung)
+
 ## B
 
 Basisbelegart
@@ -77,6 +80,9 @@ Drop Shipment (en)
 Fakturierung
 : siehe [Rechnungsstellung](usr/2.3-sales.md#rechnungsstellung)
 
+Fixed Assets (Tangible Assets)
+: Sachanlagen, [s.Kap Buchhaltung](usr/2.8-acc.md#anlagenbuchhaltung)
+
 ## G
 ## H
 
@@ -87,6 +93,9 @@ HR
 
 IBAN
 : die [International Bank Account Number](https://de.wikipedia.org/wiki/Internationale_Bankkontonummer) ist eine standardisierte Notation für Bankkontonummern, die automatisches Abwickeln von Zahlungen emöglicht (siehe auch [Abkürzungsverzeichnis](https://de.iban.com/abkurzungen) im Zahlungsverkehr) 
+
+Intangible Assets
+: immaterielle Vermögensgegenstände, [s.Kap Buchhaltung](usr/2.8-acc.md#anlagenbuchhaltung)
 
 Interface/Implementation-Pair
 : siehe [Entwurfsmuster](adm/patterns.md#interface-implementation-pair)
@@ -191,6 +200,9 @@ swing
 
 Tabellenarten
 : [s.ADM Übersetzung](adm/2.trl.md#tabellenarten) 
+
+Tangible Assets (Fixed Assets)
+: Sachanlagen, [s.Kap Buchhaltung](usr/2.8-acc.md#anlagenbuchhaltung)
 
 Toolbar
 : [siehe idempiere/Toolbar (swing-Client)](http://wiki.idempiere.org/de/Toolbar)
