@@ -6,6 +6,7 @@
 ### [Beschaffung](2.4-purchase.md)
 ### [Warenwirtschaft/Logistik](2.5-mm.md)
 ### [Produktion](2.6-prod.md)
+### [Projekte](2.7-proj.md)
 ### [Rechnungswesen](2.8-acc.md)
 ### [Personal und Gehaltsabrechnung](2.9-ht.md)
 ## [Systemadministration Voreinstellungen](2.0-admin.md)
