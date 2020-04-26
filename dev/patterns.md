@@ -1,8 +1,26 @@
 # Entwurfsmuster
 
-Entwurfsmuster (design patterns) sind [Vorlagen zur Problemlösung](https://de.wikipedia.org/wiki/Entwurfsmuster). Für die Softwareentwicklung ist der Begriff Viererbande (Gang of Four, kurz GoF) ein Synonym für objektorientierte Entwurfsuster. Die GoF Autoren verwendeten in ihrem [Buch](https://en.wikipedia.org/wiki/Design_Patterns) nicht Java, sondern C++ and Smalltalk. Java Beispiele findet man unter [java-design-patterns](https://java-design-patterns.com/).
+Entwurfsmuster (design patterns) sind [Vorlagen zur Problemlösung](https://de.wikipedia.org/wiki/Entwurfsmuster). Für die Softwareentwicklung ist der Begriff Viererbande (Gang of Four, kurz GoF) ein Synonym für objektorientierte Entwurfsuster. Die GoF Autoren verwendeten in ihrem [Buch](https://en.wikipedia.org/wiki/Design_Patterns) nicht Java, sondern C++ und Smalltalk. Java Beispiele findet man unter [java-design-patterns](https://java-design-patterns.com/).
 
 * Gute Seite zum Thema: https://sourcemaking.com/design_patterns
+
+## Kompositum (Composite)
+
+Das [Kompositum](https://de.wikipedia.org/wiki/Kompositum_%28Entwurfsmuster%29) ist das zentrale Entwurfsmuster in der Java Swing API. Man kann damit komplexe Komponenten aus anderen Komponenten/Objekte zusammenstellen. Beim Aufbau von [swing UIs](http://www.inf.fu-berlin.de/lehre/SS01/swp/A/Termine/swing.html) wird daher oft von top-level, intermediate component und atomic components gesprochen.
+
+![](https://upload.wikimedia.org/wikibooks/de/2/2d/TopLevelContainerHierarchy.jpg)
+
+[Quelle:wikibooks.org](https://de.wikibooks.org/wiki/Java_Standard:_Grafische_Oberfl%C3%A4chen_mit_Swing:_Top_Level_Container)
+
+### Top-level containers
+A top-level container is a swing component with one only purpose, and that is to hold other swing components (with lower status). In Swing there are four top-level containers, but only three from those are used. They are JFrame, JApplet and JDialog. (JWindow is the fourth.) Each program using Swing must have atleast one top-level container, or else it won't work correctly. The most common is JFrame.
+
+### Intermediate container
+An intermediate container is a component with the purpose of making the placement of the atomic components more easy. Sometimes you can't see them, for example is JPanel an intermediate container that is invisible. Other intermediate containers are JTabbedPane and JScrollPane. The most frequently used and most flexible is the JPanel.
+
+### Atomic component
+The third class of component, the atomic components, are the most basic components in Swing. For example are JButton, JTextField and JComboBox atomic components. Some atomic components exsist for no other reason than presenting information for the user (JLabel), some are only used to get input from the user (JButton, JCheckBox), some can do both (JTable, JTextField). What its true for every atomic component is that they can't hold any other components. All atomic components descend from the JComponent class. This means that every atomic component supports the standard features, for example tool tips and borders. 
+
 
 ## Observer (Listener)
 
