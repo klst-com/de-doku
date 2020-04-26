@@ -10,16 +10,14 @@ Anatomie | Software Architetktur
 
 ## Client-Server-Architektur
 
-ADempiere is als [Client-Server-System](http://de.wikipedia.org/wiki/Client-Server-Modell) aufgebaut, bestehend aus zwei oder drei Schichten. Siehe auch [Schichtenarchitekturen nach Anzahl der Schichten](http://de.wikipedia.org/wiki/3-Tier-Architektur#Schichtenarchitekturen_nach_Anzahl_Schichten).
+ADempiere ist als [Client-Server-System](http://de.wikipedia.org/wiki/Client-Server-Modell) aufgebaut, bestehend aus zwei bzw. drei Schichten. Siehe auch [Schichtenarchitekturen nach Anzahl der Schichten](http://de.wikipedia.org/wiki/3-Tier-Architektur#Schichtenarchitekturen_nach_Anzahl_Schichten).
 
-Wie viele [ERP](https://de.wikipedia.org/wiki/Enterprise-Resource-Planning)-Systeme ist ADempiere als [verteiltes 3-tier System](https://de.wikipedia.org/wiki/Schichtenarchitektur#Drei-Schichten-Architekturen_bei_verteilten_Systemen) aufgebaut. Die klassische 3-Tier-Architektur am Beispiel [SAP ERP](https://de.wikipedia.org/wiki/SAP_ERP), Bild siehe oben.
-
-es gibt diese drei Schichten:
+Wie viele [ERP](https://de.wikipedia.org/wiki/Enterprise-Resource-Planning)-Systeme ist ADempiere als [verteiltes 3-Schichten System](https://de.wikipedia.org/wiki/Schichtenarchitektur#Drei-Schichten-Architekturen_bei_verteilten_Systemen) aufgebaut. Bei der klassischen 3-Schichten-Architektur (im Bild oben am Beispiel [SAP ERP](https://de.wikipedia.org/wiki/SAP_ERP)) gibt es diese Schichten:
 * Präsentation: auf Client-Seite gibt es mehrere UI Varianten
 * Applikationsserver
 * DBMS oder Datenbank-Schicht
 
-Zu einer 3-Tier-Architektur bei ADempiere gab es die [Überlegungen](http://www.adempiere.com/Adempiere_Architecture_3_tier).
+Zur 3-tier-Architektur bei ADempiere gab es diese [Überlegungen](http://www.adempiere.com/Adempiere_Architecture_3_tier).
 
 ## Datenbank-Schicht
 
@@ -39,9 +37,9 @@ zwei Clients
 
 Im Zuge der Evolution entstehen Fehlentwicklungen. Auch Softwaresysteme sind davon nicht ausgenommen. Hier eine Liste, die meiner Ansicht nach Fehlentwincklungen in Adempiere sind:
 
-* [Internationalisierung](https://de.wikipedia.org/wiki/Internationalisierung_%28Softwareentwicklung%29) mit Locale führt zur Redundanzen in Übersetzungen
-* Postleitzahlen und tel.Vorwahl, postal und areacode als Attribute von City
-* Umsatzsteuer, Abhängigkeit vom Land des Käufers nicht vorgesehen
+* [Internationalisierung](https://de.wikipedia.org/wiki/Internationalisierung_%28Softwareentwicklung%29) mit Locale führt zur Redundanzen in Übersetzungen: es gibt keine deutsche Übersetzung, sondern eine de_DE und de_AT und de_CH
+* Postleitzahlen und tel.Vorwahl, postal und areacode als Attribute von City: große Orte mit mehreren PLZ-en lassen sich nicht korrekt abbilden
+* Umsatzsteuer, Abhängigkeit vom Land des Käufers nicht vorgesehen: Steuersystem der EU nicht abbildbar
 * adempiere als Ganzes ist ein project, die git-subdirs ebenfalls
-* keine klare Trennung zwischen base und client project
+* keine klare Trennung zwischen base und client project: packege org.compiere.swing in (base) ist deplaziert
 * zyklische Abhängigkeiten in Unterprojekten [siehe Circular Dependencies](https://github.com/adempiere/adempiere/issues/2231)
