@@ -26,6 +26,8 @@
   * [Entwurfsmuster](dev/patterns.md)
   * [Entwicklungsumgebung](dev/ide.md)
   * [Eclipse IDE](dev/eclipse.md)
+  * swing Client
+  * [Swing vs SwingX](dev/swing.md)
   * [Look and Feel](dev/laf.md)
   * [Grid Modell](dev/grid-model.md)
   * [Bäume](dev/trees.md)
