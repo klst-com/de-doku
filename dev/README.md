@@ -12,7 +12,7 @@
 ## Server
 ## Client
 ## swing Client
-### [Swing vs SwingX](../dev/swing.md)
+### [Swing vs SwingX](swing.md)
 ### [Look and Feel](../dev/laf.md)
 ### [Grid Modell](../dev/grid-model.md)
 ### [Trees](../dev/trees.md)
