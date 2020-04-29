@@ -6,7 +6,7 @@
 
 [Quelle oracle/javase/8](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html#package.description) : Provides a set of "lightweight" components that, to the maximum degree possible, work the same on all platforms. For a programmer's guide to using these components, see [Creating a GUI with JFC/Swing](https://docs.oracle.com/javase/tutorial/uiswing/index.html), a trail in The Java Tutorial.
 
-## SwingX Package org.jdesktop
+## SwingX Package [org.jdesktop](https://pirlwww.lpl.arizona.edu/resources/guide/software/SwingX/index.html?org/jdesktop/swingx/package-summary.html)
 
 [Quelle javabeginners.de](https://javabeginners.de/Frameworks/SwingX/index.php) : SwingX ist ein Java-Package ``org.jdesktop`` von SwingLabs, das auf Swing aufsetzt und eine Reihe von Komponenten bereitstellt, die die Swing-Bibliothek erheblich erweitern und ergänzen. 
 
