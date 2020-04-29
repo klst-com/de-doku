@@ -8,6 +8,8 @@
 
 ## SwingX Package [org.jdesktop](https://pirlwww.lpl.arizona.edu/resources/guide/software/SwingX/index.html?org/jdesktop/swingx/package-summary.html)
 
+[Quelle rheinwerk-verlag.de](http://openbook.rheinwerk-verlag.de/java8/10_030.html) : Die SwingX-Bibliothek erweitert Swing und füget Funktionalität hinzu und stellt ganz neue UI-Komponenten bereit, etwa eine Mischung aus Tabelle und Baum (JXTreeTable).
+
 [Quelle javabeginners.de](https://javabeginners.de/Frameworks/SwingX/index.php) : SwingX ist ein Java-Package ``org.jdesktop`` von SwingLabs, das auf Swing aufsetzt und eine Reihe von Komponenten bereitstellt, die die Swing-Bibliothek erheblich erweitern und ergänzen. 
 
 Nach der Übernahme von Sun durch Oracle wurden alle [SwingLabs Projekte](https://en.wikipedia.org/wiki/SwingLabs) gestoppt.
