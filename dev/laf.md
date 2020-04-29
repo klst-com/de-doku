@@ -15,7 +15,7 @@ In Java gibt es nur zwei "looks". Das bekannteste wird "Metal" genannt mit dem "
 
 Ausserdem können Javaprogramme das Erscheinungsbild der Betriebssysteme annehmen, unter denen sie arbeiten, also Windows, Motif oder GTK unter *nix.
 
-Seit der Übernahme von Sun durch Oracle wird die Entwicklung von Swing nach und nach abgebaut. Die web-Seiten von [swinglabs](https://stackoverflow.com/questions/6818528/what-is-the-status-of-swinglabs-swingx-post-acquisition) sind nicht mehr online. Die Zukunft dieser Java Komponente ist besiegelt.
+Seit der Übernahme von Sun durch Oracle wurde die Entwicklung von Swing nach und nach abgebaut. Die web-Seiten von [Swing Labs](https://stackoverflow.com/questions/6818528/what-is-the-status-of-swinglabs-swingx-post-acquisition) sind nicht mehr online. Die Zukunft dieser Java Komponente ist besiegelt, [Quelle Jeanette Winzenburg @kleopatra (core member of the Swing Labs team)](https://github.com/kleopatra)
 
 ## jgoodies look
 
