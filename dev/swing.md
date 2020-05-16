@@ -14,7 +14,17 @@
 
 Nach der Übernahme von Sun durch Oracle wurden alle [SwingLabs Projekte](https://en.wikipedia.org/wiki/SwingLabs) gestoppt.
 
-Beispiele:
+### VDate vs JXDatePicker
+
+Ein konkretes Beispiel, das die Erweiterungen in SwingX zeigt, ist die Klasse ``org.jdesktop.swingx.JXDatePicker``. JXDatePicker erlaubt Datumseingabe im Textfeld mit Popup-Menü. Im Adempiere swing Client gibt es eine ähnliche Funktionalität, die mit viel Programmieraufwand erstellt wurde. Es sind die Klassen ``org.compiere.grid.ed.VDate`` und ``Calendar``:
+
+![](../.gitbook/assets/VDate.PNG)
+
+Zum Vergleich ein Demo Screenshot mit JXDatePicker:
+
+![](../.gitbook/assets/JXDatePicker.PNG)
+
+### andere Beispiele
 
 * [JXCollapsiblePane](https://javabeginners.de/Frameworks/SwingX/JXCollapsiblePane-Beispiel.php) ist von JPanel abgeleitet. Es bietet dessen Funktionalität, kann jedoch bei Bedarf animiert unsichtbar gesetzt werden.
 
@@ -24,15 +34,3 @@ Beispiele:
 
 * [JXTitledPanel](https://javabeginners.de/Frameworks/SwingX/JXTitledPanel-Beispiel.php) ist von JPanel und JXPanel abgeleitet. Es besitzt eine Titelzeile und einen separat konfigurierbaren Inhaltsbereich.
 
-* JXDatePicker erlaubt Datumseingabe im Textfeld mit Popup-Menü (siehe Vergleich zu VDate)
-
-### VDate vs JXDatePicker
-
-Ein konkretes Beispiel, das die Erweiterungen in SwingX zeigt, ist die Klasse ```org.jdesktop.swingx.JXDatePicker```. 
-Im Adempiere swing Client gibt es eine ähnliche Funktionalität, die mit viel Programmieraufwand erstellt wurde. Es sind die Klassen ```org.compiere.grid.ed.VDate``` und ```Calendar```:
-
-![](../.gitbook/assets/VDate.PNG)
-
-Zum Vergleich ein Demo Screenshot mit JXDatePicker:
-
-![](../.gitbook/assets/JXDatePicker.PNG)
