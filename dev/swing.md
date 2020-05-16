@@ -23,3 +23,16 @@ Beispiele:
 * [JXTaskPane](https://javabeginners.de/Frameworks/SwingX/JXTaskPane-Beispiel.php) ist ist ein Container mit dem die schrittweise Abarbeitung von Aufgaben vorgegeben werden kann. Mehrere JXTaskPane werden üblicher- aber nicht norwendigerweise in einem JXTaskPaneContainer zusammengefasst.
 
 * [JXTitledPanel](https://javabeginners.de/Frameworks/SwingX/JXTitledPanel-Beispiel.php) ist von JPanel und JXPanel abgeleitet. Es besitzt eine Titelzeile und einen separat konfigurierbaren Inhaltsbereich.
+
+* JXDatePicker erlaubt Datumseingabe im Textfeld mit Popup-Menü (siehe Vergleich zu VDate)
+
+### VDate vs JXDatePicker
+
+Ein konkretes Beispiel, das die Erweiterungen in SwingX zeigt, ist die Klasse ```org.jdesktop.swingx.JXDatePicker```. 
+Im Adempiere swing Client gibt es eine ähnliche Funktionalität, die mit viel Programmieraufwand erstellt wurde. Es sind die Klassen ```org.compiere.grid.ed.VDate``` und ```Calendar```:
+
+![](../.gitbook/assets/VDate.PNG)
+
+Zum Vergleich ein Demo Screenshot mit JXDatePicker:
+
+![](../.gitbook/assets/JXDatePicker.PNG)
