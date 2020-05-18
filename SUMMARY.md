@@ -21,7 +21,7 @@
   * [Buchführungsschema](adm/1-acctrules.md)
   * [Übersetzungen](adm/2.trl.md)
   * [UI Anpassung](adm/3.UIanpassen.md)
-  * [Datentypen](adm/datatype.md)
+  * [Referenzen/Datentypen](adm/datatype.md)
 * [Entwicklerhandbuch](dev/README.md)
   * [Architektur vs Anatomie](dev/arch.md)
   * [Entwurfsmuster](dev/patterns.md)
