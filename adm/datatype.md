@@ -43,7 +43,7 @@ Die Präsentation ist in beiden Fällen eine [Combobox](https://docs.oracle.com/
 
 ## [Lagerort](https://adempiere.gitbook.io/docs/v/develop/introduction/getting-started/entering-data-fields-and-buttons#locator-wh)
 
-## [Obscure]
+## Obscure
 
 Für besondere Felder gibt es die Obscure Präsentation, z.B. bei Kreditkartennummern werden nur die letzten 4 Ziffern angezeigt:
 
