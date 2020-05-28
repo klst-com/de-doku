@@ -227,7 +227,7 @@ die Icons der Toolbar im web-Client sehen anders aus:
 ![](icons/feather/trash-2.svg)     | `<Ctrl><D>`    | Ausgewählte Einträge löschen
 ![](icons/feather/save.svg)        | `<F4>`          | Änderungen speichern
 ![](icons/feather/refresh-cw.svg)  | `<F5>`          | Erneut abfragen
-![](icons/feather/search.svg)      | `<F6>`          | Datensatz suchen
+![](icons/feather/search.svg)      | `<F6>`          | [Datensatz suchen](usr/2.0-window.md#suche)
 ![](icons/feather/paperclip.svg)   | `<F7>`          | Anhang
 ![](icons/feather/message-square.svg) |       | Chat
 
