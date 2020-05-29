@@ -11,7 +11,7 @@ Mit [EGit](http://eclipse.org/egit) ist die Anbindung der IDE an beliebige git-V
 Die vielen Verzeichnisse im git-[Repository](https://de.wikipedia.org/wiki/Repository) entsprechen in eclipse den Projekten in einem Workspace.
 
 * zuerst soltte man also ein eclipse workspace, z.B. ```Adempiere39``` anlegen
-* dann aus dem Repository den entsprechenden Branch kopieren / in git Terminologie wird dieser Vorgang "cloning" genannt, siehe [Github forking](ide#forking)
+* dann aus dem Repository den entsprechenden Branch kopieren / in git Terminologie wird dieser Vorgang "cloning" genannt, siehe [Github forking](ide.md#forking)
 
 ![](../.gitbook/assets/CheckoutAdempiereFromGitInEclipse.png)
 
