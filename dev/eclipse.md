@@ -21,10 +21,10 @@ Die vielen Verzeichnisse im git-[Repository](https://de.wikipedia.org/wiki/Repos
 
 * Nach dem Klonen werden die eclipse Projekte importiert/erstellt. Zu einer Fehlentwicklung gehört m.E. die Definition von adempiere als ein eclipse Projekt. Also ohne nested projects. Dies ist nirgendwo dokumentiert. In eclipse gibt es folgende Möglichkeiten:
 
-  * importieren des Hauptprejektes ``adempiere`` als ein Projekt (no nested projects)
+  * importieren des Hauptprojektes ``adempiere`` als ein Projekt (no nested projects)
   * importieren der git-Unterverzeichnisse als mehrere Projekte, also  ``base``, ``client``, ... usw.
   * importieren des Hauptprojektes und der Unterprojekte
 
 ![](../.gitbook/assets/ImportAdempiereProjectsFromGit.PNG)
 
-Die git-Unterverzeichnisse sind manchmal als eclipse Projekte definiert, manchmal nicht. Oft ist die Definition von ``.project`` und ``.classpath`` nicht korrekt oder nicht aktuell. 
+Die git-Unterverzeichnisse sind manchmal als eclipse Projekte definiert, manchmal nicht. Oft ist die Definition von ``.project`` und ``.classpath`` nicht korrekt oder nicht aktuell, weil import Alternative b oder c gar nicht vorgesehen sind. 
