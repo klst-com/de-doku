@@ -15,5 +15,6 @@
 ### [Swing vs SwingX](../dev/swing.md)
 ### [Look and Feel](../dev/laf.md)
 ### [Grid Modell](../dev/grid-model.md)
+### [Infofenster](../dev/info.md)
 ### [Trees](../dev/trees.md)
 ### [openTRANS Anbindung](../dev/4.opentrans.md)
