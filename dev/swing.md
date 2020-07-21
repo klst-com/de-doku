@@ -25,7 +25,8 @@ Zum Vergleich ein Demo Screenshot mit JXDatePicker:
 ![](../.gitbook/assets/JXDatePicker.PNG)
 
 ### Alternative zu VCheckBox 
-Yes-No Datentypen werden in (swing) durch ``org.compiere.grid.ed.VCheckBox`` implementiert, das von  ``javax.swingJCheckBox`` abgeleitet ist. Der Renderer für die Darstellung ist gleichzeitig Editor für die Eingabe. Diese Entwurfsentscheidung impliziert zwei Werte, eben die [Yes-No](../adm/datatype.md#yes-no)-Werte. 
+
+Yes-No Datentypen werden in (swing) durch ``org.compiere.grid.ed.VCheckBox`` implementiert, das von  ``javax.swingJCheckBox`` abgeleitet ist. Der Renderer für die Darstellung ist gleichzeitig Editor für die Eingabe. Diese Entwurfsentscheidung impliziert zwei Werte, eben die [Yes-No](../adm/datatype.md#yes-no)-Werte. 
 
 Yes-No Datentype werden auch als Auwahlfelder genutzt. Zum Beispiel in [Infofenstern](../usr/2.0-window.md#infofenster). Es ist bei diesen Auswahlen nicht möglich, beide Werte zu selektieren. Zur Lösung gibt es die Listenreferenz Yes-No, die auch optional, also ohne konnkreten Wert genutzt werden kann.
 
@@ -35,9 +36,9 @@ Seit in Unicode 6.0 sind Emojis einheitlich kodiert und als [UTF-Zeichen](https:
 * ⬜ U+2B1C für No
 * ✅ U+2705 für Yes 
 
-![](../.gitbook/assets/Yes-No+any.PNG)
+So kann die Listenreferenz und der Renderer für Felder einheitlich gestaltet werden. Mit ``VCheckBox`` und ``VComboBox`` läßt sich das aber nicht implementieren. Statt ``VCheckBox`` wurde ``org.jdesktop.swingx.renderer.JRendererLabel``, statt ``VComboBox`` eine Subklasse von ``org.jdesktop.swingx.JXComboBox`` verwendet. Beide gehören zum SwingX-Paket.
 
-Dann könnte die Listenreferenz und der Renderer für das Feld einheitlich aussehen. Aber mit ``VCheckBox`` läßt sich das nicht implementieren.
+![](../.gitbook/assets/Yes-No+any.PNG)
 
 ### andere Beispiele
 
