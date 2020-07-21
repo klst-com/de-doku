@@ -11,7 +11,7 @@ Es gibt elementare, einfache Referenzen (Yes-No, String) und komplexe wie Adress
 
 ## [Yes-No](https://adempiere.gitbook.io/docs/v/develop/introduction/getting-started/entering-data-fields-and-buttons#yes-no)
 
-In der Datenbank werden diese Datentypen als "Y" oder "N" gespeichert. Daher der Name. Die Darstellung erfolgt als Checkbox mit Feldname daneben oder oberhalb bei tabellarischer Darstellung:
+In der Datenbank werden diese Datentypen als "Y" oder "N" gespeichert. Daher der Name. Die Darstellung erfolgt als [Checkbox](../dev/swing.md##alternative-zu-vcheckbox) mit Feldname daneben oder oberhalb bei tabellarischer Darstellung:
 
 ![](../.gitbook/assets/Yes-No.PNG)
 

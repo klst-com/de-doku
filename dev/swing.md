@@ -25,9 +25,15 @@ Zum Vergleich ein Demo Screenshot mit JXDatePicker:
 ![](../.gitbook/assets/JXDatePicker.PNG)
 
 ### Alternative zu VCheckBox 
-Yes-No Referenzen werden in (swing) durch ``org.compiere.grid.ed.VCheckBox`` implementiert, das von  ``javax.swingJCheckBox`` abgeleitet ist. Der Renderer für die Darstellung ist gleichzeitig Editor für die Eingabe. Diese Entwurfsentscheidung impliziert zwei Werte, eben die [Yes-No](../adm/datatype)-Werte. 
+Yes-No Datentypen werden in (swing) durch ``org.compiere.grid.ed.VCheckBox`` implementiert, das von  ``javax.swingJCheckBox`` abgeleitet ist. Der Renderer für die Darstellung ist gleichzeitig Editor für die Eingabe. Diese Entwurfsentscheidung impliziert zwei Werte, eben die [Yes-No](../adm/datatype.md#yes-no)-Werte. 
 
-Yes-No Referenzen werden auch als Auwahlfelder genutzt. Zum Beispiel in [Infofenstern](../usr/2.0-window.md#infofenster). Es ist bei den Auswahlen nicht möglich, beide Werte zu selektieren.
+Yes-No Datentype werden auch als Auwahlfelder genutzt. Zum Beispiel in [Infofenstern](../usr/2.0-window.md#infofenster). Es ist bei diesen Auswahlen nicht möglich, beide Werte zu selektieren. Zur Lösung gibt es die Listenreferenz Yes-No, die auch optional, also ohne konnkreten Wert genutzt werden kann.
+
+Seit in Unicode 6.0 sind Emojis einheitlich kodiert und als [UTF-Zeichen](https://emojipedia.org/) verfügbar. Das lst eine mögliche Alternative zu der swing Darstellung. Es gibt mehrere Möglichkeiten, Beispiel:
+
+* ✅  U+2705 für Yes 
+* ⬜	U+2B1C für No
+* <leer> für Auswahl any/unknown
 
 ### andere Beispiele
 
