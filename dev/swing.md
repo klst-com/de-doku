@@ -32,8 +32,8 @@ Yes-No Datentype werden auch als Auwahlfelder genutzt. Zum Beispiel in [Infofens
 Seit in Unicode 6.0 sind Emojis einheitlich kodiert und als [UTF-Zeichen](https://emojipedia.org/) verfügbar. Das lst eine mögliche Alternative zu der swing Darstellung. Es gibt mehrere Möglichkeiten, Beispiel:
 
 * ✅  U+2705 für Yes 
-* ⬜	U+2B1C für No
-* <leer> für Auswahl any/unknown
+* ⬜ U+2B1C für No
+* leer für Auswahl any/unknown
 
 ### andere Beispiele
 
