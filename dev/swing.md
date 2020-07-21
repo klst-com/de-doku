@@ -65,6 +65,8 @@ So kann die Listenreferenz und der Renderer für Felder einheitlich gestaltet we
 
 ![](../.gitbook/assets/Yes-No+any.PNG)
 
+* zum Nachlesen [Manipulating emojis in Java](https://developers.redhat.com/blog/2019/08/16/manipulating-emojis-in-java-or-what-is-%F0%9F%90%BB-1/)
+
 ### andere Beispiele
 
 * [JXCollapsiblePane](https://javabeginners.de/Frameworks/SwingX/JXCollapsiblePane-Beispiel.php) ist von JPanel abgeleitet. Es bietet dessen Funktionalität, kann jedoch bei Bedarf animiert unsichtbar gesetzt werden.
