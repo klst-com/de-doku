@@ -34,11 +34,18 @@ Seit in Unicode 6.0 sind Emojis einheitlich kodiert und als [UTF-Zeichen](https:
 
 * leer für Auswahl any/unknown
 * ⬜ U+2B1C für No
-* ✅ U+2705 für Yes 
+* ✅ U+2705 für Yes , alternativ ✔️ U+2714
 
 So kann die Listenreferenz und der Renderer für Felder einheitlich gestaltet werden. Mit ``VCheckBox`` und ``VComboBox`` läßt sich das aber nicht implementieren. Statt ``VCheckBox`` wurde ``JRendererLabel`` (Codeschnipsel), statt ``VComboBox`` eine Subklasse von ``JXComboBox`` verwendet. Beide Klassen gehören zum SwingX-Paket.
 
 ```java 
+    		int displayType = field.getDisplayType();
+			switch(displayType) {
+			...
+			case DisplayType.YesNo:    // 20
+				cellRendererComponent = getRenderer_YesNo(value, field);
+			...
+			
     // emojis for No:
     static final String white_large_square = "\u2B1C";
     // for Yes:    
