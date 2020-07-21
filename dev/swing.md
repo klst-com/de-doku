@@ -29,11 +29,15 @@ Zum Vergleich ein Demo Screenshot mit JXDatePicker:
 
 Yes-No Datentype werden auch als Auwahlfelder genutzt. Zum Beispiel in [Infofenstern](../usr/2.0-window.md#infofenster). Es ist bei diesen Auswahlen nicht möglich, beide Werte zu selektieren. Zur Lösung gibt es die Listenreferenz Yes-No, die auch optional, also ohne konnkreten Wert genutzt werden kann.
 
-Seit in Unicode 6.0 sind Emojis einheitlich kodiert und als [UTF-Zeichen](https://emojipedia.org/) verfügbar. Das lst eine mögliche Alternative zu der swing Darstellung. Es gibt mehrere Möglichkeiten, Beispiel:
+Seit in Unicode 6.0 sind Emojis einheitlich kodiert und als [UTF-Zeichen](https://emojipedia.org/) verfügbar. Das ist eine mögliche Alternative zur swing Darstellung. Es gibt mehrere Möglichkeiten, nur ein Beispiel:
 
-* ✅  U+2705 für Yes 
-* ⬜ U+2B1C für No
 * leer für Auswahl any/unknown
+* ⬜ U+2B1C für No
+* ✅ U+2705 für Yes 
+
+![](../.gitbook/assets/Yes-No+any.PNG)
+
+Dann könnte die Listenreferenz und der Renderer für das Feld einheitlich aussehen. Aber mit ``VCheckBox`` läßt sich das nicht implementieren.
 
 ### andere Beispiele
 
