@@ -13,7 +13,7 @@
   * [Personal und Gehaltsabrechnung](usr/2.9-hr.md)
   * [Systemadministration Voreinstellungen](usr/2.0-admin.md)
   * [Geschäftsbeziehungen](usr/2.2-bp.md)
-  * [Auftau der Fenster](usr/2.0-window.md)
+  * [Aufbau der Fenster](usr/2.0-window.md)
   * [Koexistenz mit DATEV](usr/3.datev.md)
   * [Datenaustausch mittels openTRANS](usr/4.opentrans.md)
 * [Administratorhandbuch](adm/README.md)
