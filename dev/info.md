@@ -65,9 +65,9 @@ Denn `GenericFormPanel` implementiert die `FormPanel` Schnittstelle.
 
 Ein komplexeres Beispiel mit subPanes ist `InfoBPartner`. Ein kommentierter Screenshot ist unter [Info Geschäftspartner](../usr/2.0-window.md#info-geschaeftspartner) im Benutzerhandbuch.
 
-### geringem Aufwand
+### geringer Aufwand
 
-... es muss lediglich ein TableSelectionListener für den zoom-Aufruf implementiert und registriert werden:
+... es muss lediglich ein TableSelectionListener für den zoom-Aufruf implementiert und registriert werden. Beispiel `InfoOrder`:
 
 ```java
 public class InfoOrder extends GenericFormPanel {
