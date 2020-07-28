@@ -41,8 +41,8 @@ Außerden werden manche Infofenster zum Suchen verwendet.
 Generische Formulare sind ein Zwischending. Nicht voll generische Fenster wie AD_Window, aber auch nicht ganz ausprogrammiert wie die meisten `FormPanel` Implementierungen.
 Mit `class GenericFormPanel implements FormPanel` haben wir ein Framework, womit für definierte Fenster mit geringem Aufwand Form Panels mit MiniTables implementiert werden können.
 
-- UnprocessedDocuments ist eine Alternative zu Fenster ALL_UNPROCESSED AD_Window_ID = 53087
-- WorkflowActivities ist eine Alternative zu Fenster WF_ACTIVITIES AD_Window_ID = 298
+- `UnprocessedDocuments` ist eine Alternative zu Fenster ALL_UNPROCESSED AD_Window_ID = 53087
+- `WorkflowActivities` ist eine Alternative zu Fenster WF_ACTIVITIES AD_Window_ID = 298
 
 Die Beispiele bestehen aus ContentPane im BorderLayout 
 
@@ -53,6 +53,17 @@ Die Beispiele bestehen aus ContentPane im BorderLayout
 Das dritte Bespiel ist eine Alternative zu Klasse `org.compiere.apps.search.InfoOrder`
 
 In der Minitable kann man von den Zellen zu den Entities zoomen. Auch dieses Feature ist generisch.
+
+`UnprocessedDocuments`, `WorkflowActivities` und `InfoOrder` werden genauso in AD registriert wie andere Form Komponenten und können
+
+- ins Menü und
+- die Berechtigung in Rollen
+
+eingetragen werden
+
+Denn `GenericFormPanel` implementiert die `FormPanel` Schnittstelle.
+
+Ein komplexeres Beispiel mit subPanes ist `InfoBPartner`. Ein kommentierter Screenshot ist unter [Info Geschäftspartner](../usr/2.0-window.md#info-geschaeftspartner) im Benutzerhandbuch.
 
 ### geringem Aufwand
 
