@@ -1,6 +1,6 @@
 # Infofenster
 
-Infofenster sind festprogrammiert modale [Fenster](../usr/2.0-window.md#infofenster), die sich von ``abstract class Info extends CDialog`` ableiten. ``Info`` stellt auch Methoden z.B. ``showOrder`` zum Anzeigen der Fenster in einem Frame:
+Infofenster sind fest programmierte modale [Fenster](../usr/2.0-window.md#infofenster), die sich von ``abstract class Info extends CDialog`` ableiten. ``Info`` stellt auch Methoden z.B. ``showOrder`` zum Anzeigen der Fenster in einem Frame:
 
 ```java
 public static void showOrder(Frame frame, int WindowNo, String value) {
@@ -35,6 +35,50 @@ Einige Infofenster sind wie Formulare ``form`` ausprogrammiert. Auszug aus ``AEn
 ```
 
 Außerden werden manche Infofenster zum Suchen verwendet.
+
+## Eine Alternative sind generische Formulare
+
+Generische Formulare sind ein Zwischending. Nicht voll generische Fenster wie AD_Window, aber auch nicht ganz ausprogrammiert wie die meisten `FormPanel` Implementierungen.
+Mit `class GenericFormPanel implements FormPanel` haben wir ein Framework, womit für definierte Fenster mit geringem Aufwand Form Panels mit MiniTables implementiert werden können.
+
+- UnprocessedDocuments ist eine Alternative zu Fenster ALL_UNPROCESSED AD_Window_ID = 53087
+- WorkflowActivities ist eine Alternative zu Fenster WF_ACTIVITIES AD_Window_ID = 298
+
+Die Beispiele bestehen aus ContentPane im BorderLayout 
+
+- at PAGE_START a selectionPanel - die Selektionen sind generisch, wie bei Fenstern (für YN werden erweiterte JXComboBox'en aus swingx genutzt: sie sind 3-wertig und können emojis darstellen)
+- at CENTER a mainPanel with scrollable miniTable
+- at PAGE_END a statusBar
+
+Das dritte Bespiel ist eine Alternative zu Klasse `org.compiere.apps.search.InfoOrder`
+
+In der Minitable kann man von den Zellen zu den Entities zoomen. Auch dieses Feature ist generisch.
+
+### geringem Aufwand
+
+... es muss lediglich ein TableSelectionListener für den zoom-Aufruf implementiert und registriert werden:
+
+```java
+public class InfoOrder extends GenericFormPanel {
+...
+    protected void registerTableSelectionListener() throws Exception {
+...
+        miniTable.addMiniTableSelectionListener(event -> {
+            Object source = event.getSource();
+            if(source instanceof CTable) {
+                MiniTable miniTable = (MiniTable)source;
+                ListSelectionModel columnSM = miniTable.getColumnModel().getSelectionModel();
+                if(columnSM.getAnchorSelectionIndex()==column_index_Record_ID) {
+                    zoom(I_C_Order.Table_ID, miniTable, column_index_Record_ID);
+                } else {
+                    zoom(I_C_BPartner.Table_ID, miniTable, column_index_C_BPartner_ID);
+                }
+            } else {
+                log.config("source NOT CTable:"+source);
+            }
+        });
+    }
+```
 
 ## MiniTable
 
