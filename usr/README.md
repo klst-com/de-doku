@@ -10,7 +10,7 @@
 ### [Rechnungswesen](2.8-acc.md)
 ### [Personal und Gehaltsabrechnung](2.9-hr.md)
 ## [Systemadministration Voreinstellungen](2.0-admin.md)
-### [Auftau der Fenster](2.0-window.md)
+### [Aufbau der Fenster](2.0-window.md)
 ## [Geschäftsbeziehungen](2.2-bp.md)
 ## [Koexistenz mit DATEV](3.datev.md)
 ## [Datenaustausch (EDI) mittels openTRANS](4.opentrans.md)
