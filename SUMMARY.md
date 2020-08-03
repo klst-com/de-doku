@@ -35,5 +35,7 @@
   * [Infofenster](dev/info.md)
   * [Bäume](dev/trees.md)
   * [openTRANS Anbindung](dev/4.opentrans.md)
+  * Administrationswerkzeuge
+  * [Referenzdaten Banken](dev/bankimport.md)
   * [gitbook-test](gitbook-test.md)
 * [GLOSSAR](GLOSSAR.md)
