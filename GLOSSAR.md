@@ -21,7 +21,7 @@ API Account Payable Invoice
 : Eingangsrechnung vom Lieferanten, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
 
 APP Account Payable Payment 
-: Zahlung an Kreditor/Lieferant, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
+: [Zahlung](#z) an Kreditor/Lieferant, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
 
 AR Account Receivable
 : bezeichnet das Debitorenkonto bzw. (im plural) die Forderungen, [s.Kap Buchhaltung](usr/2.8-acc.md#finanzbuchhaltung)
@@ -30,7 +30,7 @@ ARI Account Receivable Invoice
 : Ausgangsrechnung an Debitor/Kunden, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
 
 ARR Account Receivable Receipt 
-: Beleg über Eingangszahlung, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
+: Beleg über [Eingangszahlung](#z), siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
 
 Assets
 : Vermögensgegenstände, [s.Kap Buchhaltung](usr/2.8-acc.md#anlagenbuchhaltung)
@@ -53,6 +53,9 @@ Business English / Wirtschaftsenglisch
 : Basic Accounting Terminology / Grundlegende [Fachbegriffe im Rechnungswesen](https://www.controllerakademie.de/wp-content/uploads/2016/08/Vokabeln-Wirtschaftsenglisch-Zingel.pdf)
 
 ## C
+
+Cash Journal
+: oder Cash Book oder [Cash receipts journal](https://en.wikipedia.org/wiki/Cash_receipts_journal), siehe [Kassenbuch](#k)
 
 CRP
 : Capacity Requirement Planning, siehe Materialbedarfsplanung [MRP](#m)
@@ -102,6 +105,9 @@ Interface/Implementation-Pair
 
 ## J
 ## K
+
+Kassenbuch
+: im [Kassenbuch](https://de.wikipedia.org/wiki/Kassenbuch) werden alle Barzahlungsvorgänge (Bareinzahlungen, Barauszahlungen, Einlagen und Entnahmen) chronologisch aufgezeichnet. Es dient zur Ermittlung des Kassenbestands.
 
 Kontenplan
 : [mit Basis- oder Standardkonten/default accounts](adm/1-83accts.md) oder [DATEV SKR Standard Kontenrahmen](usr/3.datev.md#einrichtung-eines-mandanten-mit-standard-kontenrahmen)
@@ -174,11 +180,18 @@ order
 PAN
 : die [Primary Account Number](https://de.wikipedia.org/wiki/Primary_Account_Number) ist Bestandteil einer Zahlungskartennummer. Sie identifiziert eine Bank und wird mit dem [`bank importer`-Programm](adm/1.installation.md#banken) eingelesen
 
+payment 
+: siehe [Zahlungsausgang](#z)
+
 Produktion und Production light
 : [s.Kap Warenwirtschaft/Logistik](usr/2.5-mm.md)
 
 ## Q
 ## R
+
+receipt 
+: [Quittung](https://de.wikipedia.org/wiki/Quittung), oft auch [Einnahmebeleg ARR Account Receivable Receipt](#a) für [Zahlungseingang](#z)
+
 ## S 
 
 SKR
@@ -252,6 +265,12 @@ Wirtschaftsenglisch / Business English
 ## X
 ## Y
 ## Z
+
+Zahlung
+: Zahlungseingang mit [Einzahlungen](https://de.wikipedia.org/wiki/Einzahlung) oder Zahlungsausgang mit [Auszahlungen](https://de.wikipedia.org/wiki/Auszahlung), eine Zahlung verändert den [Zahlungsmittelbestand](https://de.wikipedia.org/wiki/Zahlungsmittelbestand). Die Belege für Einzahlungen werden [ARR Account Receivable Receipt](#a) genannt, die für Auszahlungen [APP Account Payable Payment](#a)
+
+Zahlungsmittelbestand
+: Summe von Bargeld (Kassenbestand), Buchgeld (Bankguthaben) und Geldersatzmittel (Schecks, Wechsel). Oder Summe der verfügbaren Zahlungsmittel (cash) und Zahlungsmitteläquivalente [cash equivalents](https://en.wikipedia.org/wiki/Cash_and_cash_equivalents)
 
 ZK
 : mittels [ZK CE](https://de.wikipedia.org/wiki/ZK_OSS) wurde die Adempiere [web UI](w#) entwickelt
