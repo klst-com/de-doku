@@ -33,3 +33,16 @@ Die DE-Bankdaten werden von der Bundesbank vierteljährlich aktualisiert. Die Ö
 * für jedes Land muss ein anderes `import`-Programm existieren
 * es sei denn, dass es einen minimalen Datenbestand an SWIFT-Codes gibt
 * den gibt es, allerdings ist die Aktualität und die Qualität nicht nachprüfbar, siehe [swiftcode](https://github.com/homebeaver/swiftcode)
+
+Elemente der Tabelle `c_bank` :
+	
+	name 
+	description 
+	routingno : nationale Bankleitzahl
+	c_location_id  
+	swiftcode : auch BIC (Bank Identifier Code) genannt ist eine Art internationale Bankleitzahl
+	isownbank : 'Y' oder 'N'
+	banktype : 'B' für Bank oder BANKTYPE_CashJournal = "C" ??? wofür wird das genutzt? siehe https://github.com/adempiere/adempiere/projects/18
+	c_bpartner_id  
+
+Ein "SWIFT-Code" (Society of Worldwide Interbank Financial Telecommunications) oder BIC (Bank Identifier Code) ist eine internationale Bankleitzahl.  Die ersten vier Zeichen sind der Bankcode (Bundesbank z.B. MARK), es folgen ein zweistelliger Ländercode (in Deutschland also DE), ein ebenfalls zweistelliger Ortscode (z.B. FF für Frankfurt) und optional drei Stellen Branchencode zur Identifikation von Filialen. Weitere Details unter http://www.swift.com/biconline/index.cfm.
