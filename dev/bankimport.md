@@ -34,15 +34,41 @@ Die DE-Bankdaten werden von der Bundesbank vierteljährlich aktualisiert. Die Ö
 * es sei denn, dass es einen minimalen Datenbestand an SWIFT-Codes gibt
 * den gibt es, allerdings ist die Aktualität und die Qualität nicht nachprüfbar, siehe [swiftcode](https://github.com/homebeaver/swiftcode)
 
-Elemente der Tabelle `c_bank` :
+### Elemente der Tabelle `c_bank` :
 	
 	name 
 	description 
-	routingno : nationale Bankleitzahl
-	c_location_id  
-	swiftcode : auch BIC (Bank Identifier Code) genannt ist eine Art internationale Bankleitzahl
-	isownbank : 'Y' oder 'N'
-	banktype : 'B' für Bank oder BANKTYPE_CashJournal = "C" ??? wofür wird das genutzt? siehe https://github.com/adempiere/adempiere/projects/18
+	routingno // nationale Bankleitzahl
+	swiftcode // auch BIC (Bank Identifier Code) genannt ist eine Art internationale Bankleitzahl
+	isownbank : 'Y' oder 'N' // oben beschrieben
+	c_location_id // Verweis auf die Adresse der Bank
+
+// die restlichen zwei Spalten wurden in [Bank as Cash](https://github.com/adempiere/adempiere/projects/18) eingeführt   
+
+	banktype : 'B' (default) für Bank oder BANKTYPE_CashJournal = "C" 
 	c_bpartner_id  
 
-Ein "SWIFT-Code" (Society of Worldwide Interbank Financial Telecommunications) oder BIC (Bank Identifier Code) ist eine internationale Bankleitzahl.  Die ersten vier Zeichen sind der Bankcode (Bundesbank z.B. MARK), es folgen ein zweistelliger Ländercode (in Deutschland also DE), ein ebenfalls zweistelliger Ortscode (z.B. FF für Frankfurt) und optional drei Stellen Branchencode zur Identifikation von Filialen. Weitere Details unter http://www.swift.com/biconline/index.cfm.
+### SWIFT-Code
+
+Ein "SWIFT-Code" (Society of Worldwide Interbank Financial Telecommunications), manchmal auch BIC (Bank Identifier Code) genannt, ist eine internationale Bankleitzahl. Sie ist 8 oder 11-stellig. Beispiel: MARKDEFF 
+* die ersten vier Zeichen sind der Bankcode (Bundesbank z.B. MARK), 
+* es folgen ein zweistelliger Ländercode (in Deutschland also DE), 
+* ein ebenfalls zweistelliger Ortscode (z.B. FF für Frankfurt) 
+* und optional drei Stellen Branchencode zur Identifikation von Filialen. 
+Weitere Details unter http://www.swift.com/biconline/index.cfm.
+
+### staging-Tabelle
+
+Ein `bank import`-Programm sollte zweigeteilt sein. Der erste Teil liest die national unterschiedlichen Formate in eine entsprechende staging-Tabelle. Der zweite Teil bildet die Elemente der staging-Tabelle in `c_bank` ab.
+
+DE-bank-import: 
+1. staging löschen, DE-blz.txt file mit festem Satzaufbau nach DE-staging
+1. staging nach `c_bank` nach einer DE-Mapping Vorschrift
+
+AT-bank-import:
+1. staging löschen, AT-blz.csv file, semikolon separated nach AT-staging
+1. staging nach `c_bank` nach einer AT-Mapping Vorschrift
+
+Generisch: (einteilig, wegen Symetrie ebenfalls zwei Programmteile) 
+1. staging löschen, beliebiges Land json-file, z.B. AD/Andorra nach staging. Der Aufbau der json-files ist einheitlich.
+1. staging nach `c_bank` nach einer abstrakten Mapping Vorschrift
