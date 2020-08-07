@@ -55,7 +55,7 @@ Ein "SWIFT-Code" (Society of Worldwide Interbank Financial Telecommunications), 
 * es folgen ein zweistelliger Ländercode (in Deutschland also DE), 
 * ein ebenfalls zweistelliger Ortscode (z.B. FF für Frankfurt) 
 * und optional drei Stellen Branchencode zur Identifikation von Filialen. 
-Weitere Details unter http://www.swift.com/biconline/index.cfm.
+Weitere Details unter https://www.swift.com/standards/data-standards/bic-business-identifier-code
 
 ### staging-Tabelle
 
