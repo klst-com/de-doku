@@ -6,6 +6,14 @@ Allgemeines zu [Eclipse als IDE in wikipedia](https://de.wikipedia.org/wiki/Ecli
 
 Mit [EGit](http://eclipse.org/egit) ist die Anbindung der IDE an beliebige git-Versionsverwalungssysteme gegeben.
 
+## Welche Eclipse Komponenten sind notwendig?
+
+- zu den [JDT](https://www.eclipse.org/jdt/), [Java Development Tools](https://de.wikipedia.org/wiki/Java_Development_Tools) sollten folgende Komponenten(plugins) installiert sein
+- EGit wg. Anbindung an git (s. oben - bereits in JDT)
+- [Web Tools Platform](https://www.eclipse.org/webtools/), das Fehlen dieser Komponente wird angezeigt durch
+
+![](../images/eclipse-wst.PNG)
+
 ## Adempiere in eclipse
 
 Die vielen Verzeichnisse im git-[Repository](https://de.wikipedia.org/wiki/Repository) entsprechen in eclipse den Projekten in einem Workspace.
@@ -28,3 +36,13 @@ Die vielen Verzeichnisse im git-[Repository](https://de.wikipedia.org/wiki/Repos
 ![](../.gitbook/assets/ImportAdempiereProjectsFromGit.PNG)
 
 Die git-Unterverzeichnisse sind manchmal als eclipse Projekte definiert, manchmal nicht. Oft ist die Definition von ``.project`` und ``.classpath`` nicht korrekt oder nicht aktuell, weil import Alternative b oder c gar nicht vorgesehen sind. 
+
+### adempiere als ein Projekt
+
+- Verwendet ant builder
+
+### mehrere Projekte
+
+- cycles in the build path: dieses Problem wurde in [issue 2231](https://github.com/adempiere/adempiere/issues/2231) 
+ diskutiert. Eclipse stuft eine zyklische Projektstuktur als Fehler ein und verweigert den build. Dieses Standardverhalten muss angepasst werden. 
+
