@@ -43,6 +43,5 @@ Die git-Unterverzeichnisse sind manchmal als eclipse Projekte definiert, manchma
 
 ### mehrere Projekte
 
-- cycles in the build path: dieses Problem wurde in [issue 2231](https://github.com/adempiere/adempiere/issues/2231) 
- diskutiert. Eclipse stuft eine zyklische Projektstuktur als Fehler ein und verweigert den build. Dieses Standardverhalten muss angepasst werden. 
+- cycles in the build path: dieses Problem wurde in [issue 2231](https://github.com/adempiere/adempiere/issues/2231) und [pull 2400](https://github.com/adempiere/adempiere/pull/2400) diskutiert. Eclipse stuft eine zyklische Projektstuktur als Fehler ein und verweigert den build. Dieses Standardverhalten muss angepasst werden. 
 
