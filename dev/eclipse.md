@@ -14,6 +14,20 @@ Mit [EGit](http://eclipse.org/egit) ist die Anbindung der IDE an beliebige git-V
 
 ![](../images/eclipse-wst.PNG)
 
+## java
+
+Für den build wird JDK 1.8 benötigt. Aktuell ``jdk-8u241``. 
+
+JRE genügt nicht! Wer es dennoch versucht, bekommt
+
+```
+BUILD FAILED
+...
+com.sun.tools.javac.Main is not on the classpath.
+Perhaps JAVA_HOME does not point to the JDK.
+It is currently set to "C:\Program Files\Java\jre1.8.0_241"
+```
+
 ## Adempiere in eclipse
 
 Die vielen Verzeichnisse im git-[Repository](https://de.wikipedia.org/wiki/Repository) entsprechen in eclipse den Projekten in einem Workspace.
@@ -27,7 +41,7 @@ Die vielen Verzeichnisse im git-[Repository](https://de.wikipedia.org/wiki/Repos
 
 ![](../.gitbook/assets/CloningAdempiereFromGithubIntoNewEclipseWorkspace.PNG)
 
-* Nach dem Klonen werden die eclipse Projekte importiert/erstellt. Zu einer Fehlentwicklung gehört m.E. die Definition von adempiere als ein eclipse Projekt. Also ohne nested projects. Dies ist nirgendwo dokumentiert. In eclipse gibt es folgende Möglichkeiten:
+* Nach dem Klonen werden die eclipse Projekte importiert/erstellt. Zu einer Fehlentwicklung gehört m.E. die Definition von adempiere als ein eclipse Projekt. Also ohne nested projects. Dies ist [nicht im developer-guide](https://adempiere.gitbook.io/docs/v/develop/developer-guide) dokumentiert. In eclipse gibt es folgende Möglichkeiten:
 
   * importieren des Hauptprojektes ``adempiere`` als ein Projekt (no nested projects)
   * importieren der git-Unterverzeichnisse als mehrere Projekte, also  ``base``, ``client``, ... usw.
