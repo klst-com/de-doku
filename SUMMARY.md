@@ -20,6 +20,7 @@
   * [Installation](adm/1.installation.md)
   * [Kontenplan](adm/1-83accts.md)
   * [Buchführungsschema](adm/1-acctrules.md)
+  * [Banken](adm/1-banken.md)
   * [Übersetzungen](adm/2.trl.md)
   * [UI Anpassung](adm/3.UIanpassen.md)
   * [Referenzen/Datentypen](adm/datatype.md)
