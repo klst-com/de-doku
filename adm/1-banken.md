@@ -39,3 +39,15 @@ Direkt aus der IBAN läßt sich die BIC nicht ermitteln. Beispiele:
 * [DE21 20300000 0000202051](https://www.iban.de/banks/postbank) und BIC PBNKDEFFXXX (Postbank)
 
 In der IBAN steckt die "alte" Bankleitzahl (bank identifier, routing number). Die Ermittlung der zugehörigen BIC ist daher von Land zu Land anders. Der Weg führt über die nationale `bank identifier`. [iban.com](https://www.iban.com/register) hat dafür einen teueren Web Service [IBAN Validation](https://www.iban.com/validation-api).
+
+### andere Abkürzungen
+
+Abkürzung  | Bedeutung
+---------- | ---------------
+ESZB       | Europäisches System der Zentralbanken
+EZB        | Europäische Zentralbank
+LEI        | Legal entity identifier
+MFI        | Monetäres Finanzinstitut
+RIAD       | Register of Institutions and Affiliates Data, listet ca 5000 Institute auf und zeigt deren Abhängigleiten. Beispiel SEZDDEF1XXX ist Tochterbank von SABRATWWXXX
+
+
