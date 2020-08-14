@@ -28,6 +28,13 @@ Das European Committee for Banking Standards [ECBS](https://www.ecbs.org/iban.ht
 * in [Andorra gibt es 5 Banken](https://www.ecbs.org/banks/andorra/)
 * [Banken in UK](https://www.ecbs.org/banks/united-kingdom/)
 
+Unter [swiftbic.com](https://www.swiftbic.com/index.html) kann man zu allen Ländern die Bankdaten bekommen. Leider nicht die BIC. Da wird man auf den kostenpfilchtigen Dienst von iban.com verwiesen. Alternativen sind die möglicherweise dubiösen Seiten [bank-code.net](https://bank-code.net/country/starts-with-letter-V) oder [currencyaz.com](https://currencyaz.com/swift-code/country/starts-with-letter-v). Dort werden die SWIFT-Codes angezeigt.
+Beispiel:
+
+* V: [List of Banks in VANUATU](https://www.swiftbic.com/banks-in-VANUATU.html)
+
+![](../images/ALBUVUVVXXX.PNG)  
+
 ### IBAN und BIC
 
 Direkt aus der IBAN läßt sich die BIC nicht ermitteln. Beispiele:
