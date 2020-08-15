@@ -21,7 +21,7 @@ siehe
 
 ### SWIFT-BIC
 
-Zur Identifizierung eines Kreditinstitutes wird der SWIFT-Code verwendet, auch als internationale Bankleitzahl (BIC - Bank Identification Code) bezeichnet. Innerhalb des Europäischen Zahlungsraums, der [SEPA/Single Euro Payments Area)(https://de.wikipedia.org/wiki/Europ%C3%A4ischer_Zahlungsraum), wird die BIC nicht benötigt.
+Zur Identifizierung eines Kreditinstitutes wird der SWIFT-Code verwendet, auch als internationale Bankleitzahl (BIC - Bank Identification Code) bezeichnet. Innerhalb des Europäischen Zahlungsraums, der [SEPA/Single Euro Payments Area](https://de.wikipedia.org/wiki/Europ%C3%A4ischer_Zahlungsraum), wird die BIC nicht benötigt.
 
 Das European Committee for Banking Standards [ECBS](https://www.ecbs.org/iban.htm) listet für die Mitgliedsländer den Aufbau der IBAN und die registrierten Bankan und deren BIC auf. Beispiele:
 
@@ -45,9 +45,11 @@ Direkt aus der IBAN läßt sich die BIC nicht ermitteln. Beispiele:
 * [DE77 10033300 0000987654](https://www.iban.de/banks/santander) und BIC SCFBDE33 (Santander, Berlin)
 * [DE21 20300000 0000202051](https://www.iban.de/banks/postbank) und BIC PBNKDEFFXXX (Postbank)
 
-In der IBAN steckt die "alte" Bankleitzahl (bank identifier, routing number). Die Ermittlung der zugehörigen BIC ist daher von Land zu Land anders. Der Weg führt über die nationale `bank identifier`. [iban.com](https://www.iban.com/register) hat dafür einen teueren Web Service [IBAN Validation](https://www.iban.com/validation-api).
+In der de-IBAN steckt die "alte" Bankleitzahl (bank identifier, routing number). Die Ermittlung der zugehörigen BIC ist daher von Land zu Land anders. Der Weg führt über die nationale `bank identifier`. [iban.com](https://www.iban.com/register) hat dafür einen teueren Web Service [IBAN Validation](https://www.iban.com/validation-api).
 
-### andere Abkürzungen
+Bei einigen Nationalbanken läßt sich eine Liste der aktuell registrieten Banken runterladen, z.B. (de)Bundesbank, (at)Nationalbank, (be)Nationalbank. 
+
+### Abkürzungen
 
 Abkürzung  | Bedeutung
 ---------- | ---------------
