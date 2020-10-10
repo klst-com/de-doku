@@ -11,21 +11,21 @@ Bei Bankreferenzdaten es handelt sich nicht um Kontodaten, sondern um Daten der 
 Der Zweck der Daten in `c_bank` ist einerseits für einen Mandanten die Daten der eigenen Bank bereitzustellen. Feld `c_bank.isownbank`. Diese Information ist mandantenspezifisch. Andererseits sollten zu Bankdaten der Geschäftspartner, also zu mandantenspezifische Kontodaten die neutralen Informationen über die Bank selbst erfahren werden können.
 
 Beispiel: der Demo Mandant 11 "Garden World" hat zwei "eigene" Hausbanken. Die Namen "MoneyBank" und "POS Transfer Control Bank" sind erfunden. Ich unterstelle mal, dass "Garden World" ein Mandant mit deutschen Hausbanken wäre und ändere die Namen:
-* Mandant 11 "Garden World"-OHG hez zwei Hausbanken, die "Hausbank München" und die "Sparda-Bank München"
+* Mandant 11 "Garden World"-OHG hat zwei Hausbanken, die "Hausbank München" und die "Sparda-Bank München"
 * es gibt noch andere Mandanten 1000000 "ABC GmbH", der in Wuppertal ansässig ist. Und 1000001 "Brasil Ltd" mit Sitz ausserhalb der EU
-* die Mandanten sollten nichts übereinander wissen und daher sind die Informationen über die jeweils eigenen Banke mandantenspezifisch.
+* die Mandanten sollten nichts übereinander wissen und daher sind die Informationen über die jeweils eigenen Banken mandantenspezifisch.
 
 * Beide Mandanten haben natürlich Geschäftspartner (BP Business Partner)
 * "Joe Block" ist der BP von "Garden World"
-* "Garden World" hat die IBAN von "Joe Block". Zum 1. Februar 2016 ersetzte die IBAN in der EU die bestehenden nationalen Kontonummern bei Überweisungen. Daher genügt die IBAN. Ein anderer BP "Mark Cent" hat seinen Sitz außerhalt der EU. Die Kontodaten von "Joe Block" und "Mark Cent" sind für "ABC Gmbh" nicht sichtbar, weil sie mandantenspezifisch sind, Tabelle c_bankaccount_id
+* "Garden World" hat die IBAN von "Joe Block". Zum 1. Februar 2016 wurde in der EU die IBAN eingeführt und ersetzte die bis dahin nationalen Bankleitzehlen und Kontonummern bei Überweisungen. Im SEPA-Zahlungsraum genügt die IBAN. Ein anderer BP "Mark Cent" hat seinen Sitz außerhalt der EU. Die Kontodaten von "Joe Block" und "Mark Cent" sind für "ABC Gmbh" nicht sichtbar, weil sie mandantenspezifisch sind, Tabelle c_bankaccount.
 
 ![](../.gitbook/assets/BP_BankAccount.PNG)
 
-* Aus der IBAN kann man die nur herauslesen, dass "Joe Block" ein Konto bei einer DE-Bank hat. Ausserdem läßt sich die IBAN validieren.
+* Aus der IBAN kann man die nur herauslesen, dass "Joe Block" ein Konto bei einer DE-Bank hat, nicht aber der Name der Bank.  Die IBAN läßt sich validieren.
 * würde ADempiere DE Bankdaten bereitstellen, liesse sich aus der IBAN die Bank ermitteln. Es ist die "net-m privatbank 1891, München"
 * jede Mandant könnte die Liste der DE Kreditinstitute mit Name und BIC/SWIFT-Code einsehen
 * für den Mandanten "Brasil Ltd" wäre das wichtig, dann er muss bei Überweisungen den SWIFT-Code und die IBAN angeben.
-* Auch für "Garden World" wären Banken Daten notwendig, den der Mantant unterhält Beziehingen zu türkischen Partnern und für Überweisungen wird der SWIFT-Code benötigt
+* Auch für "Garden World" wären Banken Daten notwendig, den der Mantant unterhält Beziehingen zu türkischen Partnern und für Überweisungen wird der SWIFT-Code benötigt, denn die Türkei benutzt zwar die IBAN Kodireung, nimmt aber an SEPA nicht teil.
 
 Es wäre daher sinnvoll, für bestimmte Länder die Bankdaten bereitzustellen. Vollständig oder partiell. Die fehlenden Informationen kann den Mandantnutzer nachtragen. Unsichtbar für die anderen Mandanten. 
 
