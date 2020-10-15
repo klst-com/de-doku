@@ -40,6 +40,9 @@ Assets
 Basisbelegart
 : alle Belege werden von wenigen [Basisbelegarten](adm/1.installation.md#basisbelegart) (DocBaseType, 3-stellig, z.B. ARI) abgeleitet
 
+Bankleitzahl
+: routingnumber(routingno), bankcode+branchcode, die nationale Bankleitzahl in Deutschland und Österreich [wird seit 2014](https://de.wikipedia.org/wiki/Europ%C3%A4ischer_Zahlungsraum) nicht mehr verwendet. In der [IBAN](#i) existiert sie nachwievor. In England ist "bank sort code" die entsprechende Bezeichnung, in Irland NSC/"national sort code", in Frankreich wird "Code Guichet" verwendet.
+
 Basiskonten
 : 83 "abstrakten" Konten/default accounts, siehe [Kontenplan](adm/1-83accts.md)
 
@@ -47,7 +50,7 @@ BBAN
 : als [Basic Bank Account Number](https://en.wikipedia.org/wiki/International_Bank_Account_Number#Basic_Bank_Account_Number) wird der Teil der [IBAN](#i) ab Position 5 bezeichnet (ohne Länderkennzeichen und ohne die zweistellige Prüfsumme)
 
 BIC
-: [Business Identifier Code](https://de.wikipedia.org/wiki/ISO_9362), auch SWIFT-BIC, SWIFT-Code oder SWIFT-Adresse, [siehe (adm)Installation/Banken](adm/1.installation.md#banken)
+: [Business Identifier Code](https://de.wikipedia.org/wiki/ISO_9362), auch SWIFT-BIC, SWIFT-Code oder SWIFT-Adresse, siehe [(adm)Installation/Banken](adm/1.installation.md#banken) und [(dev)Referenzdaten/Banken](dev/bankimport.md#banken)
 
 Business English / Wirtschaftsenglisch
 : Basic Accounting Terminology / Grundlegende [Fachbegriffe im Rechnungswesen](https://www.controllerakademie.de/wp-content/uploads/2016/08/Vokabeln-Wirtschaftsenglisch-Zingel.pdf)
@@ -87,6 +90,10 @@ Fixed Assets (Tangible Assets)
 : Sachanlagen, [s.Kap Buchhaltung](usr/2.8-acc.md#anlagenbuchhaltung)
 
 ## G
+
+(code) Guichet
+: siehe [Bankleitzahl](#b)
+
 ## H
 
 HR
@@ -167,6 +174,10 @@ MMS Material Movement Shipment
 : Lieferschein an Kunden, Warenausgangsbeleg, siehe [Basisbelegart](adm/1.installation.md#basisbelegart)
 
 ## N
+
+NSC
+: "national sort code", siehe [Bankleitzahl](#b)
+
 ## O
 
 openTRANS
@@ -192,6 +203,9 @@ Produktion und Production light
 receipt 
 : [Quittung](https://de.wikipedia.org/wiki/Quittung), oft auch [Einnahmebeleg ARR Account Receivable Receipt](#a) für [Zahlungseingang](#z)
 
+routingno
+: routingnumber(routingno), siehe [Bankleitzahl](#b)
+
 ## S 
 
 SKR
@@ -199,6 +213,9 @@ SKR
 
 SSR
 : Server Side Rendering, ältere [web UI](#w)s nutzen diese Methode während bei Neueren [CSR](#c) eingesetzt wird
+
+sort code
+: "bank sort code", siehe [Bankleitzahl](#b)
 
 SWIFT
 : die [Society for Worldwide Interbank Financial Telecommunication](https://de.wikipedia.org/wiki/SWIFT) leitet Transaktionen zwischen Banken und Institutionen aus über 200 Ländern weiter und wickelt damit den Zahlungsverkehr der angeschlossenen Institute ab
