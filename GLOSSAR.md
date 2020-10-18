@@ -41,7 +41,7 @@ Basisbelegart
 : alle Belege werden von wenigen [Basisbelegarten](adm/1.installation.md#basisbelegart) (DocBaseType, 3-stellig, z.B. ARI) abgeleitet
 
 Bankleitzahl
-: routingnumber(routingno), bankcode+branchcode, die nationale Bankleitzahl in Deutschland und Österreich [wird seit 2014](https://de.wikipedia.org/wiki/Europ%C3%A4ischer_Zahlungsraum) nicht mehr verwendet. In der [IBAN](#i) existiert sie nachwievor. In England ist [bank sort code](https://www.bundesbank.de/en/tasks/payment-systems/services/bank-sort-codes/) der entsprechende Begriff, in Irland **NSC**/"national sort code", in Frankreich wird "Code Guichet" verwendet. Die Schweizer geben jedem Finanzinstitut eine **IID** (Instituts-Identifikation).
+: routingnumber(routingno), bankcode+branchcode, die nationale Bankleitzahl in Deutschland und Österreich [wird seit 2014](https://de.wikipedia.org/wiki/Europ%C3%A4ischer_Zahlungsraum) nicht mehr verwendet. In der [IBAN](#i) existiert sie nachwievor. In England ist [bank sort code](https://www.bundesbank.de/en/tasks/payment-systems/services/bank-sort-codes/) der entsprechende Begriff, in Irland **NSC**/[national sort code](https://en.wikipedia.org/wiki/Sort_code#Sort_codes_of_the_Republic_of_Ireland), in Frankreich wird "Code Guichet" verwendet. Die Schweizer geben jedem Finanzinstitut eine **IID** (Instituts-Identifikation).
 
 Basiskonten
 : 83 "abstrakten" Konten/default accounts, siehe [Kontenplan](adm/1-83accts.md)
@@ -218,7 +218,7 @@ SSR
 : Server Side Rendering, ältere [web UI](#w)s nutzen diese Methode während bei Neueren [CSR](#c) eingesetzt wird
 
 sort code
-: "bank sort code", siehe [Bankleitzahl](#b) in England
+: bank [sort code](https://en.wikipedia.org/wiki/Sort_code), siehe [Bankleitzahl](#b) in England
 
 SWIFT
 : die [Society for Worldwide Interbank Financial Telecommunication](https://de.wikipedia.org/wiki/SWIFT) leitet Transaktionen zwischen Banken und Institutionen aus über 200 Ländern weiter und wickelt damit den Zahlungsverkehr der angeschlossenen Institute ab
