@@ -206,6 +206,9 @@ Produktion und Production light
 receipt 
 : [Quittung](https://de.wikipedia.org/wiki/Quittung), oft auch [Einnahmebeleg ARR Account Receivable Receipt](#a) für [Zahlungseingang](#z)
 
+RIB
+: als [relevé d’identité bancaire](https://fr.wikipedia.org/wiki/Basic_Bank_Account_Number) französiche Bezeichnung für [BBAN](#b)
+
 routingno
 : routingnumber(routingno), siehe [Bankleitzahl](#b)
 
