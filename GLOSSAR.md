@@ -60,6 +60,9 @@ Business English / Wirtschaftsenglisch
 Cash Journal
 : oder Cash Book oder [Cash receipts journal](https://en.wikipedia.org/wiki/Cash_receipts_journal), siehe [Kassenbuch](#k)
 
+CII
+: Cross Industry Invoicing - ein Datenmodell für e-Rechnungen
+
 CRP
 : Capacity Requirement Planning, siehe Materialbedarfsplanung [MRP](#m)
 
@@ -222,6 +225,9 @@ SSR
 
 sort code
 : bank [sort code](https://en.wikipedia.org/wiki/Sort_code), siehe [Bankleitzahl](#b) in England
+
+SCRDM
+: [Supply Chain Reference Data Model](https://www.unece.org/fileadmin/DAM/uncefact/RSM/RSM_SCRDM_v1.0.0.2.pdf) - CII ist ein Teil davon
 
 SWIFT
 : die [Society for Worldwide Interbank Financial Telecommunication](https://de.wikipedia.org/wiki/SWIFT) leitet Transaktionen zwischen Banken und Institutionen aus über 200 Ländern weiter und wickelt damit den Zahlungsverkehr der angeschlossenen Institute ab
