@@ -301,7 +301,7 @@ Wirtschaftsenglisch / Business English
 ## X
 
 XRechnung
-: [XRechnung](https://www.xoev.de/de/xrechnung) beschreibt eine Rechnung in elektronischer Form [elektronische Rechnung](#e).
+: [XRechnung](https://www.xoev.de/de/xrechnung) beschreibt eine Rechnung in elektronischer Form [elektronische Rechnung](#e). Der Standard XRechnung stellt eine [CIUS zur EN 16931](https://github.com/klst-de/e-invoice) dar.
 
 ## Y
 ## Z
