@@ -84,6 +84,10 @@ Drop Shipment (en)
 : siehe Direktlieferung
 
 ## E
+
+e-invoice (elektronische Rechnung)
+: [e-invoice](https://github.com/klst-de/e-invoice) Eine elektronische Rechnung ist „... eine Rechnung, die ineinem strukturierten elektronischen Format ausgestellt, übermittelt und empfangen wird, dasihre automatische und elektronische Verarbeitung ermöglicht.“ Eine reine PDF-Datei, oder eine eingescannte Papierrechnung sind somit  keineelektronische Rechnung im Sinne der Richtlinie [2014/55/EU](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:32014L0055).
+
 ## F
 
 Fakturierung
@@ -209,6 +213,9 @@ Produktion und Production light
 receipt 
 : [Quittung](https://de.wikipedia.org/wiki/Quittung), oft auch [Einnahmebeleg ARR Account Receivable Receipt](#a) für [Zahlungseingang](#z)
 
+Rechnung
+: Der Begriff „Rechnung“ im Sinne von [XRechnung](https://www.xoev.de/de/xrechnung) beschreibt eine Rechnung in elektronischer Form [elektronische Rechnung](#e). Ein  reines PDF oder eine eingescannte Papierrechnung sind somit  keine elektronische Rechnung im Sinne der Richtlinie 2014/55/EU.
+
 RIB
 : als [relevé d’identité bancaire](https://fr.wikipedia.org/wiki/Basic_Bank_Account_Number) französiche Bezeichnung für [BBAN](#b)
 
@@ -292,6 +299,10 @@ Wirtschaftsenglisch / Business English
 : Grundlegende [Fachbegriffe im Rechnungswesen](https://www.controllerakademie.de/wp-content/uploads/2016/08/Vokabeln-Wirtschaftsenglisch-Zingel.pdf) / Basic Accounting Terminology
 
 ## X
+
+XRechnung
+: [XRechnung](https://www.xoev.de/de/xrechnung) beschreibt eine Rechnung in elektronischer Form [elektronische Rechnung](#e).
+
 ## Y
 ## Z
 
