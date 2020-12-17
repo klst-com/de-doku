@@ -2,6 +2,12 @@
 
 Allgemeines zu [Eclipse als IDE in wikipedia](https://de.wikipedia.org/wiki/Eclipse_%28IDE%29). Man sollte sich für eine neuere Version entscheiden. Älter als [V.4.7/Oxygen](https://de.wikipedia.org/wiki/Eclipse_%28IDE%29#Versionen) sollte die IDE nicht sein.
 
+- V.4.7/Oxygen
+- V.4.8/Photon (nach dieser Version gibt es keine Namen mehr, sondern den Erscheinumgsmonat)
+- V.4.9/2018-09 : pro Jahr gibt es 4 Versionen -03 -06 -09 und 12
+...
+- V.4.16/2020-06
+
 ## Anbindung an Git
 
 Mit [EGit](http://eclipse.org/egit) ist die Anbindung der IDE an beliebige git-Versionsverwalungssysteme gegeben.
@@ -13,6 +19,14 @@ Mit [EGit](http://eclipse.org/egit) ist die Anbindung der IDE an beliebige git-V
 - [Web Tools Platform](https://www.eclipse.org/webtools/), das Fehlen dieser Komponente wird angezeigt durch
 
 ![](../images/eclipse-wst.PNG)
+
+### eclipse Bug 567319 - Parser error while editor
+
+Ich habe eclipse V.4.16/2020-06 , inzwischen mit upgrade auf 4.17 und falle in den [Bug 567319](https://bugs.eclipse.org/bugs/show_bug.cgi?id=567319) - ich bin nicht der einzige, wie man sieht. Der Java Editor stürzt ab, wenn ein bestimmter (Tipp-)Fehler im Code passiert (dpoppelte Klammern): 
+
+        Amount allowancesTotalAmount = testDoc.getAllowancesTotal()();
+ 
+Der Fehler wird erst mit V4.19, also in der Dezember Verion 2020-06 behoben sein. 
 
 ## java
 
