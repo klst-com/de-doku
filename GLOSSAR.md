@@ -86,7 +86,7 @@ Drop Shipment (en)
 ## E
 
 e-invoice (elektronische Rechnung)
-: [e-invoice](https://github.com/klst-de/e-invoice) Eine elektronische Rechnung ist „... eine Rechnung, die ineinem strukturierten elektronischen Format ausgestellt, übermittelt und empfangen wird, dasihre automatische und elektronische Verarbeitung ermöglicht.“ Eine reine PDF-Datei, oder eine eingescannte Papierrechnung sind somit  keineelektronische Rechnung im Sinne der Richtlinie [2014/55/EU](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:32014L0055).
+: [e-invoice](https://github.com/klst-de/e-invoice) Eine elektronische Rechnung ist „... eine Rechnung, die in einem strukturierten elektronischen Format ausgestellt, übermittelt und empfangen wird, was ihre automatische und elektronische Verarbeitung ermöglicht.“ Eine reine PDF-Datei, oder eine eingescannte Papierrechnung sind somit keine elektronische Rechnung im Sinne der Richtlinie [2014/55/EU](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:32014L0055).
 
 ## F
 
