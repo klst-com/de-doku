@@ -96,7 +96,7 @@ EN16931
 - UN/CEFACT Cross Industry Invoice [CII](#c) und
 - OASIS Universal Business Language [UBL](#u)
 
-Das EN16931 Modell beschreibt 161 Geschäftselemente (BT:Business Term), z.B. `BT-1`Rechnungsnummer, `BT-159`Artikelherkunftsland, und ca 100 Geschäftsregeln(BR:Business Rule). Viele Elemente sind optional, beispielsweise `BT-159`. Länder oder Organisationen können Erweiterungen der Spezifikation vornehmen, die man [CIUS](#c) bezeichnet.
+Das EN16931 Modell beschreibt 161 Geschäftselemente (BT:Business Term), z.B. `BT-1`Rechnungsnummer, `BT-159`Artikelherkunftsland, und ca 100 Geschäftsregeln(BR:Business Rule:"Der Nettopreis eines Artikels darf NICHT negativ sein") und Bedingungen. Viele Elemente sind optional, beispielsweise `BT-159`. Länder oder Organisationen können Erweiterungen der Spezifikation vornehmen, die man [CIUS](#c) bezeichnet.
 
 ## F
 
