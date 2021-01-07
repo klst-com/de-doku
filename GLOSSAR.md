@@ -85,11 +85,11 @@ Drop Shipment (en)
 
 ## E
 
-e-invoice (elektronische Rechnung)
-: [e-invoice](https://github.com/klst-de/e-invoice) Eine elektronische Rechnung ist „... eine Rechnung, die in einem strukturierten elektronischen Format ausgestellt, übermittelt und empfangen wird, was ihre automatische und elektronische Verarbeitung ermöglicht.“ Eine reine PDF-Datei, oder eine eingescannte Papierrechnung sind somit keine elektronische Rechnung im Sinne der Richtlinie [2014/55/EU](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:32014L0055).
+e-invoice
+: eine elektronische Rechnung [e-invoice](https://github.com/klst-de/e-invoice) ist „... eine Rechnung, die in einem strukturierten elektronischen Format ausgestellt, übermittelt und empfangen wird, was ihre automatische Verarbeitung ermöglicht.“ Eine reine PDF-Datei, oder eine eingescannte Papierrechnung sind somit keine elektronische Rechnung im Sinne der Richtlinie [2014/55/EU](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:32014L0055). Seit 2020 existiert eine e-invoice Pflicht für Rechnungssteller gegenüber öffentlichen Kostenträgern. 
 
 EN16931
-: die Europäische Norm [EN 16937](https://standards.cen.eu/dyn/www/f?p=204:110:0::::FSP_LANG_ID,FSP_PROJECT:25,60602&cs=17E89F8487E3C0558D35491BC876B7E8C), auch [DIN-EN16931-1](https://www.beuth.de/de/norm/din-en-16931-1/327729047) beschreibt ein Datenmodell für die [Elektronische Rechnungsstellung](#e). Zwei Syntaxen erfüllen diese Norm: 
+: die Europäische Norm [EN 16937](https://standards.cen.eu/dyn/www/f?p=204:110:0::::FSP_LANG_ID,FSP_PROJECT:25,60602&cs=17E89F8487E3C0558D35491BC876B7E8C), auch [DIN-EN16931-1](https://www.beuth.de/de/norm/din-en-16931-1/327729047) beschreibt ein Datenmodell für die [Elektronische Rechnungsstellung](#e). Zwei Syntaxen erfüllen die EN16931 Norm: 
 - UN/CEFACT Cross Industry Invoice [CII](#c) und
 - OASIS Universal Business Language [UBL](#u)
 
