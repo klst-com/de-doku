@@ -61,7 +61,7 @@ Cash Journal
 : oder Cash Book oder [Cash receipts journal](https://en.wikipedia.org/wiki/Cash_receipts_journal), siehe [Kassenbuch](#k)
 
 CII
-: Cross Industry Invoicing - ein Datenmodell für e-Rechnungen
+: Cross Industry Invoicing - ein XML Datenmodell für [e-Rechnungen](#e)
 
 CRP
 : Capacity Requirement Planning, siehe Materialbedarfsplanung [MRP](#m)
@@ -87,6 +87,12 @@ Drop Shipment (en)
 
 e-invoice (elektronische Rechnung)
 : [e-invoice](https://github.com/klst-de/e-invoice) Eine elektronische Rechnung ist „... eine Rechnung, die in einem strukturierten elektronischen Format ausgestellt, übermittelt und empfangen wird, was ihre automatische und elektronische Verarbeitung ermöglicht.“ Eine reine PDF-Datei, oder eine eingescannte Papierrechnung sind somit keine elektronische Rechnung im Sinne der Richtlinie [2014/55/EU](https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:32014L0055).
+
+EN16931
+: die Europäische Norm [EN 16937](https://standards.cen.eu/dyn/www/f?p=204:110:0::::FSP_LANG_ID,FSP_PROJECT:25,60602&cs=17E89F8487E3C0558D35491BC876B7E8C), auch [DIN-EN16931-1](https://www.beuth.de/de/norm/din-en-16931-1/327729047) beschreibt ein Datenmodell für die [Elektronische Rechnungsstellung](#e). Zwei Syntaxen erfüllen diese Norm: 
+- UN/CEFACT Cross Industry Invoice [CII](#c) und
+- OASIS Universal Business Language [UBL](#u)
+
 
 ## F
 
@@ -282,6 +288,9 @@ die Icons der Toolbar im web-Client sehen anders aus:
 
 
 ## U
+
+UBL
+: Universal Business Language ist eine XML-Spezifikation für elektionische Belege (z B. [Rechnung](#e) oder Bestellung), die von [OASIS](https://en.wikipedia.org/wiki/OASIS_%28organization%29) veröffentlicht wurde
 
 UI
 : User Interface - Benutzerschnittstellen, die Präsentationsschicht in Adempiere gibt es zwei Implementierungen. Eine JAVA [swing](#s)-UI und die [web-UI](#w).
