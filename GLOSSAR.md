@@ -64,7 +64,7 @@ CII
 : Cross Industry Invoicing - ein XML Datenmodell für [e-Rechnungen](#e)
 
 CIUS
-: (Core Invoice Usage Specifications) and Extensions sind Erweiterungen der [EN16931](#e) - [XRechnung](#x) ist eine deutscher [CIUS](https://de.wikipedia.org/wiki/XRechnung#CIUS_XRechnung) zur EN16931-Norm. Beispel: Regel BR-DE-3 "Das Element Stadt des Verkäufers (BT-37) muss übermittelt werden" - in EN16931 ist diese Angabe optional.
+: (Core Invoice Usage Specifications) and Extensions sind Erweiterungen der [EN16931](#e). [XRechnung](#x) ist eine deutscher [CIUS](https://de.wikipedia.org/wiki/XRechnung#CIUS_XRechnung) zur EN16931-Norm. Beispel: Regel `BR-DE-3` "Das Element Stadt des Verkäufers `BT-37` muss übermittelt werden" - in EN16931 ist diese Angabe optional.
 
 CRP
 : Capacity Requirement Planning, siehe Materialbedarfsplanung [MRP](#m)
@@ -95,7 +95,8 @@ EN16931
 : die Europäische Norm [EN 16937](https://standards.cen.eu/dyn/www/f?p=204:110:0::::FSP_LANG_ID,FSP_PROJECT:25,60602&cs=17E89F8487E3C0558D35491BC876B7E8C), auch [DIN-EN16931-1](https://www.beuth.de/de/norm/din-en-16931-1/327729047) beschreibt ein Format für die [Elektronische Rechnungsstellung](#e). Zwei XML Syntaxen erfüllen die EN16931 Norm: 
 - UN/CEFACT Cross Industry Invoice [CII](#c) und
 - OASIS Universal Business Language [UBL](#u)
-Das EN16931 Modell beschreibt 161 Geschäftselemente (BT:Business Term), z.B. (BT-1)Rechnungsnummer, (BT-159) Artikelherkunftsland, und ca 100 Geschäftsregeln. Viele Elemente sind optional (BT-159). Länder oder Organisationen können Erweiterungen der Spezifikation vornehmen, die man [CIUS](#c) bezeichnet.
+
+Das EN16931 Modell beschreibt 161 Geschäftselemente (BT:Business Term), z.B. `BT-1`Rechnungsnummer, `BT-159`Artikelherkunftsland, und ca 100 Geschäftsregeln(BR:Business Rule). Viele Elemente sind optional, beispielsweise `BT-159`. Länder oder Organisationen können Erweiterungen der Spezifikation vornehmen, die man [CIUS](#c) bezeichnet.
 
 ## F
 
