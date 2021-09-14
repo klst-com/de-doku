@@ -1,7 +1,7 @@
 ## Banken
 
 Das Thema hat mehrere Aspekte
-* iban - siehe https://www.ecbs.org/iban.htm
+* iban - siehe [Europäische Zentralbank](https://www.ecb.europa.eu/paym/integration/retail/sepa/iban/html/index.en.html)
 * swiftbic - siehe https://www.swiftbic.com/what-is-bic-code.html
 
 ### IBAN
