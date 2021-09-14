@@ -28,11 +28,6 @@ siehe
 
 Zur Identifizierung eines Kreditinstitutes wird der SWIFT-Code verwendet, auch als internationale Bankleitzahl (BIC - Bank Identification Code) bezeichnet. Innerhalb des Europäischen Zahlungsraums, der [SEPA/Single Euro Payments Area](https://de.wikipedia.org/wiki/Europ%C3%A4ischer_Zahlungsraum), wird die BIC nicht benötigt.
 
-Das European Committee for Banking Standards [ECBS](https://www.ecbs.org/iban.htm) listet für die Mitgliedsländer den Aufbau der IBAN und die registrierten Bankan und deren BIC auf. Beispiele:
-
-* in [Andorra gibt es 5 Banken](https://www.ecbs.org/banks/andorra/)
-* [Banken in UK](https://www.ecbs.org/banks/united-kingdom/)
-
 Unter [swiftbic.com](https://www.swiftbic.com/index.html) kann man zu allen Ländern die Bankdaten bekommen. Leider nicht die BIC. Da wird man auf den kostenpfilchtigen Dienst von iban.com verwiesen. Alternativen sind die (möglicherweise dubiosen) Seiten [bank-code.net](https://bank-code.net/country/starts-with-letter-V) oder [currencyaz.com](https://currencyaz.com/swift-code/country/starts-with-letter-v). Dort werden die SWIFT-Codes angezeigt.
 Beispiel:
 
