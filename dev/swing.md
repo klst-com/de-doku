@@ -12,7 +12,7 @@
 
 [Quelle javabeginners.de](https://javabeginners.de/Frameworks/SwingX/index.php) : SwingX ist ein Java-Package ``org.jdesktop`` von SwingLabs, das auf Swing aufsetzt und eine Reihe von Komponenten bereitstellt, die die Swing-Bibliothek erheblich erweitern und ergänzen. 
 
-Nach der Übernahme von Sun durch Oracle wurden alle [SwingLabs Projekte](https://en.wikipedia.org/wiki/SwingLabs) gestoppt und die Server [java.net](https://en.wikipedia.org/wiki/Java.net) abgeschaltet. Der Code wurde als open source [gerettet](https://github.com/homebeaver/SwingSet3).
+Nach der Übernahme von Sun durch Oracle wurden alle [SwingLabs Projekte](https://en.wikipedia.org/wiki/SwingLabs) gestoppt und die Server [java.net](https://en.wikipedia.org/wiki/Java.net) abgeschaltet. Der Code wurde als open source [gerettet](https://github.com/homebeaver/SwingSet3#readme).
 
 ### VDate vs JXDatePicker
 
