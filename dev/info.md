@@ -1,5 +1,7 @@
 # Infofenster
 
+![](../images/Infofenster.PNG)
+
 Infofenster sind fest programmierte modale [Fenster](../usr/2.0-window.md#infofenster), die sich von ``abstract class Info extends CDialog`` ableiten. ``Info`` stellt auch Methoden z.B. ``showOrder`` zum Anzeigen der Fenster in einem Frame:
 
 ```java
