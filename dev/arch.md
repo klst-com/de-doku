@@ -6,7 +6,7 @@ Wenn hier die Architektur dokumentiert wird, dann sind es meist nicht Ergebnisse
 
 Anatomie | Software Architetktur
 -------- | -------------
-![](https://upload.wikimedia.org/wikipedia/commons/a/ad/Leonard_de_Vinci_-_Anatomie_des_os_de_la_jambe.jpg) | ![](../.gitbook/assets/Bcab4_PT_image002.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Leonard_de_Vinci_-_Anatomie_des_os_de_la_jambe.jpg/344px-Leonard_de_Vinci_-_Anatomie_des_os_de_la_jambe.jpg) | ![](../.gitbook/assets/Bcab4_PT_image002.gif)
 
 ## Client-Server-Architektur
 
