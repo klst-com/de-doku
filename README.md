@@ -12,7 +12,7 @@ description: null
 ## [History](https://en.wikipedia.org/wiki/IDempiere#History)
 
 * [ADempiere.io \(en\)](https://www.adempiere.io/) : is \*.net or \*.io the official\(!\) successor of Compiere? [Documentation \(en\)](https://adempiere.gitbook.io/docs/)
-* [ADempiere.org \(en\)](http://adempiere.org/site/) : or is this the official\(!\) page of the successor of [Compiere](http://www.compiere.com/company/history.php)?
+* [ADempiere.org \(en\)](http://adempiere.org/site/) : or is this the official\(!\) page of the successor of [Compiere-ERP](https://www.aptean.com/de-DE/solutions/erp/products/aptean-compiere-erp))?
 * [IDempiere](https://en.wikipedia.org/wiki/IDempiere) : [iDempiere](http://www.idempiere.org/) is a grandchild of [Compiere](http://www.compiere.com/svn/)
 
 ![](.gitbook/assets/adlogos.PNG)
