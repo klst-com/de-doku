@@ -134,4 +134,4 @@ Beispiele:
 
 ## AD Muster
 
-* Java Code [Calling a process](http://wiki.adempiere.net/Calling_a_process_from_code)
+* Java Code [Calling a process](https://www.adempiere.io/community/wiki/developers-guide/calling-a-process-from-code.html)
